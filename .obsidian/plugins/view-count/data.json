@@ -1,0 +1,20 @@
+{
+  "countMethod": "unique-days-opened",
+  "skipNewNotes": true,
+  "syncToFrontmatter": true,
+  "propertyName": "view-count",
+  "pluginVersion": "2.5.0",
+  "logLevel": "off",
+  "excludedPaths": [
+    "z_Templates",
+    "z_Assets",
+    "3-Compendium",
+    "0-Scratch Notes",
+    "0-DM Toolkit",
+    "1-The Land of Oz/Characters/Characters.md"
+  ],
+  "templaterDelay": 1000,
+  "currentView": "trends",
+  "timePeriod": "3-days",
+  "itemCount": 20
+}

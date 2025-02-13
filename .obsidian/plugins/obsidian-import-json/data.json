@@ -1,0 +1,13 @@
+{
+  "jsonName": "Name",
+  "jsonNamePath": false,
+  "jsonUrl": "",
+  "folderName": "Full Spell List",
+  "topField": "",
+  "notePrefix": "",
+  "noteSuffix": "",
+  "handleExistingNote": 0,
+  "forceArray": true,
+  "multipleJSON": false,
+  "uniqueNames": false
+}

@@ -1,0 +1,57 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "webviewer:open"
+        },
+        {
+          "action": 0,
+          "commandId": "webviewer:focus-address-bar"
+        },
+        {
+          "action": 0,
+          "commandId": "insert-template"
+        }
+      ],
+      "name": "Wicked Wiki Search",
+      "icon": "lucide-search",
+      "startup": false
+    }
+  ],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Create new canvas",
+      "Open today's daily note",
+      "Open Git source control",
+      "Open Leaflet Map",
+      "Insert template",
+      "JSON/CSV Importer",
+      "Create new board"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

@@ -1,0 +1,1 @@
+Princess Nastoya is the leader of the Scrow tribe of the Vinkus. She has made several attempts 

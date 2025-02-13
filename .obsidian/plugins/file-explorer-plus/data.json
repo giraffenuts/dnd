@@ -1,0 +1,43 @@
+{
+  "hideStrictPathFilters": true,
+  "pinFilters": {
+    "active": true,
+    "tags": [],
+    "paths": [
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "Oz/Campaign/Sessions",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "2 - Campaign/Sessions",
+        "patternType": "STRICT"
+      }
+    ]
+  },
+  "hideFilters": {
+    "active": true,
+    "tags": [],
+    "paths": [
+      {
+        "name": "Hidden z Folders",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "z_*",
+        "patternType": "WILDCARD"
+      },
+      {
+        "name": "Hidden img Folders",
+        "active": true,
+        "type": "FILES_AND_DIRECTORIES",
+        "pattern": "3 - Compendium/*/img",
+        "patternType": "WILDCARD"
+      }
+    ]
+  }
+}

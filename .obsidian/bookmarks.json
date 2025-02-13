@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1739208054345,
+      "items": [
+        {
+          "type": "url",
+          "ctime": 1739208261240,
+          "url": "https://wicked.fandom.com/wiki/Wicked_Wiki",
+          "title": "Wicked Wiki"
+        },
+        {
+          "type": "url",
+          "ctime": 1739208275978,
+          "url": "https://oz.fandom.com/wiki/The_Wizard_of_Oz_Wiki",
+          "title": "Oz Wiki"
+        }
+      ],
+      "title": "Wikis"
+    },
+    {
+      "type": "url",
+      "ctime": 1739211828187,
+      "url": "https://5e.tools/index.html",
+      "title": "5eTools"
+    }
+  ]
+}

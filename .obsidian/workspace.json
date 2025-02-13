@@ -1,0 +1,364 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "94f9a44b2c3074a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "346229754a6e4da3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-DM Toolkit/Home.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "a4f24ee376d87365",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-The Land of Oz/Characters/Characters.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Characters"
+            }
+          },
+          {
+            "id": "5444efef5e4cfc3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-Scratch Notes/Style Tester.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Style Tester"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed4e3e28c4f1fa25",
+    "type": "split",
+    "children": [
+      {
+        "id": "2df1c3d6da945efd",
+        "type": "tabs",
+        "dimension": 70.38539553752535,
+        "children": [
+          {
+            "id": "7ad6b36e3e21ab53",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6d679bed21868d4f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3019d3560ad7c176",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "z_Templates/Template - Location.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Template - Location"
+            }
+          },
+          {
+            "id": "b7713032039ce9d1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "dc20e4936ab80ab0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://5e.tools/bestiary.html#the%20mad%20mage%20of%20mount%20baratok_cos",
+                "title": "The Mad Mage of Mount Baratok - 5etools",
+                "mode": "webview"
+              },
+              "pinned": true,
+              "icon": "globe-2",
+              "title": "The Mad Mage of Mount Baratok - 5etools"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "8ac7550f97997bb3",
+        "type": "tabs",
+        "dimension": 29.61460446247465,
+        "children": [
+          {
+            "id": "e0faabcf2de13a91",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4ed5da12a972ebde",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "2-Campaign/Sessions/Session 3 Notes.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Session 3 Notes"
+            }
+          },
+          {
+            "id": "0110d91f34fa41d7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8a3adcd64603d1c5",
+            "type": "leaf",
+            "state": {
+              "type": "view-count",
+              "state": {},
+              "icon": "eye",
+              "title": "View count"
+            }
+          },
+          {
+            "id": "4264efef06b0493a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2-Campaign/Sessions/Session 3 Notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Session 3 Notes"
+            }
+          },
+          {
+            "id": "bd4ba3e8c2e11f26",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2-Campaign/Sessions/Session 3 Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Session 3 Notes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 409.5
+  },
+  "right": {
+    "id": "607c0a287ca85007",
+    "type": "split",
+    "children": [
+      {
+        "id": "5729b47907e8d893",
+        "type": "tabs",
+        "dimension": 39.922480620155035,
+        "children": [
+          {
+            "id": "cfdd2a067964d1ba",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          }
+        ]
+      },
+      {
+        "id": "896e09256e043bd9",
+        "type": "tabs",
+        "dimension": 60.077519379844965,
+        "children": [
+          {
+            "id": "a3c31adf4a78a312",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {},
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          },
+          {
+            "id": "45dc34ca83af5703",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 497.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "obsidian-git:Open Git source control": true,
+      "obsidian-leaflet-plugin:Open Leaflet Map": true,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "dbfolder:Create a new database table": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-regex-pipeline:Regex Rulesets": false,
+      "homepage:Open homepage": false,
+      "omnisearch:Omnisearch": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "346229754a6e4da3",
+  "lastOpenFiles": [
+    "0-DM Toolkit/Home.md",
+    "2-Campaign/Sessions/Session 3 Notes.md",
+    "1-The Land of Oz/Characters/Characters.md",
+    "0-Scratch Notes/Style Tester.md",
+    "2-Campaign/Characters/Characters.md",
+    "2-Campaign/Characters/NPCs/Trism bon Cavalish.md",
+    "z_Templates/Template - NPC.md",
+    "2-Campaign/Characters/NPCs/NPCs.md",
+    "2-Campaign/Characters/NPCs/Nor Tigelaar.md",
+    "2-Campaign/Characters/NPCs/Emperor Shell.md",
+    "1-The Land of Oz/Religion/Lurlinism.md",
+    "1-The Land of Oz/Religion/Unionism.md",
+    "1-The Land of Oz/Religion/Tik-Tokism.md",
+    "2-Campaign/Characters/PCs/PCs.md",
+    "2-Campaign/Sessions/Session 1/Session 1 Notes.md",
+    "z_Templates/5_Meta Bind/Button - New Secret.md",
+    "z_Templates/Template - Session Notes.md",
+    "z_Templates/5_Meta Bind/Button - Insert location.md",
+    "0-DM Toolkit/Side Board.md",
+    "z_Templates/Template - Location.md",
+    "0-DM Toolkit/Session Toolkit.md",
+    "z_Templates/Template - Encounter.md",
+    "0-Scratch Notes/Untitled.md",
+    "0-Scratch Notes/Meta Bind Examples.md",
+    "z_Templates/5_Meta Bind",
+    "2-Campaign/Sessions/Session 2/Session 2 Notes.md",
+    "z_Assets/PDFs/Spell Sheets/Artificer Spell Sheet (flattened).pdf",
+    "z_Assets/PDFs/Spell Sheets/Sorcerer Spell Sheet.pdf",
+    "z_Assets/PDFs/MPMB PDF Templates/MPMB's Character Record Sheet (v13.2.3) [All]/MPMB's Character Sheet (added sources).pdf",
+    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/README.md",
+    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20240917_PHB_Dunamancy_Companion.js",
+    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20240917_PHB.js",
+    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20241112_DMG.js",
+    "z_Assets/PDFs/MPMB PDF Templates/Scripts/all_WotC_published.min.js",
+    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main",
+    "z_Assets/PDFs/MPMB PDF Templates/Scripts",
+    "0-DM Toolkit/Session Board.canvas",
+    "z_Assets/img/Scratchboard Art/Andrew Davidson/adn0170_dragons.jpg",
+    "z_Assets/img/Scratchboard Art/Andrew Davidson/adn01661.jpg",
+    "z_Assets/img/Scratchboard Art/Andrew Davidson/adn0219.jpg",
+    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-055-2009-earl-1.jpg",
+    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-2-853x1200.jpg",
+    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-015-2011-1.jpg",
+    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-001-2008-1188x1200.jpg",
+    "z_Assets/img/Scratchboard Art/Bruce Hutchison/Flower-Garden.jpg",
+    "z_Assets/img/Scratchboard Art/Bruce Hutchison/Bruce-Hutchison-034-Train-1-1200x847.jpg",
+    "z_Assets/img/Scratchboard Art/Douglas Smith/Douglas-Smith-267-DS-Lightbulb-1.jpg",
+    "Campaign Settings/Oz/Campaign/Sessions/Session 1/Session 1.canvas",
+    "Untitled.canvas"
+  ]
+}

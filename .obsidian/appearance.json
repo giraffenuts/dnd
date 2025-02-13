@@ -1,0 +1,18 @@
+{
+  "accentColor": "",
+  "cssTheme": "ITS Theme",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Copperplate",
+  "textFontFamily": "Baskerville",
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "S - Encoded Fonts",
+    "S - Encoded Icons",
+    "supercharged-links-gen",
+    "hide-markdown-link-url",
+    "dnd5e-float-images",
+    "dnd5e-only-statblock",
+    "mb-number-input",
+    "mb-Number-Input"
+  ]
+}

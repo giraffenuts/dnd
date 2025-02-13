@@ -1,0 +1,149 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "MMMM-DD-YYYY",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000,
+  "enableJs": true,
+  "viewFieldDisplayNullAsEmpty": true,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [],
+  "buttonTemplates": [
+    {
+      "style": "primary",
+      "label": "Search",
+      "action": {
+        "type": "command",
+        "command": "webviewer:search"
+      },
+      "icon": "",
+      "id": "web-search"
+    },
+    {
+      "label": "Initiative Tracker",
+      "icon": "swords",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Open the initiative tracker",
+      "id": "open-initiative-tracker",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "command",
+          "command": "initiative-tracker:open-tracker"
+        }
+      ]
+    },
+    {
+      "label": "Build Encounter",
+      "icon": "hammer",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Build a new encounter",
+      "id": "build-new-encounter",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "command",
+          "command": "initiative-tracker:open-builder"
+        }
+      ]
+    },
+    {
+      "label": "New Location",
+      "hidden": false,
+      "id": "new-location",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/Template - Location.md",
+          "fileName": "NewLocation",
+          "folderPath": "2-Campaign/Locations",
+          "openNote": false
+        }
+      ],
+      "icon": "map-pin-plus",
+      "tooltip": "Create a new location"
+    },
+    {
+      "label": "New NPC",
+      "hidden": false,
+      "id": "new-npc",
+      "style": "default",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/Template - NPC.md",
+          "fileName": "NewNPC",
+          "folderPath": "2-Campaign/Characters/NPCs"
+        }
+      ],
+      "icon": "user-plus",
+      "tooltip": "Create a new NPC"
+    },
+    {
+      "label": "New PC",
+      "hidden": false,
+      "id": "new-pc",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/Template - PC.md",
+          "fileName": "NewPC",
+          "folderPath": "2-Campaign/Characters/PCs"
+        }
+      ],
+      "icon": "user-plus",
+      "tooltip": "Create a new PC"
+    },
+    {
+      "label": "New Session Notes",
+      "hidden": false,
+      "id": "new-session-notes",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/Template - Session Notes.md",
+          "fileName": "NewSessionNotes",
+          "folderPath": "2-Campaign/Sessions",
+          "openNote": true
+        }
+      ],
+      "icon": "notebook-pen",
+      "tooltip": "Create a note entry for your session"
+    },
+    {
+      "label": "New Item",
+      "hidden": false,
+      "id": "new-item",
+      "style": "default",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/TemplateMagicItem.md",
+          "fileName": "NewItem",
+          "folderPath": "2-Campaign/Items"
+        }
+      ],
+      "icon": "shield-plus",
+      "tooltip": "Create a new item"
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}
