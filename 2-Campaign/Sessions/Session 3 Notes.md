@@ -2,10 +2,11 @@
 session-number: 3
 session-date: February-16-2025
 locations:
-  - "[[Southstairs (temp)|Southstairs (temp)]]"
-npcs: []
+  - "[[2-Campaign/Locations/Emerald City.md|Emerald City]]"
+npcs:
+  - "[[2-Campaign/Characters/NPCs/Nor Tigelaar.md|Nor Tigelaar]]"
 items: []
-view-count: 2
+view-count: 3
 ---
 **Date**: `INPUT[datePicker:session-date]` **\|** **Session Number**: `INPUT[number:session-number]`
 # Session Prep
@@ -30,7 +31,7 @@ Description of your strong start.
 `INPUT[inlineListSuggester(optionQuery(#Category/Location)):locations]`
 
 <!--
-`VIEW[### {locations[0]}][text(renderMarkdown)]`
+<location-desc>`VIEW[### {locations[0]}][text(renderMarkdown)]`
 
 ###### Profile
 
@@ -46,7 +47,9 @@ Description of your strong start.
 
 ###### Description
 
-###### Role this session
+###### Role this session 
+
+###### Additional notes
 
 <location-desc>`VIEW[### {locations[2]}][text(renderMarkdown)]`
 
@@ -82,31 +85,16 @@ Description of your strong start.
 
 <br>
 
-```meta-bind-button
-label: Insert location description
-icon: plus
-style: primary
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: "insert-location-desc"
-hidden: false
-actions:
-  - type: regexpReplaceInNote
-    regexp: <!--([^`]`.*[^`]*)<location-desc>
-    replacement: "$1<!--\n"
-    regexpFlags: gm
-
-```
+`BUTTON[insert-location-desc,remove-location-desc]`
 
 <br>
 
 ## Important NPCs  
   
 `INPUT[inlineListSuggester(optionQuery(#Category/Character)):npcs]`
+
 <!--
-`VIEW[### {npcs[0]}][text(renderMarkdown)]`
+<item-desc>`VIEW[### {npcs[0]}][text(renderMarkdown)]`
 
 ###### Profile
 
@@ -159,193 +147,36 @@ actions:
 
 <br>
 
-```meta-bind-button
-label: Insert NPC description
-icon: plus
-style: primary
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: "insert-npc-desc"
-hidden: false
-actions:
-  - type: regexpReplaceInNote
-    regexp: <!--([^`]`.*[^`]*)<npc-desc>
-    replacement: "$1<!--\n"
-    regexpFlags: gm
-
-```
+`BUTTON[insert-npc-desc,remove-npc-desc]`
 
 <br>
 
 ## Secrets and Clues  
 
-`INPUT[number(class(small-box))]`
-
 ### For Individuals
->[!columns|wfull no-title]
->>[!blank]
->>#### For Maylo
->>- [ ] **DC X**: Secret description.
->><!-- maylo-secret -->
->>```meta-bind-button
->>label: ""
->>icon: plus
->>style: primary
->>class: ""
->>cssStyle: ""
->>backgroundImage: ""
->>tooltip: "Add a new secret"
->>id: ""
->>hidden: false
->>actions:
->>  - type: regexpReplaceInNote
->>    regexp: "<!-- maylo-secret -->"
->>    replacement: "- [ ] **DC X**: Secret description.\n>><!-- maylo-secret -->"
->>    regexpFlags: ""
->>```
->>#### For Scraps
->>- [ ] **DC X **: Secret description. 
->><!-- scraps-secret -->
->>```meta-bind-button
->>label: ""
->>icon: plus
->>style: primary
->>class: ""
->>cssStyle: ""
->>backgroundImage: ""
->>tooltip: "Add a new secret"
->>id: ""
->>hidden: false
->>actions:
->>  - type: regexpReplaceInNote
->>    regexp: "<!-- scraps-secret -->"
->>    replacement: "- [ ] **DC X**: Secret description.\n>><!-- scraps-secret -->"
->>    regexpFlags: ""
->>```
->
->>[!blank]
->>#### For Merle
->>- [ ] **DC X**: Secret description.
->><!-- merle-secret -->
->>```meta-bind-button
->>label: ""
->>icon: plus
->>style: primary
->>class: ""
->>cssStyle: ""
->>backgroundImage: ""
->>tooltip: "Add a new secret"
->>id: ""
->>hidden: false
->>actions:
->>  - type: regexpReplaceInNote
->>    regexp: "<!-- merle-secret -->"
->>    replacement: "- [ ] **DC X**: Secret description.\n>><!-- merle-secret -->"
->>    regexpFlags: ""
->>```
->>#### For Siegfried
->>- [ ] **DC X**: Secret description.
->><!-- siegfried-secret -->
->>```meta-bind-button
->>label: ""
->>icon: plus
->>style: primary
->>class: ""
->>cssStyle: ""
->>backgroundImage: ""
->>tooltip: "Add a new secret"
->>id: ""
->>hidden: false
->>actions:
->>  - type: regexpReplaceInNote
->>    regexp: "<!-- siegfried-secret -->"
->>    replacement: "- [ ] **DC X**: Secret description.\n>><!-- siegfried-secret -->"
->>    regexpFlags: ""
->>```
+
+###### For Maylo
+- [ ] **DC X**: Secret description.
+
+###### For Merle
+- [ ] **DC X**: Secret description.
+
+###### For Scraps
+- [ ] **DC X**: Secret description. 
+
+###### For Siegfried
+- [ ] **DC X**: Secret description.
 
 ### For The Party
->[!columns|wfull no-title]
->>[!blank]
->>###### Topic: 
->>- [ ] **DC X**: Secret description.
->><!-- party-secret -->
->>```meta-bind-button
->>label: ""
->>icon: plus
->>style: primary
->>class: ""
->>cssStyle: ""
->>backgroundImage: ""
->>tooltip: "Add a new secret"
->>id: ""
->>hidden: false
->>actions:
->>  - type: regexpReplaceInNote
->>    regexp: (<!-- party[^`].*[^`]*-->)[^\)>]
->>    replacement: "- [ ] **DC X**: Secret description.\n>>$1\n"
->>    regexpFlags: "gm"
->>```
->>###### Topic: 
->>- [ ] **DC X**: Secret description.
->><!-- party-secret -->
->>```meta-bind-button
->>label: ""
->>icon: plus
->>style: primary
->>class: ""
->>cssStyle: ""
->>backgroundImage: ""
->>tooltip: "Add a new secret"
->>id: ""
->>hidden: false
->>actions:
->>  - type: regexpReplaceInNote
->>    regexp: (<!-- party[^`].*[^`]*-->)[^\)>]
->>    replacement: "- [ ] **DC X**: Secret description.\n>>$1\n"
->>    regexpFlags: "gm"
->>```
->
->>[!blank]
->>###### Topic: 
->>- [ ] **DC X**: Secret description.
->><!-- party-secret -->
->>```meta-bind-button
->>label: ""
->>icon: plus
->>style: primary
->>class: ""
->>cssStyle: ""
->>backgroundImage: ""
->>tooltip: "Add a new secret"
->>id: ""
->>hidden: false
->>actions:
->>  - type: regexpReplaceInNote
->>    regexp: (<!-- party[^`].*[^`]*-->)[^\)>]
->>    replacement: "- [ ] **DC X**: Secret description.\n>>$1\n"
->>    regexpFlags: "gm"
->>```
->>###### Topic: 
->>- [ ] **DC X**: Secret description.
->><!-- party-secret -->
->>```meta-bind-button
->>label: ""
->>icon: plus
->>style: primary
->>class: ""
->>cssStyle: ""
->>backgroundImage: ""
->>tooltip: "Add a new secret"
->>id: ""
->>hidden: false
->>actions:
->>  - type: regexpReplaceInNote
->>    regexp: (<!-- party[^`].*[^`]*-->)[^\)>]
->>    replacement: "- [ ] **DC X**: Secret description.\n>>$1\n"
->>    regexpFlags: "gm"
->>```
+
+###### Topic
+- [ ] **DC X**: Secret description.
+
+###### Topic
+- [ ] **DC X**: Secret description.
+
+###### Topic
+- [ ] **DC X**: Secret description.
 
 ## Potential Encounters  
 
@@ -355,14 +186,17 @@ actions:
 >>[!columns| flex 3 no-title]
 >>>[!blank]
 >>>```encounter
->>>name: Encounter
+>>>name: Palace Guards
 >>>players:
 >>>  - Maylo
 >>>  - Merle
 >>>  - Scraps
 >>>  - Siegfried
->>>creatures:
->>>  - "1": 
+>>>creatures: 
+>>>  - "2": Guard
+>>>  -  "1": Scout
+>>>  -  "1": Acolyte
+>>>  -  "1": Thug, ally
 >>>```
 >>>- [ ] Complete
 >>>___
@@ -502,23 +336,7 @@ actions:
 
 <br>
 
-```meta-bind-button
-label: Insert item description
-icon: plus
-style: primary
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: "insert-item-desc"
-hidden: false
-actions:
-  - type: regexpReplaceInNote
-    regexp: <!--([^`]`.*[^`]*)<item-desc>
-    replacement: "$1<!--\n"
-    regexpFlags: gm
-
-```
+`BUTTON[insert-item-desc,remove-item-desc]`
 
 <br>
 

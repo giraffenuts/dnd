@@ -930,6 +930,35 @@ div.setting-item > div.setting-item-control.mb-vertical-control {
 	width: 80px;
 }
 
+.meta-bind-med-width > * {
+	width: 120px;
+}
+
+.meta-bind-50-width > * {
+	width: 50%;
+}
+
+.meta-bind-25-width > * {
+	width: 25%;
+}
+
+.meta-bind-flex-width > * {
+	background: var(--background-modifier-form-field);
+	border-radius: var(--mb-border-radius);
+	border: var(--mb-border-width) solid var(--background-modifier-border);
+	padding: var(--size-4-1) var(--size-4-2);
+	position: relative;
+	color: var(--text-normal);
+	display: inline-flex;
+	align-items: center;
+	gap: var(--size-4-1);
+	user-select: text;
+}
+
+.meta-bind-inline-block > * {
+	display:inline-block;
+}
+
 /* --- PUBLISH STUFF --- */
 
 .published-container {

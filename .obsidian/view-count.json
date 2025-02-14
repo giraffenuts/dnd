@@ -155,7 +155,7 @@
       ]
     },
     {
-      "path": "0-Scratch Notes/Untitled.md",
+      "path": "0-Scratch Notes/Meta Bind Dynamic List Elements.md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 3,
       "openLogs": [
@@ -429,40 +429,6 @@
       "openLogs": [
         {
           "timestampMillis": 1739255275624
-        }
-      ]
-    },
-    {
-      "path": "2-Campaign/Locations/Southstairs (temp).md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 9,
-      "openLogs": [
-        {
-          "timestampMillis": 1739255427490
-        },
-        {
-          "timestampMillis": 1739295085702
-        },
-        {
-          "timestampMillis": 1739295108653
-        },
-        {
-          "timestampMillis": 1739299662141
-        },
-        {
-          "timestampMillis": 1739494025073
-        },
-        {
-          "timestampMillis": 1739494087472
-        },
-        {
-          "timestampMillis": 1739495249187
-        },
-        {
-          "timestampMillis": 1739495277936
-        },
-        {
-          "timestampMillis": 1739495282430
         }
       ]
     },
@@ -864,8 +830,8 @@
     },
     {
       "path": "2-Campaign/Locations/Bengda.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 4,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1739295080024
@@ -878,6 +844,9 @@
         },
         {
           "timestampMillis": 1739494019753
+        },
+        {
+          "timestampMillis": 1739571622987
         }
       ]
     },
@@ -966,8 +935,8 @@
     },
     {
       "path": "2-Campaign/Sessions/Session 3 Notes.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 42,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 49,
       "openLogs": [
         {
           "timestampMillis": 1739345670400
@@ -1094,6 +1063,27 @@
         },
         {
           "timestampMillis": 1739498849578
+        },
+        {
+          "timestampMillis": 1739503783999
+        },
+        {
+          "timestampMillis": 1739504449481
+        },
+        {
+          "timestampMillis": 1739572498277
+        },
+        {
+          "timestampMillis": 1739573337046
+        },
+        {
+          "timestampMillis": 1739573352783
+        },
+        {
+          "timestampMillis": 1739573505943
+        },
+        {
+          "timestampMillis": 1739575849838
         }
       ]
     },
@@ -1157,8 +1147,8 @@
     },
     {
       "path": "2-Campaign/Locations/Southstairs.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 43,
       "openLogs": [
         {
           "timestampMillis": 1739495433863
@@ -1174,6 +1164,139 @@
         },
         {
           "timestampMillis": 1739498851158
+        },
+        {
+          "timestampMillis": 1739503784453
+        },
+        {
+          "timestampMillis": 1739504450639
+        },
+        {
+          "timestampMillis": 1739505647484
+        },
+        {
+          "timestampMillis": 1739507280933
+        },
+        {
+          "timestampMillis": 1739507313561
+        },
+        {
+          "timestampMillis": 1739507319047
+        },
+        {
+          "timestampMillis": 1739507371265
+        },
+        {
+          "timestampMillis": 1739507380843
+        },
+        {
+          "timestampMillis": 1739507873829
+        },
+        {
+          "timestampMillis": 1739507878557
+        },
+        {
+          "timestampMillis": 1739507882235
+        },
+        {
+          "timestampMillis": 1739507977295
+        },
+        {
+          "timestampMillis": 1739508176052
+        },
+        {
+          "timestampMillis": 1739508806809
+        },
+        {
+          "timestampMillis": 1739508809115
+        },
+        {
+          "timestampMillis": 1739510333414
+        },
+        {
+          "timestampMillis": 1739510389088
+        },
+        {
+          "timestampMillis": 1739570122782
+        },
+        {
+          "timestampMillis": 1739571099222
+        },
+        {
+          "timestampMillis": 1739571115927
+        },
+        {
+          "timestampMillis": 1739571173226
+        },
+        {
+          "timestampMillis": 1739571202234
+        },
+        {
+          "timestampMillis": 1739571208426
+        },
+        {
+          "timestampMillis": 1739571213217
+        },
+        {
+          "timestampMillis": 1739571243904
+        },
+        {
+          "timestampMillis": 1739571348591
+        },
+        {
+          "timestampMillis": 1739571516080
+        },
+        {
+          "timestampMillis": 1739571554146
+        },
+        {
+          "timestampMillis": 1739571580992
+        },
+        {
+          "timestampMillis": 1739571618598
+        },
+        {
+          "timestampMillis": 1739571819785
+        },
+        {
+          "timestampMillis": 1739572090275
+        },
+        {
+          "timestampMillis": 1739572159891
+        },
+        {
+          "timestampMillis": 1739572169240
+        },
+        {
+          "timestampMillis": 1739572482370
+        },
+        {
+          "timestampMillis": 1739572490976
+        },
+        {
+          "timestampMillis": 1739573504745
+        },
+        {
+          "timestampMillis": 1739575846821
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Characters/NPCs/Chyde.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 4,
+      "openLogs": [
+        {
+          "timestampMillis": 1739571997072
+        },
+        {
+          "timestampMillis": 1739572189689
+        },
+        {
+          "timestampMillis": 1739572354621
+        },
+        {
+          "timestampMillis": 1739572375192
         }
       ]
     }

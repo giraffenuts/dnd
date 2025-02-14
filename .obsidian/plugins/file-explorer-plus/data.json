@@ -37,6 +37,13 @@
         "type": "FILES_AND_DIRECTORIES",
         "pattern": "3 - Compendium/*/img",
         "patternType": "WILDCARD"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "2-Campaign/Maps/Images",
+        "patternType": "STRICT"
       }
     ]
   }

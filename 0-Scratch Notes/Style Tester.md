@@ -1,5 +1,7 @@
 ---
 characterFilter: ""
+bind_target: false
+exampleProperty: Some text here
 ---
 # Header 1
 ## Header 2
@@ -19,6 +21,22 @@ Code block text.
 ```ad-myNote
 Something to say here
 ```
+
+`INPUT[text(class(meta-bind-small-width)):exampleProperty]`
+
+`INPUT[text(class(meta-bind-med-width)):exampleProperty]`
+
+`INPUT[text(class(meta-bind-25-width)):exampleProperty]`
+
+`INPUT[text(class(meta-bind-50-width)):exampleProperty]`
+
+`INPUT[text(class(meta-bind-inline-block)):exampleProperty]`
+
+`INPUT[suggester(allowOther):exampleProperty]`
+
+
+
+
 
 >[!recite]
 > Lorem ipsum
