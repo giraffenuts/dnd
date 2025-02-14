@@ -1,8 +1,19 @@
 ---
 creatureSearch: ""
-characterFilter: Thropp
+characterFilter: ""
 ---
-# Frequented Notes
+# Recent
+## Session Notes
+> [!cards|dataview]
+> ```dataview
+> TABLE WITHOUT ID
+> 	"![|sban cover hmicro](" + image + ")" as Image,
+> 	"**"+ file.link + "**" AS "Column Name",
+> 	file.mtime AS "Modified"
+> FROM "2-Campaign/Sessions"
+> SORT file.mtime desc
+> LIMIT 1
+> ```
 
 # Buttons
 ###### Combat: `BUTTON[open-initiative-tracker,build-new-encounter]`
@@ -26,7 +37,7 @@ characterFilter: Thropp
 >>```dataview
 >>LIST WITHOUT ID file.link + "<br>" + file.mtime
 >>FROM "1-The Land of Oz/Characters" OR "2-Campaign/Characters"
->>WHERE contains(file.name, this.characterFilter) OR contains(file.aliases, this.characterFilter) AND file.name != "Characters" AND file.name != "NPCs" AND file.name != "PCs"
+>>WHERE contains(lower(file.name), lower(this.characterFilter)) OR contains(lower(file.aliases), lower(this.characterFilter)) AND file.name != "Characters" AND file.name != "NPCs" AND file.name != "PCs"
 >>SORT file.name asc
 >>LIMIT 6
 >>```

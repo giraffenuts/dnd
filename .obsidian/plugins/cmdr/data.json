@@ -2,13 +2,28 @@
   "confirmDeletion": false,
   "showAddCommand": true,
   "debug": false,
-  "editorMenu": [],
+  "editorMenu": [
+    {
+      "id": "obsidian-git:push",
+      "icon": "lucide-folder-sync",
+      "name": "Git: Commit-and-sync",
+      "mode": "desktop",
+      "color": "#ffffff"
+    }
+  ],
   "fileMenu": [],
   "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [],
+  "pageHeader": [
+    {
+      "id": "obsidian-git:push",
+      "icon": "lucide-folder-sync",
+      "name": "Git: Commit-and-sync",
+      "mode": "any"
+    }
+  ],
   "macros": [
     {
       "macro": [

@@ -2,8 +2,8 @@
 alias:
   - 
 Tags:
-  - Category/Location
-type: Other
+  - Category/Location/POI
+type: ""
 size: ""
 alignment: 
 government: 
@@ -11,14 +11,13 @@ leader:
 groups: 
 region: ""
 population: ""
-races:
-  - Humans
-  - Animals
-  - Dwarves
+races: []
 religion: []
 view-count: 1
 notable-NPCs:
-  - "[[2-Campaign/Characters/NPCs/Nor Tigelaar.md|Nor Tigelaar]]"
+  - "[[1-The Land of Oz/Characters/Elphaba Thropp (Wicked Wiki).md|Elphaba Thropp (Wicked Wiki)]]"
+  - "[[1-The Land of Oz/Characters/Liir Thropp (Wicked Wiki).md|Liir Thropp (Wicked Wiki)]]"
+  - "[[1-The Land of Oz/Characters/Nor Tigelaar (Wicked Wiki).md|Nor Tigelaar (Wicked Wiki)]]"
 ---
 
 
@@ -29,7 +28,7 @@ notable-NPCs:
 > ###### Geography
 >  |   |
 > ---|---|
-> Type | `INPUT[suggester(option(Village), option(Town), option(City), option(State), option(Country), option(Lake), option(Outpost), option(Other)):type]` <code>=choice(contains(this.type,"Other"), "\`INPUT[text:type]\`", "")</code>|
+> Type | `INPUT[inlineSelect(option(Village), option(Town), option(City), option(State), option(Country), option(Other)):type]` `INPUT[suggester(option(Village), option(Town), option(State), option(Country), option(Lake), option(Outpost)):exampleProperty]` |
 > Size | `INPUT[inlineSelect(option(Tiny), option(Small), option(Medium), option(Large)):size]` |
 > Region | `INPUT[text:region]` |
 > ###### Politics
@@ -41,20 +40,10 @@ notable-NPCs:
 >  |   |
 > ---|---|
 > Population | `INPUT[text(placeholder(Population)):population]`|
-> Affluence | `INPUT[inlineSelect(option(-), option(Low), option(Medium), option(High)):affluence]` |
+> Affluence | `INPUT[inlineSelect(option(-), option(Low), option(Medium), option(High)):exampleProperty]` |
 > Races | `INPUT[inlineList:races]` |
 > Religions | `INPUT[inlineListSuggester(optionQuery(#Category/Religion)):religion]`  |
 > Organizations | `INPUT[inlineList:groups]` |
-
-
-
-`$=dv.equal(dv.current().type,"Other")`
-`$=dv.equal(dv.current().type,"Other")`
-
-`=contains(this.type, "Other")`
-`$=dv.current().type`
-`INPUT[text:type]`
-
 
 # `=this.file.name`
 ## Overview

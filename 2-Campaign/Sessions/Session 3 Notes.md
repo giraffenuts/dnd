@@ -1,7 +1,8 @@
 ---
 session-number: 3
 session-date: February-16-2025
-locations: []
+locations:
+  - "[[Southstairs (temp)|Southstairs (temp)]]"
 npcs: []
 items: []
 view-count: 2

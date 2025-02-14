@@ -207,8 +207,8 @@
     },
     {
       "path": "1-The Land of Oz/Characters/Elphaba Thropp (Wicked Wiki).md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1739218325920
@@ -224,6 +224,12 @@
         },
         {
           "timestampMillis": 1739255161152
+        },
+        {
+          "timestampMillis": 1739495190814
+        },
+        {
+          "timestampMillis": 1739495190832
         }
       ]
     },
@@ -246,7 +252,7 @@
     {
       "path": "2-Campaign/Characters/Characters.md",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 35,
+      "totalTimesOpened": 37,
       "openLogs": [
         {
           "timestampMillis": 1739220144143
@@ -352,6 +358,12 @@
         },
         {
           "timestampMillis": 1739485016246
+        },
+        {
+          "timestampMillis": 1739494201683
+        },
+        {
+          "timestampMillis": 1739495062634
         }
       ]
     },
@@ -421,9 +433,9 @@
       ]
     },
     {
-      "path": "2-Campaign/Locations/Southstairs.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
+      "path": "2-Campaign/Locations/Southstairs (temp).md",
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1739255427490
@@ -436,13 +448,28 @@
         },
         {
           "timestampMillis": 1739299662141
+        },
+        {
+          "timestampMillis": 1739494025073
+        },
+        {
+          "timestampMillis": 1739494087472
+        },
+        {
+          "timestampMillis": 1739495249187
+        },
+        {
+          "timestampMillis": 1739495277936
+        },
+        {
+          "timestampMillis": 1739495282430
         }
       ]
     },
     {
       "path": "2-Campaign/Locations/Emerald City.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 15,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 17,
       "openLogs": [
         {
           "timestampMillis": 1739256566207
@@ -488,6 +515,12 @@
         },
         {
           "timestampMillis": 1739299665017
+        },
+        {
+          "timestampMillis": 1739494021888
+        },
+        {
+          "timestampMillis": 1739494076630
         }
       ]
     },
@@ -831,8 +864,8 @@
     },
     {
       "path": "2-Campaign/Locations/Bengda.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1739295080024
@@ -842,6 +875,9 @@
         },
         {
           "timestampMillis": 1739295087003
+        },
+        {
+          "timestampMillis": 1739494019753
         }
       ]
     },
@@ -931,7 +967,7 @@
     {
       "path": "2-Campaign/Sessions/Session 3 Notes.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 35,
+      "totalTimesOpened": 42,
       "openLogs": [
         {
           "timestampMillis": 1739345670400
@@ -1037,6 +1073,27 @@
         },
         {
           "timestampMillis": 1739485664810
+        },
+        {
+          "timestampMillis": 1739495175397
+        },
+        {
+          "timestampMillis": 1739495175427
+        },
+        {
+          "timestampMillis": 1739495221630
+        },
+        {
+          "timestampMillis": 1739495280413
+        },
+        {
+          "timestampMillis": 1739495289079
+        },
+        {
+          "timestampMillis": 1739498502633
+        },
+        {
+          "timestampMillis": 1739498849578
         }
       ]
     },
@@ -1079,6 +1136,44 @@
         },
         {
           "timestampMillis": 1739403935321
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Locations/Kiamo Ko.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1739494069178
+        },
+        {
+          "timestampMillis": 1739494077918
+        },
+        {
+          "timestampMillis": 1739494090980
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Locations/Southstairs.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 5,
+      "openLogs": [
+        {
+          "timestampMillis": 1739495433863
+        },
+        {
+          "timestampMillis": 1739495440408
+        },
+        {
+          "timestampMillis": 1739495891719
+        },
+        {
+          "timestampMillis": 1739498503162
+        },
+        {
+          "timestampMillis": 1739498851158
         }
       ]
     }

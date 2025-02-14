@@ -1,11 +1,11 @@
 ---
-tags: 
+tags:
   - Category/Character/NPC
 alias:
   - Elphaba
   - Elphaba Thropp
   - Wicked Witch of the West
-view-count: 2
+view-count: 4
 ---
 # Elphaba Thropp, the Wicked Witch of the West
 ![|300](https://static.wikia.nocookie.net/wicked/images/f/f7/ElphabaWicked.jpeg/revision/latest?cb=20230426005118#right)

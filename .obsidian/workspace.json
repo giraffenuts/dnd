@@ -10,6 +10,7 @@
           {
             "id": "19ef0fd43205730c",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,11 +18,55 @@
                 "mode": "preview",
                 "source": true
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Home"
             }
+          },
+          {
+            "id": "ec181a3d86b13aee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Campaign/Locations/Southstairs (temp).md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Southstairs (temp)"
+            }
+          },
+          {
+            "id": "df89ba3b0bfe6434",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Campaign/Sessions/Session 3 Notes.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Session 3 Notes"
+            }
+          },
+          {
+            "id": "5aee372690d64c2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Campaign/Locations/Southstairs.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Southstairs"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,8 +147,8 @@
                 "mode": "webview"
               },
               "pinned": true,
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "globe-2",
+              "title": "The Mad Mage of Mount Baratok - 5etools"
             }
           }
         ],
@@ -209,12 +254,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5729b47907e8d893",
+        "id": "896e09256e043bd9",
         "type": "tabs",
-        "dimension": 39.922480620155035,
         "children": [
           {
-            "id": "cfdd2a067964d1ba",
+            "id": "3cc940792077272f",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -224,7 +268,7 @@
             }
           },
           {
-            "id": "93bdf59bc4237c6d",
+            "id": "45dc34ca83af5703",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -236,9 +280,8 @@
         ]
       },
       {
-        "id": "896e09256e043bd9",
+        "id": "2a7eae4dd384471b",
         "type": "tabs",
-        "dimension": 60.077519379844965,
         "children": [
           {
             "id": "a3c31adf4a78a312",
@@ -251,20 +294,20 @@
             }
           },
           {
-            "id": "45dc34ca83af5703",
+            "id": "e8f1d93d5962a632",
             "type": "leaf",
             "state": {
-              "type": "DICE_ROLLER_VIEW",
+              "type": "fantasy-statblocks-creature-pane",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "skull",
+              "title": "Combatant"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 382.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -290,14 +333,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19ef0fd43205730c",
+  "active": "5aee372690d64c2e",
   "lastOpenFiles": [
+    "2-Campaign/Sessions/Session 3 Notes.md",
+    "2-Campaign/Locations/Southstairs.md",
     "0-DM Toolkit/Home.md",
+    "2-Campaign/Locations/Southstairs (temp).md",
+    "1-The Land of Oz/Characters/Elphaba Thropp (Wicked Wiki).md",
+    "2-Campaign/Characters/Characters.md",
+    "2-Campaign/Locations/Kiamo Ko.md",
+    "2-Campaign/Locations/Emerald City.md",
+    "2-Campaign/Locations/Bengda.md",
     "New Text Document.txt",
     "1-The Land of Oz/Characters/Characters.md",
-    "2-Campaign/Sessions/Session 3 Notes.md",
     "0-Scratch Notes/Style Tester.md",
-    "2-Campaign/Characters/Characters.md",
     "2-Campaign/Characters/NPCs/Trism bon Cavalish.md",
     "z_Templates/Template - NPC.md",
     "2-Campaign/Characters/NPCs/NPCs.md",
@@ -313,12 +362,7 @@
     "z_Templates/5_Meta Bind/Button - Insert location.md",
     "0-DM Toolkit/Side Board.md",
     "z_Templates/Template - Location.md",
-    "0-DM Toolkit/Session Toolkit.md",
-    "z_Templates/Template - Encounter.md",
-    "0-Scratch Notes/Untitled.md",
-    "0-Scratch Notes/Meta Bind Examples.md",
     "z_Templates/5_Meta Bind",
-    "2-Campaign/Sessions/Session 2/Session 2 Notes.md",
     "z_Assets/PDFs/Spell Sheets/Artificer Spell Sheet (flattened).pdf",
     "z_Assets/PDFs/Spell Sheets/Sorcerer Spell Sheet.pdf",
     "z_Assets/PDFs/MPMB PDF Templates/MPMB's Character Record Sheet (v13.2.3) [All]/MPMB's Character Sheet (added sources).pdf",

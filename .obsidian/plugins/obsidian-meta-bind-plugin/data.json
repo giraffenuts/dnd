@@ -71,7 +71,7 @@
           "templateFile": "z_Templates/Template - Location.md",
           "fileName": "NewLocation",
           "folderPath": "2-Campaign/Locations",
-          "openNote": false
+          "openNote": true
         }
       ],
       "icon": "map-pin-plus",
@@ -87,7 +87,8 @@
           "type": "templaterCreateNote",
           "templateFile": "z_Templates/Template - NPC.md",
           "fileName": "NewNPC",
-          "folderPath": "2-Campaign/Characters/NPCs"
+          "folderPath": "2-Campaign/Characters/NPCs",
+          "openNote": true
         }
       ],
       "icon": "user-plus",
@@ -103,7 +104,8 @@
           "type": "templaterCreateNote",
           "templateFile": "z_Templates/Template - PC.md",
           "fileName": "NewPC",
-          "folderPath": "2-Campaign/Characters/PCs"
+          "folderPath": "2-Campaign/Characters/PCs",
+          "openNote": true
         }
       ],
       "icon": "user-plus",
@@ -136,7 +138,8 @@
           "type": "templaterCreateNote",
           "templateFile": "z_Templates/TemplateMagicItem.md",
           "fileName": "NewItem",
-          "folderPath": "2-Campaign/Items"
+          "folderPath": "2-Campaign/Items",
+          "openNote": true
         }
       ],
       "icon": "shield-plus",
