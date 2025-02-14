@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "94f9a44b2c3074a8",
+        "id": "a77985342a52e897",
         "type": "tabs",
         "children": [
           {
-            "id": "346229754a6e4da3",
+            "id": "19ef0fd43205730c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,34 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Home"
-            }
-          },
-          {
-            "id": "a4f24ee376d87365",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-The Land of Oz/Characters/Characters.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Characters"
-            }
-          },
-          {
-            "id": "5444efef5e4cfc3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0-Scratch Notes/Style Tester.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Style Tester"
             }
           }
         ]
@@ -130,8 +102,8 @@
                 "mode": "webview"
               },
               "pinned": true,
-              "icon": "globe-2",
-              "title": "The Mad Mage of Mount Baratok - 5etools"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -150,7 +122,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -189,8 +161,8 @@
             "state": {
               "type": "view-count",
               "state": {},
-              "icon": "eye",
-              "title": "View count"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -230,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.5
+    "width": 285.5
   },
   "right": {
     "id": "607c0a287ca85007",
@@ -249,6 +221,16 @@
               "state": {},
               "icon": "initiative-tracker",
               "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "93bdf59bc4237c6d",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           }
         ]
@@ -274,15 +256,15 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 497.5
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -292,28 +274,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "obsidian-git:Open Git source control": true,
-      "obsidian-leaflet-plugin:Open Leaflet Map": true,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-import-json:JSON/CSV Importer": false,
-      "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
       "dbfolder:Create a new database table": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-regex-pipeline:Regex Rulesets": false,
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
-      "remotely-save:Remotely Save": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "346229754a6e4da3",
+  "active": "19ef0fd43205730c",
   "lastOpenFiles": [
     "0-DM Toolkit/Home.md",
-    "2-Campaign/Sessions/Session 3 Notes.md",
+    "New Text Document.txt",
     "1-The Land of Oz/Characters/Characters.md",
+    "2-Campaign/Sessions/Session 3 Notes.md",
     "0-Scratch Notes/Style Tester.md",
     "2-Campaign/Characters/Characters.md",
     "2-Campaign/Characters/NPCs/Trism bon Cavalish.md",
@@ -340,13 +322,11 @@
     "z_Assets/PDFs/Spell Sheets/Artificer Spell Sheet (flattened).pdf",
     "z_Assets/PDFs/Spell Sheets/Sorcerer Spell Sheet.pdf",
     "z_Assets/PDFs/MPMB PDF Templates/MPMB's Character Record Sheet (v13.2.3) [All]/MPMB's Character Sheet (added sources).pdf",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/README.md",
     "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20240917_PHB_Dunamancy_Companion.js",
     "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20240917_PHB.js",
     "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20241112_DMG.js",
     "z_Assets/PDFs/MPMB PDF Templates/Scripts/all_WotC_published.min.js",
     "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts",
     "0-DM Toolkit/Session Board.canvas",
     "z_Assets/img/Scratchboard Art/Andrew Davidson/adn0170_dragons.jpg",
     "z_Assets/img/Scratchboard Art/Andrew Davidson/adn01661.jpg",

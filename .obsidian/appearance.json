@@ -4,7 +4,6 @@
   "theme": "obsidian",
   "interfaceFontFamily": "Copperplate",
   "textFontFamily": "Baskerville",
-  "showRibbon": true,
   "enabledCssSnippets": [
     "S - Encoded Fonts",
     "S - Encoded Icons",
@@ -14,5 +13,6 @@
     "dnd5e-only-statblock",
     "mb-number-input",
     "mb-Number-Input"
-  ]
+  ],
+  "showRibbon": true
 }

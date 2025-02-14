@@ -1,6 +1,6 @@
 ---
 creatureSearch: ""
-characterFilter: ""
+characterFilter: Thropp
 ---
 # Frequented Notes
 
