@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0c6311894dab1010",
+        "id": "ae0b95132545df57",
         "type": "tabs",
         "children": [
           {
-            "id": "078a6dabe1c3be26",
+            "id": "756f43b379dcc0f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -288,11 +288,50 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "078a6dabe1c3be26",
+  "floating": {
+    "id": "4f1af9de30f62194",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ee6d318b78750df8",
+        "type": "window",
+        "children": [
+          {
+            "id": "ecd8fa25da3d468c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c8a15258aac8e11c",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://publish.obsidian.md/slrvb-docs/ITS+Theme/ITS+Theme",
+                    "title": "ITS Theme - SlRvb's Documentation - Obsidian Publish",
+                    "mode": "reader"
+                  },
+                  "icon": "globe-2",
+                  "title": "ITS Theme - SlRvb's Documentation - Obsidian Publish"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 448,
+        "y": 116,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "c8a15258aac8e11c",
   "lastOpenFiles": [
+    "0-DM Toolkit/Home.md",
     "2-Campaign/Sessions/Session 3 Notes.md",
     "2-Campaign/Locations/Southstairs.md",
-    "0-DM Toolkit/Home.md",
     "z_Templates/5_Meta Bind/Button - Insert location.md",
     "2-Campaign/Characters/NPCs/Chyde.md",
     "2-Campaign/Locations/Bengda.md",
