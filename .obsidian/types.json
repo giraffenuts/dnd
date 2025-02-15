@@ -3,6 +3,8 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "population": "text"
+    "population": "text",
+    "races": "multitext",
+    "religion": "multitext"
   }
 }

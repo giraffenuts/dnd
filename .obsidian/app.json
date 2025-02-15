@@ -3,7 +3,7 @@
   "livePreview": false,
   "showInlineTitle": false,
   "propertiesInDocument": "visible",
-  "readableLineLength": true,
+  "readableLineLength": false,
   "rightToLeft": false,
   "showIndentGuide": true,
   "showLineNumber": false,

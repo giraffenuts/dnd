@@ -33,7 +33,7 @@
       },
       {
         "name": "Hidden img Folders",
-        "active": true,
+        "active": false,
         "type": "FILES_AND_DIRECTORIES",
         "pattern": "3 - Compendium/*/img",
         "patternType": "WILDCARD"
@@ -41,8 +41,8 @@
       {
         "name": "",
         "active": true,
-        "type": "DIRECTORIES",
-        "pattern": "2-Campaign/Maps/Images",
+        "type": "FILES",
+        "pattern": "2-Campaign/Maps/map_of_oz_letter.pdf",
         "patternType": "STRICT"
       }
     ]

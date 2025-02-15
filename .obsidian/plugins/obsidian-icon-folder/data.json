@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiMapPin",
+      "LiAlignStartVertical",
       "LiShield",
       "LiUserCircle",
-      "LiUserPen",
-      "LiBookDashed",
-      "LiDices"
+      "LiUserPen"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -48,11 +48,14 @@
   "1-The Land of Oz": "LiCompass",
   "2-Campaign/Encounters": "LiSwords",
   "2-Campaign/Maps": "LiMap",
-  "2-Campaign/Plot": "LiFileText",
   "2-Campaign/Sessions": "LiDices",
   "2-Campaign/Source Material": "LiBookDashed",
   "2-Campaign/Characters/PCs": "LiUserPen",
   "2-Campaign/Characters/NPCs": "LiUserCircle",
   "2-Campaign/Items": "LiShield",
-  "2-Campaign/Locations": "LiMapPin"
+  "2-Campaign/Locations": "LiMapPin",
+  "2-Campaign/Locations/Locations.md": "LiMapPin",
+  "2-Campaign/Plot": "LiFileText",
+  "2-Campaign/Plot/Timeline of Events/Timeline of Events.md": "LiAlignStartVertical",
+  "2-Campaign/Plot/Timeline of Events": "LiAlignStartVertical"
 }

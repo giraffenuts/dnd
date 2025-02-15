@@ -251,8 +251,8 @@
     },
     {
       "path": "2-Campaign/Characters/Characters.md",
-      "uniqueDaysOpened": 5,
-      "totalTimesOpened": 37,
+      "uniqueDaysOpened": 6,
+      "totalTimesOpened": 38,
       "openLogs": [
         {
           "timestampMillis": 1739220144143
@@ -364,6 +364,9 @@
         },
         {
           "timestampMillis": 1739495062634
+        },
+        {
+          "timestampMillis": 1739645930032
         }
       ]
     },
@@ -408,8 +411,8 @@
     },
     {
       "path": "1-The Land of Oz/Characters/Trism bon Cavalish (Wicked Wiki).md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1739255259477
@@ -419,6 +422,12 @@
         },
         {
           "timestampMillis": 1739257850459
+        },
+        {
+          "timestampMillis": 1739647466162
+        },
+        {
+          "timestampMillis": 1739648034548
         }
       ]
     },
@@ -586,8 +595,8 @@
     },
     {
       "path": "2-Campaign/Characters/NPCs/Emperor Shell.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 18,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 19,
       "openLogs": [
         {
           "timestampMillis": 1739260090052
@@ -642,13 +651,16 @@
         },
         {
           "timestampMillis": 1739404036390
+        },
+        {
+          "timestampMillis": 1739639919023
         }
       ]
     },
     {
       "path": "2-Campaign/Characters/NPCs/Nor Tigelaar.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 24,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 25,
       "openLogs": [
         {
           "timestampMillis": 1739261182397
@@ -721,6 +733,9 @@
         },
         {
           "timestampMillis": 1739404048650
+        },
+        {
+          "timestampMillis": 1739639897217
         }
       ]
     },
@@ -936,7 +951,7 @@
     {
       "path": "2-Campaign/Sessions/Session 3 Notes.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 51,
+      "totalTimesOpened": 61,
       "openLogs": [
         {
           "timestampMillis": 1739345670400
@@ -1090,23 +1105,68 @@
         },
         {
           "timestampMillis": 1739637321639
+        },
+        {
+          "timestampMillis": 1739637808688
+        },
+        {
+          "timestampMillis": 1739637861838
+        },
+        {
+          "timestampMillis": 1739637864843
+        },
+        {
+          "timestampMillis": 1739637877331
+        },
+        {
+          "timestampMillis": 1739638058695
+        },
+        {
+          "timestampMillis": 1739638124508
+        },
+        {
+          "timestampMillis": 1739638140919
+        },
+        {
+          "timestampMillis": 1739639130963
+        },
+        {
+          "timestampMillis": 1739639773793
+        },
+        {
+          "timestampMillis": 1739639930307
         }
       ]
     },
     {
       "path": "1-The Land of Oz/Religion/Tik-Tokism.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1739402092714
+        },
+        {
+          "timestampMillis": 1739646670803
+        },
+        {
+          "timestampMillis": 1739646708871
+        },
+        {
+          "timestampMillis": 1739646728359
+        },
+        {
+          "timestampMillis": 1739646907270
+        },
+        {
+          "timestampMillis": 1739646923125
         }
       ]
     },
     {
       "path": "1-The Land of Oz/Religion/Lurlinism.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1739402215744
@@ -1119,19 +1179,37 @@
         },
         {
           "timestampMillis": 1739403937361
+        },
+        {
+          "timestampMillis": 1739646706972
+        },
+        {
+          "timestampMillis": 1739646711476
+        },
+        {
+          "timestampMillis": 1739646813987
+        },
+        {
+          "timestampMillis": 1739646877482
         }
       ]
     },
     {
       "path": "1-The Land of Oz/Religion/Unionism.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1739402218581
         },
         {
           "timestampMillis": 1739403935321
+        },
+        {
+          "timestampMillis": 1739646740857
+        },
+        {
+          "timestampMillis": 1739646908243
         }
       ]
     },
@@ -1303,6 +1381,333 @@
         },
         {
           "timestampMillis": 1739572375192
+        }
+      ]
+    },
+    {
+      "path": "1-The Land of Oz/Characters/Mister Boss (Wicked Wiki).md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 8,
+      "openLogs": [
+        {
+          "timestampMillis": 1739637905706
+        },
+        {
+          "timestampMillis": 1739637948662
+        },
+        {
+          "timestampMillis": 1739638080088
+        },
+        {
+          "timestampMillis": 1739638100799
+        },
+        {
+          "timestampMillis": 1739639131550
+        },
+        {
+          "timestampMillis": 1739639135498
+        },
+        {
+          "timestampMillis": 1739639165559
+        },
+        {
+          "timestampMillis": 1739639774410
+        }
+      ]
+    },
+    {
+      "path": "Mister Boss.md",
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 31,
+      "openLogs": [
+        {
+          "timestampMillis": 1739637986839
+        },
+        {
+          "timestampMillis": 1739637987675
+        },
+        {
+          "timestampMillis": 1739638043697
+        },
+        {
+          "timestampMillis": 1739638059162
+        },
+        {
+          "timestampMillis": 1739638081928
+        },
+        {
+          "timestampMillis": 1739638140258
+        },
+        {
+          "timestampMillis": 1739638145385
+        },
+        {
+          "timestampMillis": 1739638256787
+        },
+        {
+          "timestampMillis": 1739638266002
+        },
+        {
+          "timestampMillis": 1739638268349
+        },
+        {
+          "timestampMillis": 1739638284546
+        },
+        {
+          "timestampMillis": 1739638492744
+        },
+        {
+          "timestampMillis": 1739638542487
+        },
+        {
+          "timestampMillis": 1739639133296
+        },
+        {
+          "timestampMillis": 1739639147337
+        },
+        {
+          "timestampMillis": 1739639173044
+        },
+        {
+          "timestampMillis": 1739645923577
+        },
+        {
+          "timestampMillis": 1739645949901
+        },
+        {
+          "timestampMillis": 1739645962195
+        },
+        {
+          "timestampMillis": 1739645974282
+        },
+        {
+          "timestampMillis": 1739646004735
+        },
+        {
+          "timestampMillis": 1739646042098
+        },
+        {
+          "timestampMillis": 1739646531371
+        },
+        {
+          "timestampMillis": 1739646729185
+        },
+        {
+          "timestampMillis": 1739646771154
+        },
+        {
+          "timestampMillis": 1739646808871
+        },
+        {
+          "timestampMillis": 1739646812517
+        },
+        {
+          "timestampMillis": 1739646869774
+        },
+        {
+          "timestampMillis": 1739646894346
+        },
+        {
+          "timestampMillis": 1739646906165
+        },
+        {
+          "timestampMillis": 1739646937723
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Maps/The Land of Oz.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1739645755716
+        },
+        {
+          "timestampMillis": 1739645757484
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Maps/map_of_oz_letter.pdf",
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1739645755622
+        },
+        {
+          "timestampMillis": 1739645756460
+        },
+        {
+          "timestampMillis": 1739645867020
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Characters/NPCs/Mister Boss.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 9,
+      "openLogs": [
+        {
+          "timestampMillis": 1739645971400
+        },
+        {
+          "timestampMillis": 1739645975547
+        },
+        {
+          "timestampMillis": 1739646001767
+        },
+        {
+          "timestampMillis": 1739646012203
+        },
+        {
+          "timestampMillis": 1739646068212
+        },
+        {
+          "timestampMillis": 1739646122391
+        },
+        {
+          "timestampMillis": 1739647456716
+        },
+        {
+          "timestampMillis": 1739649206403
+        },
+        {
+          "timestampMillis": 1739649480460
+        }
+      ]
+    },
+    {
+      "path": "1-The Land of Oz/Source Material/Maguire, Gregory - The Wicked Years [Complete Collection].pdf",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1739646120958
+        }
+      ]
+    },
+    {
+      "path": "1-The Land of Oz/Religion/Pleasure Faith.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1739646779313
+        },
+        {
+          "timestampMillis": 1739646811338
+        },
+        {
+          "timestampMillis": 1739646895433
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Plot/Timeline of Events/Liir deserts the Home Guard.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 11,
+      "openLogs": [
+        {
+          "timestampMillis": 1739648405400
+        },
+        {
+          "timestampMillis": 1739648439593
+        },
+        {
+          "timestampMillis": 1739648447373
+        },
+        {
+          "timestampMillis": 1739648578412
+        },
+        {
+          "timestampMillis": 1739648613448
+        },
+        {
+          "timestampMillis": 1739648634775
+        },
+        {
+          "timestampMillis": 1739648864471
+        },
+        {
+          "timestampMillis": 1739649051983
+        },
+        {
+          "timestampMillis": 1739649072123
+        },
+        {
+          "timestampMillis": 1739649217967
+        },
+        {
+          "timestampMillis": 1739649821526
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Plot/Timeline of Events/Nor is abducted by the Wizard's Gale Forces.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 7,
+      "openLogs": [
+        {
+          "timestampMillis": 1739648553144
+        },
+        {
+          "timestampMillis": 1739648584414
+        },
+        {
+          "timestampMillis": 1739649008754
+        },
+        {
+          "timestampMillis": 1739649061394
+        },
+        {
+          "timestampMillis": 1739649336653
+        },
+        {
+          "timestampMillis": 1739649482059
+        },
+        {
+          "timestampMillis": 1739649488945
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Items/Items.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1739650603333
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Locations/Locations.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1739650613668
+        },
+        {
+          "timestampMillis": 1739650623372
+        },
+        {
+          "timestampMillis": 1739650656081
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Plot/Timeline of Events/Timeline of Events.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1739651308461
+        },
+        {
+          "timestampMillis": 1739651315577
         }
       ]
     }

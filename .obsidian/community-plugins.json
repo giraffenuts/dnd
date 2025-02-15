@@ -9,7 +9,6 @@
   "obsidian-dice-roller",
   "dataview",
   "obsidian-style-settings",
-  "obsidian-meta-bind-plugin",
   "table-editor-obsidian",
   "obsidian-import-json",
   "folder-notes",
@@ -29,5 +28,8 @@
   "toggle-readable-line-length",
   "omnisearch",
   "js-engine",
-  "obsidian-git"
+  "obsidian-git",
+  "table-extended",
+  "obsidian-meta-bind-plugin",
+  "aprils-automatic-timelines"
 ]

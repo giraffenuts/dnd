@@ -15,20 +15,9 @@ Vitality:
 statblock: Commoner
 age: 
 race: ""
+view-count: 1
 ---
 
-<% await tp.file.move("/2-Campaign/Characters/NPCs/" + tp.file.title) %>
-
-<%*
-const hasTitle = !tp.file.title.startsWith("NewNPC");
-let title;
-if (!hasTitle) {
-    title = await tp.system.prompt("Enter NPC Name");
-    await tp.file.rename(title);
-} else {
-    title = tp.file.title;
-}
-_%>
 
 
 # `=this.file.name`
@@ -71,5 +60,6 @@ Source: `INPUT[suggester(optionQuery("1-The Land of Oz/Characters")):source-link
 >```
 ## Profile
 
-**\<Add description here\>**
+**Mister Boss** is a dwarf who claims to be an immortal being sent to Oz to prevent the Grimmerie from returning to Earth. He owns and operates the Clock of the Time Dragon).
+
 

@@ -16,7 +16,7 @@ source-link: "[[1-The Land of Oz/Characters/Shell Thropp (Wicked Wiki).md|Shell 
 race: Human
 age: 55
 vitality: Healthy
-view-count: 2
+view-count: 3
 Religion:
   - "[[1-The Land of Oz/Religion/Unionism.md|Unionism]]"
 ---

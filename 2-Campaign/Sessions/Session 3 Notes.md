@@ -169,7 +169,7 @@ Description of your strong start.
 
 ### For The Party
 
-###### Topic
+###### Topic 
 - [ ] **DC X**: Secret description.
 
 ###### Topic
@@ -196,7 +196,7 @@ Description of your strong start.
 >>>  - "2": Guard
 >>>  -  "1": Scout
 >>>  -  "1": Acolyte
->>>  -  "1": Thug, ally
+>>>  -  "1": , ally
 >>>```
 >>>- [ ] Complete
 >>>___

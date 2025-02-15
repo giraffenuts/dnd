@@ -921,14 +921,29 @@ div.setting-item > div.setting-item-control.mb-vertical-control {
 .meta-bind-full-width > * {
 	width: 100%;
 }
-
+.meta-bind-half-width > * {
+	width: 50%;
+}
+.meta-bind-quarter-width > * {
+	width: 25%;
+}
 .meta-bind-high > * {
 	height: 200px;
 }
-
+.meta-bind-tiny-width > * {
+	width: 50px;
+}
 .meta-bind-small-width > * {
 	width: 80px;
 }
+.meta-bind-med-width > * {
+	width: 120px;
+}
+.meta-bind-200-width > * {
+	width: 200px;
+}
+
+
 
 /* --- PUBLISH STUFF --- */
 

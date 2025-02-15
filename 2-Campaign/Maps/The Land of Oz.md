@@ -1,3 +1,6 @@
+---
+view-count: 1
+---
 
 ```leaflet 
 id: oz-map 

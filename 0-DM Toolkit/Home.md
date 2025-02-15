@@ -1,9 +1,19 @@
 ---
 creatureSearch: ""
-characterFilter: ""
+characterFilter:
 ---
+> [!cards|dataview]
+> ```dataview
+> TABLE WITHOUT ID
+> 	"![|sban cover hmicro](" + image + ")" as Image,
+> 	"**"+ file.link + "**" AS "Column Name"
+> FROM #homepage
+> SORT file.name asc
+> ```
+
 # Recent
 ## Session Notes
+
 > [!cards|dataview]
 > ```dataview
 > TABLE WITHOUT ID
@@ -16,15 +26,17 @@ characterFilter: ""
 > ```
 
 # Buttons
-###### Combat: `BUTTON[open-initiative-tracker,build-new-encounter]`
 
-###### Characters: `BUTTON[new-npc,new-pc]`
+>[!column| 2]
+>>[!blank] 
+>>###### Characters: `BUTTON[new-npc,new-pc]`
+>>###### Locations: `BUTTON[new-location]`
+>>###### Items: `BUTTON[new-item]`
+>
+>>[!blank] 
+>>###### Combat: `BUTTON[open-initiative-tracker,build-new-encounter]`
+>>###### Sessions: `BUTTON[new-session-notes]` 
 
-###### Locations: `BUTTON[new-location]`
-
-###### Items: `BUTTON[new-item]`
-
-###### Sessions: `BUTTON[new-session-notes]` 
 
 # Characters
 

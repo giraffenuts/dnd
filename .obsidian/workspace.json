@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae0b95132545df57",
+        "id": "b18f7e87ed958a07",
         "type": "tabs",
         "children": [
           {
-            "id": "756f43b379dcc0f5",
+            "id": "d7d341ae52c6a546",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,48 @@
               },
               "icon": "lucide-file",
               "title": "Home"
+            }
+          },
+          {
+            "id": "be5aaf1a78c1c54f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Campaign/Plot/Timeline of Events/Nor is abducted by the Wizard's Gale Forces.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Nor is abducted by the Wizard's Gale Forces"
+            }
+          },
+          {
+            "id": "77803d2f63715087",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Campaign/Characters/NPCs/Mister Boss.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Mister Boss"
+            }
+          },
+          {
+            "id": "be48725b7285186d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mister Boss.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Mister Boss"
             }
           }
         ]
@@ -220,16 +262,6 @@
               "icon": "dices",
               "title": "Dice Tray"
             }
-          },
-          {
-            "id": "61df06e18e85f638",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
-            }
           }
         ]
       },
@@ -257,12 +289,11 @@
               "title": "Combatant"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 356.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -288,94 +319,55 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "4f1af9de30f62194",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ee6d318b78750df8",
-        "type": "window",
-        "children": [
-          {
-            "id": "ecd8fa25da3d468c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c8a15258aac8e11c",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://publish.obsidian.md/slrvb-docs/ITS+Theme/ITS+Theme",
-                    "title": "ITS Theme - SlRvb's Documentation - Obsidian Publish",
-                    "mode": "reader"
-                  },
-                  "icon": "globe-2",
-                  "title": "ITS Theme - SlRvb's Documentation - Obsidian Publish"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 116,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "c8a15258aac8e11c",
+  "active": "6d679bed21868d4f",
   "lastOpenFiles": [
+    "2-Campaign/Sessions/Session Resources",
+    "2-Campaign/Plot/Timeline of Events/Timeline of Events.md",
     "0-DM Toolkit/Home.md",
-    "2-Campaign/Sessions/Session 3 Notes.md",
-    "2-Campaign/Locations/Southstairs.md",
-    "z_Templates/5_Meta Bind/Button - Insert location.md",
-    "2-Campaign/Characters/NPCs/Chyde.md",
-    "2-Campaign/Locations/Bengda.md",
-    "2-Campaign/Locations/Southstairs (temp).md",
-    "z_Templates/Template - Location.md",
-    "3-Compendium/races/races.md",
-    "0-Scratch Notes/Style Tester.md",
-    "0-Scratch Notes/Meta Bind Dynamic List Elements.md",
-    "0-Scratch Notes/Meta Bind Examples.md",
-    "1-The Land of Oz/Characters/Elphaba Thropp (Wicked Wiki).md",
-    "2-Campaign/Characters/Characters.md",
-    "2-Campaign/Locations/Kiamo Ko.md",
-    "2-Campaign/Locations/Emerald City.md",
-    "New Text Document.txt",
-    "1-The Land of Oz/Characters/Characters.md",
-    "2-Campaign/Characters/NPCs/Trism bon Cavalish.md",
-    "z_Templates/Template - NPC.md",
-    "2-Campaign/Characters/NPCs/NPCs.md",
-    "2-Campaign/Characters/NPCs/Nor Tigelaar.md",
-    "2-Campaign/Characters/NPCs/Emperor Shell.md",
-    "1-The Land of Oz/Religion/Lurlinism.md",
-    "1-The Land of Oz/Religion/Unionism.md",
+    "2-Campaign/Plot/Events/Timeline of Events.md",
+    "2-Campaign/Plot/Events/Events.md",
+    "2-Campaign/Plot/Plot.md",
+    "2-Campaign/Locations/Locations.md",
+    "2-Campaign/Items/Items.md",
+    "0-DM Toolkit/Session Toolkit.md",
+    "2-Campaign/Plot/Timeline of Events/Liir deserts the Home Guard.md",
+    "2-Campaign/Plot/Timeline of Events/Nor is abducted by the Wizard's Gale Forces.md",
+    "2-Campaign/Characters/NPCs/Mister Boss.md",
+    "1-The Land of Oz/Characters/Trism bon Cavalish (Wicked Wiki).md",
+    "2-Campaign/Plot/Timeline of Events",
+    "Mister Boss.md",
     "1-The Land of Oz/Religion/Tik-Tokism.md",
-    "2-Campaign/Characters/PCs/PCs.md",
+    "1-The Land of Oz/Religion/Unionism.md",
+    "1-The Land of Oz/Religion/Pleasure Faith.md",
+    "1-The Land of Oz/Religion/Lurlinism.md",
+    "1-The Land of Oz/Source Material/Maguire, Gregory - The Wicked Years [Complete Collection].pdf",
+    "2-Campaign/Characters/Characters.md",
+    "z_Templates/Template - NPC.md",
+    "z_Assets/img/Maps/map_of_oz_by_ron_guyatt-d6vzajn.jpg",
+    "2-Campaign/Maps/map_of_oz_letter.pdf",
+    "2-Campaign/Maps/The Land of Oz.md",
+    "z_Assets/img/Maps/OzMapNovels.jpg",
+    "z_Assets/img/Maps/map_of_oz_letter.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_small.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_corrected_small.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_large.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_small.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_corrected_large.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_large.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_corrected_small.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps",
+    "z_Templates/Template - Location.md",
+    "z_Assets/img/Maps",
+    "z_Assets/img/Locations",
+    "z_Assets/img/NPCs",
+    "2-Campaign/Sessions/Session 3 Notes.md",
+    "2-Campaign/Characters/NPCs/Emperor Shell.md",
+    "2-Campaign/Characters/NPCs/Nor Tigelaar.md",
+    "1-The Land of Oz/Characters/Mister Boss (Wicked Wiki).md",
+    "New Text Document.txt",
     "z_Templates/5_Meta Bind",
     "z_Assets/PDFs/Spell Sheets/Artificer Spell Sheet (flattened).pdf",
-    "z_Assets/PDFs/Spell Sheets/Sorcerer Spell Sheet.pdf",
-    "z_Assets/PDFs/MPMB PDF Templates/MPMB's Character Record Sheet (v13.2.3) [All]/MPMB's Character Sheet (added sources).pdf",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20240917_PHB_Dunamancy_Companion.js",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20240917_PHB.js",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20241112_DMG.js",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts/all_WotC_published.min.js",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main",
     "0-DM Toolkit/Session Board.canvas",
-    "z_Assets/img/Scratchboard Art/Andrew Davidson/adn0170_dragons.jpg",
-    "z_Assets/img/Scratchboard Art/Andrew Davidson/adn01661.jpg",
-    "z_Assets/img/Scratchboard Art/Andrew Davidson/adn0219.jpg",
-    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-055-2009-earl-1.jpg",
-    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-2-853x1200.jpg",
-    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-015-2011-1.jpg",
-    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-001-2008-1188x1200.jpg",
-    "z_Assets/img/Scratchboard Art/Bruce Hutchison/Flower-Garden.jpg",
-    "z_Assets/img/Scratchboard Art/Bruce Hutchison/Bruce-Hutchison-034-Train-1-1200x847.jpg",
-    "z_Assets/img/Scratchboard Art/Douglas Smith/Douglas-Smith-267-DS-Lightbulb-1.jpg",
     "Campaign Settings/Oz/Campaign/Sessions/Session 1/Session 1.canvas",
     "Untitled.canvas"
   ]

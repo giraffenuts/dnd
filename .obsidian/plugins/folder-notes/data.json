@@ -1,5 +1,5 @@
 {
-  "syncFolderName": true,
+  "syncFolderName": false,
   "ctrlKey": true,
   "altKey": false,
   "hideFolderNote": true,
@@ -46,7 +46,7 @@
   "frontMatterTitle": {
     "enabled": false,
     "explorer": true,
-    "path": true
+    "path": false
   },
   "settingsTab": "general",
   "supportedFileTypes": [

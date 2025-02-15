@@ -13,7 +13,7 @@ Character-Origin:
 Vitality: 
 statblock: Commoner
 source-link: "[[1-The Land of Oz/Characters/Nor Tigelaar (Wicked Wiki).md|Nor Tigelaar (Wicked Wiki)]]"
-view-count: 2
+view-count: 3
 vitality: Healthy
 ---
 
