@@ -6,7 +6,7 @@ locations:
 npcs:
   - "[[2-Campaign/Characters/NPCs/Nor Tigelaar.md|Nor Tigelaar]]"
 items: []
-view-count: 3
+view-count: 4
 ---
 **Date**: `INPUT[datePicker:session-date]` **\|** **Session Number**: `INPUT[number:session-number]`
 # Session Prep

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "79b76dc6b30e6df6",
+        "id": "0c6311894dab1010",
         "type": "tabs",
         "children": [
           {
-            "id": "7cf2ef315e6765e7",
+            "id": "078a6dabe1c3be26",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,51 +20,8 @@
               "icon": "lucide-file",
               "title": "Home"
             }
-          },
-          {
-            "id": "c42dfcd46edd1e4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z_Templates/5_Meta Bind/Button - Insert location.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Button - Insert location"
-            }
-          },
-          {
-            "id": "350b07264460018f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-Campaign/Locations/Southstairs.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Southstairs"
-            }
-          },
-          {
-            "id": "839dad2e5a031415",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-Campaign/Sessions/Session 3 Notes.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Session 3 Notes"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -331,10 +288,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "839dad2e5a031415",
+  "active": "078a6dabe1c3be26",
   "lastOpenFiles": [
-    "2-Campaign/Locations/Southstairs.md",
     "2-Campaign/Sessions/Session 3 Notes.md",
+    "2-Campaign/Locations/Southstairs.md",
     "0-DM Toolkit/Home.md",
     "z_Templates/5_Meta Bind/Button - Insert location.md",
     "2-Campaign/Characters/NPCs/Chyde.md",
