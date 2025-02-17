@@ -15,7 +15,7 @@ Vitality:
 statblock: Commoner
 age: 56
 race: Human
-view-count: 1
+view-count: 2
 aliases:
   - Under-mayor
   - Under-mayor of Southstairs

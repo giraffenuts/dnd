@@ -251,8 +251,8 @@
     },
     {
       "path": "2-Campaign/Characters/Characters.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 38,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 41,
       "openLogs": [
         {
           "timestampMillis": 1739220144143
@@ -367,6 +367,15 @@
         },
         {
           "timestampMillis": 1739645930032
+        },
+        {
+          "timestampMillis": 1739803120498
+        },
+        {
+          "timestampMillis": 1739803325572
+        },
+        {
+          "timestampMillis": 1739803721625
         }
       ]
     },
@@ -631,8 +640,8 @@
     },
     {
       "path": "2-Campaign/Characters/NPCs/Emperor Shell.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 20,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 26,
       "openLogs": [
         {
           "timestampMillis": 1739260090052
@@ -693,6 +702,24 @@
         },
         {
           "timestampMillis": 1739765244996
+        },
+        {
+          "timestampMillis": 1739804497012
+        },
+        {
+          "timestampMillis": 1739804523274
+        },
+        {
+          "timestampMillis": 1739804576754
+        },
+        {
+          "timestampMillis": 1739804594745
+        },
+        {
+          "timestampMillis": 1739805534692
+        },
+        {
+          "timestampMillis": 1739805554889
         }
       ]
     },
@@ -1078,8 +1105,8 @@
     },
     {
       "path": "2-Campaign/Locations/Kiamo Ko.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1739494069178
@@ -1089,13 +1116,25 @@
         },
         {
           "timestampMillis": 1739494090980
+        },
+        {
+          "timestampMillis": 1739803425138
+        },
+        {
+          "timestampMillis": 1739803433295
+        },
+        {
+          "timestampMillis": 1739803450954
+        },
+        {
+          "timestampMillis": 1739803498289
         }
       ]
     },
     {
       "path": "2-Campaign/Locations/Southstairs.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 61,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 64,
       "openLogs": [
         {
           "timestampMillis": 1739495433863
@@ -1279,6 +1318,15 @@
         },
         {
           "timestampMillis": 1739740763658
+        },
+        {
+          "timestampMillis": 1739803426803
+        },
+        {
+          "timestampMillis": 1739803440250
+        },
+        {
+          "timestampMillis": 1739803499691
         }
       ]
     },
@@ -1768,8 +1816,8 @@
     },
     {
       "path": "2-Campaign/Locations/Locations.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1739650613668
@@ -1779,6 +1827,24 @@
         },
         {
           "timestampMillis": 1739650656081
+        },
+        {
+          "timestampMillis": 1739803107790
+        },
+        {
+          "timestampMillis": 1739803127180
+        },
+        {
+          "timestampMillis": 1739803338338
+        },
+        {
+          "timestampMillis": 1739803353626
+        },
+        {
+          "timestampMillis": 1739803425928
+        },
+        {
+          "timestampMillis": 1739803504933
         }
       ]
     },
@@ -1801,7 +1867,7 @@
     {
       "path": "2-Campaign/Sessions/Session 3/Session 3 Notes.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 100,
+      "totalTimesOpened": 102,
       "openLogs": [
         {
           "timestampMillis": 1739661325479
@@ -2102,6 +2168,12 @@
         },
         {
           "timestampMillis": 1739801653576
+        },
+        {
+          "timestampMillis": 1739804643712
+        },
+        {
+          "timestampMillis": 1739805548152
         }
       ]
     },
@@ -2174,8 +2246,8 @@
     },
     {
       "path": "2-Campaign/Characters/NPCs/Chyde.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1739733140086
@@ -2185,6 +2257,37 @@
         },
         {
           "timestampMillis": 1739765267501
+        },
+        {
+          "timestampMillis": 1739804515086
+        },
+        {
+          "timestampMillis": 1739804566660
+        },
+        {
+          "timestampMillis": 1739804590647
+        },
+        {
+          "timestampMillis": 1739804637013
+        },
+        {
+          "timestampMillis": 1739805551743
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Locations/Emerald Palace.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1739803736625
+        },
+        {
+          "timestampMillis": 1739803750230
+        },
+        {
+          "timestampMillis": 1739804508978
         }
       ]
     }

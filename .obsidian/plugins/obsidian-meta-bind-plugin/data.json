@@ -258,6 +258,25 @@
           "regexpFlags": "gm"
         }
       ]
+    },
+    {
+      "label": "Insert New Encounter",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Insert another encounter into the table",
+      "id": "insert-encounter",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "regexpReplaceInNote",
+          "regexp": "[`]{3}encounter-table\\n([^`]*)[`]{3}",
+          "replacement": "```encounter-table\n$1---\nname: \nparty: Oz\ncreatures:\n  - \n```",
+          "regexpFlags": "gm"
+        }
+      ]
     }
   ],
   "excludedFolders": [

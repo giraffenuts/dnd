@@ -1,7 +1,7 @@
 ---
 creatureSearch: ""
 characterFilter: ""
-locationFilter: South
+locationFilter: ""
 ---
 > [!cards|dataview]
 > ```dataview

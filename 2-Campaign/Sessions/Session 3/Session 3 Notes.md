@@ -324,6 +324,13 @@ The first layer of the under-city is often referred to as the =='Free District'=
 
 <br>
 
+```encounter-table
+name:
+party: 
+creatures:
+  - 
+```
+
 ## Potential Items  
 `INPUT[inlineListSuggester(optionQuery(#Category/Item)):items]`
 

@@ -2,30 +2,21 @@
 aliases: 
 tags:
   - Category/Location/POI
-  - Category/Location/Settlement/City
-type: Prison-City
+type: Estate
 size: Large
 alignment: 
-government: Mayorship
+government: Monarchy
 leader:
-  - "[[2-Campaign/Characters/NPCs/Chyde.md|Chyde]]"
+  - "[[2-Campaign/Characters/NPCs/Emperor Shell.md|Emperor Shell]]"
 groups: 
 region: "[[Emerald City]]"
-population: 
-races:
-  - Humans
-  - Animals
-  - Dwarves
-  - Elves
-religion:
-  - "[[1-The Land of Oz/Religion/Unionism.md|Unionism]]"
-  - "[[1-The Land of Oz/Religion/Pleasure Faith.md|Pleasure Faith]]"
-  - "[[1-The Land of Oz/Religion/Lurlinism.md|Lurlinism]]"
-view-count: 4
-notable-NPCs:
-  - "[[2-Campaign/Characters/NPCs/Nor Tigelaar.md|Nor Tigelaar]]"
-affluence: Low
+population: ""
+races: 
+religion: 
+view-count: 1
 ---
+
+
 
 > [!infobox|wfit]+
 > # `=this.file.name`
@@ -69,29 +60,6 @@ affluence: Low
 
 ## Points of Interest
 `INPUT[inlineListSuggester(optionQuery(#Category/Location/POI)):POIs]`
-
-## Districts & Wards
-
-### Free District
-
-#### Market Ward
-- Black market
-#### Hive Ward
-- The slums
-#### Under-Mayor's Ward
-- 
-### Prison District
-
-#### Watchman's Ward
-- 
-#### The Cages
-- 
-#### Outer Ward
-- 
-#### Inner Ward
-- 
-#### Central Ward
-- 
 
 ## Valuables
 `INPUT[inlineListSuggester(optionQuery(#Category/Item)):notable-items]`
