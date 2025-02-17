@@ -20,17 +20,18 @@ religion:
   - Pleasure Faith
   - Tik-Tokism
 exampleProperty: Medium
-view-count: 2
+view-count: 3
 notable-NPCs:
   - "[[2-Campaign/Characters/NPCs/Shell Heart.md|Shell Heart]]"
   - "[[2-Campaign/Characters/NPCs/Nor Tigelaar.md|Nor Tigelaar]]"
+profileImageSmall: z_Assets/img/Maps/EmeraldCityMap.jpg
 ---
 
 
 
 > [!infobox|wfit]+
 > # `=this.file.name`
-> ![[PlaceholderPicture.png|cover hsmall]]
+> `INPUT[imageSuggester(optionQuery("z_Assets/img/Maps"),optionQuery("z_Assets/img/Locations")):profileImageSmall]`
 > ###### Geography
 >  |   |
 > ---|---|

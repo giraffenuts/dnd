@@ -1,16 +1,14 @@
 ---
 obsidianUIMode: preview
-cssclasses:
-  - json5e-item
 tags:
   - Category/Item
 aliases: 
 SourceType: Magic Item
-NoteIcon: magicitem
-BookSource:
+damageDice: 1d6
+damageType: piercing
 ---
 
-<% await tp.file.move("/3-Mechanics/Items/" + tp.file.title) %>
+<% await tp.file.move("/2-Campaign/Items/" + tp.file.title) %>
 
 <%*
 const hasTitle = !tp.file.title.startsWith("NewMagicItem");
@@ -25,10 +23,10 @@ _%>
 
 
 # Item Name
-*Melee Weapon, uncommon (requires attunement by a druid or ranger)*  
+*Item type, rarity*  
 
-- **Damage**: 1d4 S
-- **Properties**: [Light](/2-Mechanics/CLI/rules/item-properties.md#Light), Requires Attunement
+- **Damage**: `VIEW[```dice: {damageDice}```][text(renderMarkdown)]` `VIEW[{damageType}][text]`
+- **Properties**: 
 - **Cost**: ⏤
 - **Weight**: 2.0 lbs.
 

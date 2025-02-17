@@ -1,11 +1,17 @@
----
-session-number: 
-session-date:
-locations: []
-npcs: []
-items: []
----
-**Date**: `INPUT[datePicker:session-date]` **\|** **Session Number**: `INPUT[number:session-number]`
+<%*
+const hasTitle = !tp.file.title.startsWith("NewSessionNotes");
+let title;
+if (!hasTitle) {
+    title = await tp.system.prompt("Session Number");
+    await tp.file.move("/2-Campaign/Sessions/" + "Session " + title + "/" + tp.file.title);
+    await tp.file.rename("Session " + title + " Notes");
+} else {
+    title = tp.file.title;
+    await tp.file.move("/2-Campaign/Sessions/" + "Session " + title + "/" + tp.file.title);
+}
+_%>
+
+**Date**: `INPUT[datePicker:session-date]` **\|** **Session Number**: `INPUT[number(class(meta-bind-tiny-width),placeholder(#)):session-number]`
 # Session Prep
 ## Characters  
   
@@ -26,8 +32,9 @@ Description of your strong start.
 ## Fantastic Locations  
 
 `INPUT[inlineListSuggester(optionQuery(#Category/Location)):locations]`
+
 <!--
-`VIEW[### {locations[0]}][text(renderMarkdown)]`
+<location-desc>`VIEW[### {locations[0]}][text(renderMarkdown)]`
 
 ###### Profile
 
@@ -43,7 +50,9 @@ Description of your strong start.
 
 ###### Description
 
-###### Role this session
+###### Role this session 
+
+###### Additional notes
 
 <location-desc>`VIEW[### {locations[2]}][text(renderMarkdown)]`
 
@@ -79,31 +88,16 @@ Description of your strong start.
 
 <br>
 
-```meta-bind-button
-label: Insert location description
-icon: plus
-style: primary
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: "insert-location-desc"
-hidden: false
-actions:
-  - type: regexpReplaceInNote
-    regexp: <!--([^`]`.*[^`]*)<location-desc>
-    replacement: "$1<!--\n"
-    regexpFlags: gm
-
-```
+`BUTTON[insert-location-desc,remove-location-desc]`
 
 <br>
 
 ## Important NPCs  
   
 `INPUT[inlineListSuggester(optionQuery(#Category/Character)):npcs]`
+
 <!--
-`VIEW[### {npcs[0]}][text(renderMarkdown)]`
+<item-desc>`VIEW[### {npcs[0]}][text(renderMarkdown)]`
 
 ###### Profile
 
@@ -156,54 +150,36 @@ actions:
 
 <br>
 
-```meta-bind-button
-label: Insert NPC description
-icon: plus
-style: primary
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: "insert-npc-desc"
-hidden: false
-actions:
-  - type: regexpReplaceInNote
-    regexp: <!--([^`]`.*[^`]*)<npc-desc>
-    replacement: "$1<!--\n"
-    regexpFlags: gm
-
-```
+`BUTTON[insert-npc-desc,remove-npc-desc]`
 
 <br>
 
 ## Secrets and Clues  
+
 ### For Individuals
->[!columns|wfull no-title]
->>[!blank]
->>#### For Maylo
->>- [ ] DC X: Secret description.
->>#### For Scraps
->>- [ ] DC X: Secret description. 
->
->>[!blank]
->>#### For Merle
->>- [ ] DC X: Secret description.
->>#### For Siegfried
->>- [ ] DC X: Secret description.
+
+###### For Maylo
+- [ ] **DC X**: Secret description.
+
+###### For Merle
+- [ ] **DC X**: Secret description.
+
+###### For Scraps
+- [ ] **DC X**: Secret description. 
+
+###### For Siegfried
+- [ ] **DC X**: Secret description.
 
 ### For The Party
->[!columns|wfull no-title]
->>[!blank]
->>###### Topic: 
->>- [ ] DC X: Secret description.
->>###### Topic: 
->>- [ ] DC X: Secret description.
->
->>[!blank]
->>###### Topic: 
->>- [ ] DC X: Secret description.
->>###### Topic: 
->>- [ ] DC X: Secret description.
+
+###### Topic 
+- [ ] **DC X**: Secret description.
+
+###### Topic
+- [ ] **DC X**: Secret description.
+
+###### Topic
+- [ ] **DC X**: Secret description.
 
 ## Potential Encounters  
 
@@ -219,8 +195,8 @@ actions:
 >>>  - Merle
 >>>  - Scraps
 >>>  - Siegfried
->>>creatures:
->>>  - "1": 
+>>>creatures: 
+>>>  - "1":
 >>>```
 >>>- [ ] Complete
 >>>___
@@ -285,7 +261,25 @@ actions:
 >>>  - "1": 
 >>>```
 >>>- [ ] Complete
->>
+
+
+```encounter-table
+name: Encounter
+party: Oz
+creatures:
+  -  
+---
+name: Encounter
+party: Oz
+creatures:
+  - 
+name: Encounter
+party: Oz
+creatures:
+  - 
+```
+
+
 
 <br>
 
@@ -360,27 +354,10 @@ actions:
 
 <br>
 
-```meta-bind-button
-label: Insert item description
-icon: plus
-style: primary
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: "insert-item-desc"
-hidden: false
-actions:
-  - type: regexpReplaceInNote
-    regexp: <!--([^`]`.*[^`]*)<item-desc>
-    replacement: "$1<!--\n"
-    regexpFlags: gm
-
-```
+`BUTTON[insert-item-desc,remove-item-desc]`
 
 <br>
 
 # Session Notes
 
 # Post Session Notes
-

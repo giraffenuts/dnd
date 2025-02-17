@@ -1,21 +1,27 @@
 ---
 Tags:
   - Category/Character/NPC
-AssociatedGroup: 
-Gender: 
+AssociatedGroup:
+  - Clock of the Time Dragon
+Gender: Male
 Race: 
 Age: 
 Class: 
 Alignment: 
-Religion: 
+Religion:
+  - "[[1-The Land of Oz/Religion/Tik-Tokism.md|Tik-Tokism]]"
 Character-Role: 
-Character-Residence: 
-Character-Origin: 
+Character-Residence: None
+Character-Origin: Earth
 Vitality: 
 statblock: Commoner
-age: 
-race: ""
-view-count: 1
+age: 53
+race: Dwarf
+view-count: 2
+alignment: Chaotic Neutral
+vitality: Healthy
+character-role: Party Guide
+profileImage: z_Assets/img/NPCs/MisterBossProfilePortrait.png
 ---
 
 
@@ -24,7 +30,7 @@ view-count: 1
 
 Source: `INPUT[suggester(optionQuery("1-The Land of Oz/Characters")):source-link]`
 
-> [!infobox|wfit static embed clear-hr]+
+> [!infobox|wfit embed ]+
 > # `=this.file.name`
 > `INPUT[imageSuggester(optionQuery("z_Assets/img/NPCs")):profileImage]`
 > [[ImagePlaceholder.png|Show To Players]]
@@ -47,19 +53,68 @@ Source: `INPUT[suggester(optionQuery("1-The Land of Oz/Characters")):source-link
 > Character Role | `INPUT[text:character-role]` |
 > ## Statblocks
 > ```statblock
-> name: NPC
-> monster: Commoner
-> columns: 1
-> columnWidth: 400px
-> ```
-> 
->```encounter-table
->name: Individual
->creatures:
-> - 1: Commoner
+> forcedColumns: true
+> columns: 2
+> columnWidth: 50%
+>name: Mister Boss
+>source: Oz
+>size: Medium
+>type: humanoid
+>subtype: Dwarf
+>alignment: chaotic neutral
+>ac: 11
+>hp: 32
+>hit_dice: 5d8 + 9
+>speed: 30 ft.
+>stats:
+>  - 15
+>  - 11
+>  - 14
+>  - 10
+>  - 10
+>  - 12
+>skillsaves:
+>  - intimidation: 3
+>  - performance: 3
+>damage_vulnerabilities: ""
+>damage_resistances: ""
+>damage_immunities: ""
+>condition_immunities: ""
+>senses: passive Perception 10
+>languages: Ozian, English
+>cr: 1/2
+>bestiary: true
+>traits:
+>  - name: Leader
+>    desc: Mister Boss gives his allies advantage on attack rolls if he is within 5 ft. of them and their target.
+>    attack_bonus: 0
+>actions:
+>  - name: Multiattack
+>    desc: Mister Boss makes two melee attacks.
+>    attack_bonus: 0
+>  - name: Battle hammer
+>    desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) bludgeoning damage."
+>    attack_bonus: 4
+>    damage_dice: 1d6
+>    damage_bonus: 2
+>  - name: Heavy Crossbow
+>    desc: "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage."
+>    attack_bonus: 2
+>    damage_dice: 1d10
 >```
+>```encounter
+>name: Mister Boss
+>creatures:
+> - 1: Mister Boss, ally
+>```
+><br><br>
+
+<br>
+
+>[!quote|c-p-med] Mister Boss
+>All our lives are activity without meaning; we burrow rat-like into life and we squirm rat-like through it and rat-like we are flung into our graves at the end. Now and then, why shouldn’t we hear a voice of prophecy, or see a miracle play? Beneath the apparent sham and indignity of our rat-like lives, a humble pattern and meaning still applies! Come nearer, my good people, and watch what a little extra knowledge augurs for your lives! The Time Dragon sees before and beyond and within the truth of your sorry span of years here! Look at what it shows you!
+
+
 ## Profile
 
-**Mister Boss** is a dwarf who claims to be an immortal being sent to Oz to prevent the Grimmerie from returning to Earth. He owns and operates the Clock of the Time Dragon).
-
-
+**Mister Boss** is a dwarf who claims to be an immortal being sent to Oz to prevent the Grimmerie from returning to Earth. He owns and operates the Clock of the Time Dragon.

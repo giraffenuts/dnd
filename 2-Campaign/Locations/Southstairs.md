@@ -4,20 +4,27 @@ tags:
   - Category/Location/POI
   - Category/Location/Settlement/City
 type: Prison-City
-size: ""
+size: Large
 alignment: 
-government: ""
-leader: 
+government: Mayorship
+leader:
+  - "[[2-Campaign/Characters/NPCs/Chyde.md|Chyde]]"
 groups: 
-region:
-  - ""
+region: "[[Emerald City]]"
 population: 
-races: 
-religion: 
-view-count: 2
+races:
+  - Humans
+  - Animals
+  - Dwarves
+  - Elves
+religion:
+  - "[[1-The Land of Oz/Religion/Unionism.md|Unionism]]"
+  - "[[1-The Land of Oz/Religion/Pleasure Faith.md|Pleasure Faith]]"
+  - "[[1-The Land of Oz/Religion/Lurlinism.md|Lurlinism]]"
+view-count: 3
 notable-NPCs:
   - "[[2-Campaign/Characters/NPCs/Nor Tigelaar.md|Nor Tigelaar]]"
-affluence: '""'
+affluence: Low
 ---
 
 > [!infobox|wfit]+
@@ -71,11 +78,13 @@ affluence: '""'
 - Black market
 #### Hive Ward
 - The slums
-#### Mayor's Ward
+#### Under-Mayor's Ward
 - 
 ### Prison District
 
 #### Watchman's Ward
+- 
+#### The Cages
 - 
 #### Outer Ward
 - 

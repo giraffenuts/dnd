@@ -14,5 +14,14 @@
       ],
       "key": "Q"
     }
+  ],
+  "folder-notes:insert-folder-overview-fn": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "O"
+    }
   ]
 }

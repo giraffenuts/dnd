@@ -1,6 +1,7 @@
 ---
 creatureSearch: ""
-characterFilter:
+characterFilter: ""
+locationFilter: South
 ---
 > [!cards|dataview]
 > ```dataview
@@ -22,7 +23,7 @@ characterFilter:
 > 	file.mtime AS "Modified"
 > FROM "2-Campaign/Sessions"
 > SORT file.mtime desc
-> LIMIT 1
+> LIMIT 2
 > ```
 
 # Buttons
@@ -54,6 +55,21 @@ characterFilter:
 >>LIMIT 6
 >>```
 
+# Locations
+
+>[!column|dataview 3]+ Search Locations
+> Search: `INPUT[text:locationFilter]`
+> 
+>>[!cards|dvl no-strong] 
+>> <br>
+>>
+>>```dataview
+>>LIST WITHOUT ID file.link + "<br>" + file.mtime
+>>FROM "1-The Land of Oz/Places" OR "2-Campaign/Locations"
+>>WHERE contains(lower(file.name), lower(this.locationFilter)) OR contains(lower(file.aliases), lower(this.locationFilter)) AND file.name != "Locations" AND file.name != "Places"
+>>SORT file.name asc
+>>LIMIT 6
+>>```
 
 
 ```dataviewjs

@@ -1,4 +1,6 @@
 ---
+tags:
+  - Category/Religion
 view-count: 2
 ---
 

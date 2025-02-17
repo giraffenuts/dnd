@@ -5,6 +5,7 @@
     "tags": "tags",
     "population": "text",
     "races": "multitext",
-    "religion": "multitext"
+    "religion": "multitext",
+    "AssociatedGroup": "multitext"
   }
 }

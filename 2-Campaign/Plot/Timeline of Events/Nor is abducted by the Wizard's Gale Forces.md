@@ -5,6 +5,6 @@ timelines:
   - nor
   - general
   - pre-campaign
-view-count: 1
+view-count: 2
 ---
 Nor (age 17) is kidnapped by the Wizard’s Gale Force led by Commander Cherrystone, the rest of the Tigelaar family is killed.

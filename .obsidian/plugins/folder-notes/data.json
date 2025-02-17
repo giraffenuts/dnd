@@ -31,7 +31,7 @@
       "folder",
       "markdown"
     ],
-    "style": "list",
+    "style": "explorer",
     "disableFileTag": false,
     "sortBy": "name",
     "sortByAsc": true,
@@ -48,7 +48,7 @@
     "explorer": true,
     "path": false
   },
-  "settingsTab": "general",
+  "settingsTab": "folder_overview",
   "supportedFileTypes": [
     "md",
     "canvas"

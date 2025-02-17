@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b18f7e87ed958a07",
+        "id": "f246002ce472638f",
         "type": "tabs",
         "children": [
           {
-            "id": "d7d341ae52c6a546",
+            "id": "18121ff6ab2e674a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,48 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Home"
-            }
-          },
-          {
-            "id": "be5aaf1a78c1c54f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-Campaign/Plot/Timeline of Events/Nor is abducted by the Wizard's Gale Forces.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Nor is abducted by the Wizard's Gale Forces"
-            }
-          },
-          {
-            "id": "77803d2f63715087",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-Campaign/Characters/NPCs/Mister Boss.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Mister Boss"
-            }
-          },
-          {
-            "id": "be48725b7285186d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mister Boss.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Mister Boss"
             }
           }
         ]
@@ -83,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Category/Location/Settlement",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -244,7 +202,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3cc940792077272f",
+            "id": "7c6a1b9aef29feca",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -293,7 +251,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 454.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -319,33 +277,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d679bed21868d4f",
+  "active": "18121ff6ab2e674a",
   "lastOpenFiles": [
-    "2-Campaign/Sessions/Session Resources",
-    "2-Campaign/Plot/Timeline of Events/Timeline of Events.md",
+    "2-Campaign/Sessions/Session 3/Session 3 Notes.md",
+    "z_Templates/Template - Session Notes.md",
+    "2-Campaign/Characters/NPCs/Chyde.md",
     "0-DM Toolkit/Home.md",
-    "2-Campaign/Plot/Events/Timeline of Events.md",
-    "2-Campaign/Plot/Events/Events.md",
-    "2-Campaign/Plot/Plot.md",
-    "2-Campaign/Locations/Locations.md",
-    "2-Campaign/Items/Items.md",
+    "2-Campaign/Characters/NPCs/Emperor Shell.md",
     "0-DM Toolkit/Session Toolkit.md",
-    "2-Campaign/Plot/Timeline of Events/Liir deserts the Home Guard.md",
-    "2-Campaign/Plot/Timeline of Events/Nor is abducted by the Wizard's Gale Forces.md",
     "2-Campaign/Characters/NPCs/Mister Boss.md",
-    "1-The Land of Oz/Characters/Trism bon Cavalish (Wicked Wiki).md",
-    "2-Campaign/Plot/Timeline of Events",
-    "Mister Boss.md",
-    "1-The Land of Oz/Religion/Tik-Tokism.md",
-    "1-The Land of Oz/Religion/Unionism.md",
-    "1-The Land of Oz/Religion/Pleasure Faith.md",
-    "1-The Land of Oz/Religion/Lurlinism.md",
-    "1-The Land of Oz/Source Material/Maguire, Gregory - The Wicked Years [Complete Collection].pdf",
-    "2-Campaign/Characters/Characters.md",
+    "2-Campaign/Sessions/Session 2/Session 2 Notes.md",
+    "2-Campaign/Locations/Southstairs.md",
+    "2-Campaign/Locations/Emerald City.md",
+    "2-Campaign/Characters/NPCs/Nor Tigelaar.md",
+    "z_Assets/img/Maps/EmeraldCityMap.jpg",
     "z_Templates/Template - NPC.md",
+    "z_Assets/PDFs/Spell Sheets/Sorcerer Spell Sheet (flattened).pdf",
+    "z_Assets/PDFs/Spell Sheets/Bard Spell Sheet (flattened).pdf",
+    "1-The Land of Oz/Characters/Nor Tigelaar (Wicked Wiki).md",
+    "2-Campaign/Plot/Timeline of Events/Nor is abducted by the Wizard's Gale Forces.md",
+    "ImagePlaceholder.png.md",
+    "z_Assets/img/NPCs/MisterBossProfilePortrait.png",
+    "z_Templates/TemplateMagicItem.md",
+    "Mister Boss.md",
+    "3-Compendium/books/monster-manual-2025/4-monster-lists.md",
+    "1-The Land of Oz/Religion/Pleasure Faith.md",
+    "1-The Land of Oz/Religion/Tik-Tokism.md",
+    "2-Campaign/Plot/Timeline of Events/Timeline of Events.md",
+    "z_Templates/Template - Location.md",
+    "2-Campaign/Sessions/Session 3/Session 3.md",
+    "2-Campaign/Sessions/Session 3",
+    "2-Campaign/Sessions/Session 4/Session 4 Notes.md",
+    "2-Campaign/Sessions/Session 4",
+    "2-Campaign/Sessions/Session 4/NewSessionNotes 1.md",
+    "2-Campaign/Sessions/4/NewSessionNotes.md",
+    "2-Campaign/Sessions/4",
+    "2-Campaign/Sessions/Session Resources",
+    "2-Campaign/Plot/Timeline of Events",
+    "1-The Land of Oz/Source Material/Maguire, Gregory - The Wicked Years [Complete Collection].pdf",
     "z_Assets/img/Maps/map_of_oz_by_ron_guyatt-d6vzajn.jpg",
     "2-Campaign/Maps/map_of_oz_letter.pdf",
-    "2-Campaign/Maps/The Land of Oz.md",
     "z_Assets/img/Maps/OzMapNovels.jpg",
     "z_Assets/img/Maps/map_of_oz_letter.jpg",
     "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_small.jpg",
@@ -353,20 +324,7 @@
     "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_large.jpg",
     "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_small.jpg",
     "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_corrected_large.jpg",
-    "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_large.jpg",
-    "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_corrected_small.jpg",
     "z_Assets/img/Maps/complete_set_oz_maps",
-    "z_Templates/Template - Location.md",
-    "z_Assets/img/Maps",
-    "z_Assets/img/Locations",
-    "z_Assets/img/NPCs",
-    "2-Campaign/Sessions/Session 3 Notes.md",
-    "2-Campaign/Characters/NPCs/Emperor Shell.md",
-    "2-Campaign/Characters/NPCs/Nor Tigelaar.md",
-    "1-The Land of Oz/Characters/Mister Boss (Wicked Wiki).md",
-    "New Text Document.txt",
-    "z_Templates/5_Meta Bind",
-    "z_Assets/PDFs/Spell Sheets/Artificer Spell Sheet (flattened).pdf",
     "0-DM Toolkit/Session Board.canvas",
     "Campaign Settings/Oz/Campaign/Sessions/Session 1/Session 1.canvas",
     "Untitled.canvas"
