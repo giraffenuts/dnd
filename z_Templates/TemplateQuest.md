@@ -10,7 +10,7 @@ questLookEarned:
 NoteIcon: quest
 obsidianUIMode: preview
 tags:
-  - Category/Capmaign/Quest
+  - Category/Campaign/Quest
 ---
 <% await tp.file.move("/2-Campaign/Quests/" + tp.file.title) %>
 <%*

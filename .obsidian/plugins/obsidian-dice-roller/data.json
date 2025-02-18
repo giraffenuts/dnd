@@ -1,12 +1,12 @@
 {
-  "position": "RIGHT",
+  "position": "LEFT",
   "showFudgeIcon": false,
   "rollLinksForTags": false,
   "copyContentButton": true,
   "customFormulas": [],
   "displayFormulaForMod": true,
   "displayResultsInline": false,
-  "displayFormulaAfter": false,
+  "displayFormulaAfter": true,
   "escapeDiceMod": true,
   "signed": false,
   "displayLookupRoll": true,
@@ -27,7 +27,7 @@
   "displayAsSymbols": false,
   "displayAsEmbed": true,
   "round": "None",
-  "initialDisplay": "Roll",
+  "initialDisplay": "None",
   "icons": [
     {
       "id": "dice-roller-d4",
