@@ -1,16 +1,12 @@
-<%*
-const hasTitle = !tp.file.title.startsWith("NewSessionNotes");
-let title;
-if (!hasTitle) {
-    title = await tp.system.prompt("Session Number");
-    await tp.file.move("/2-Campaign/Sessions/" + "Session " + title + "/" + tp.file.title);
-    await tp.file.rename("Session " + title + " Notes");
-} else {
-    title = tp.file.title;
-    await tp.file.move("/2-Campaign/Sessions/" + "Session " + title + "/" + tp.file.title);
-}
-_%>
-
+---
+view-count: 1
+tags:
+  - Category/Journal/SessionNotes
+session-date: February-23-2025
+session-number: 4
+items:
+  - "[[2-Campaign/Items/Locksmith's Wand.md|Locksmith's Wand]]"
+---
 **Date**: `INPUT[datePicker:session-date]` **\|** **Session Number**: `INPUT[number(class(meta-bind-tiny-width),placeholder(#)):session-number]`
 # Session Prep
 ## Characters  
@@ -21,7 +17,7 @@ _%>
 
 **Scraps** - *she/her* (Julia). Construct artificer, age ~6. Spellcaster, utility, defense; mid HP, high AC. 
 
-**Siegfried "Fried" Salt** - *they/them* (Asha). Human bard. Spellcaster, utility, healer; low HP, mid AC. 
+**Siegfried "Fried" Salt** - *they/he/she* (Asha). Human bard, age ~35. Spellcaster, utility, healer; low HP, mid AC. 
 ## Strong Start  
   
 Description of your strong start.  
@@ -184,9 +180,21 @@ Description of your strong start.
 ## Potential Encounters  
 
 ```encounter-table
-name: 
+name: Emerald Palace, Palace Guards
 party: Oz
-creatures: []
+creatures: [2 Guard,Scout,Acolyte,"Mister Boss, ally"]
+---
+name: Wizard's Study, Gargoyle
+party: Oz
+creatures: [2 Gargoyle]
+---
+name: Southstairs, Watchmen
+party: Oz
+creatures: [3 Clockwork Watchman]
+---
+name: Southstairs, Death Dogs
+party: Oz
+creatures: [2 Death Dog]
 ```
 
 `BUTTON[insert-encounter,remove-encounter]`
@@ -196,8 +204,7 @@ creatures: []
 
 ## Potential Items  
 `INPUT[inlineListSuggester(optionQuery(#Category/Item)):items]`
-<!--
-<item-desc>`VIEW[### {items[0]}][text(renderMarkdown)]`
+`VIEW[### {items[0]}][text(renderMarkdown)]`
 - [ ] Found
 ###### Importance
 - 
@@ -210,6 +217,7 @@ creatures: []
 ###### Who?
 - 
 
+<!--
 <item-desc>`VIEW[### {items[1]}][text(renderMarkdown)]`
 - [ ] Found
 ###### Importance

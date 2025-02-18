@@ -1,6 +1,6 @@
 ---
 tags:
-  - Category/SessionNote
+  - Category/Journal/SessionNotes
 session-number: 3
 session-date: February-16-2025
 locations:
@@ -11,7 +11,7 @@ npcs:
   - "[[2-Campaign/Characters/NPCs/Nor Tigelaar.md|Nor Tigelaar]]"
   - "[[2-Campaign/Characters/NPCs/Chyde.md|Chyde]]"
 items: 
-view-count: 3
+view-count: 5
 ---
 **Date**: `INPUT[datePicker:session-date]` **\|** **Session Number**: `INPUT[number(class(meta-bind-tiny-width)):session-number]`
 # Session Prep
@@ -324,12 +324,6 @@ The first layer of the under-city is often referred to as the =='Free District'=
 
 <br>
 
-```encounter-table
-name:
-party: 
-creatures:
-  - 
-```
 
 ## Potential Items  
 `INPUT[inlineListSuggester(optionQuery(#Category/Item)):items]`
@@ -436,6 +430,32 @@ creatures:
 # Session Notes
 ## What happened?
 
+- The party entered the gates of the Emerald City and briefly looked around
+	- **Merle** saw a wall in an ally graffitied with "ELPHABA LIVES"
+- **Fried** leads the party to the traveling Clock of the Time Dragon in the city center, just outside Merchant Square
+- The dwarf that **Fried** points out as **Mister Boss** is taking stage; the party listens to his introduction and plan to catch him after his exit
+- **Fried** and **Merle** follow the dwarf backstage and ask him for help infiltrating Southstairs
+- After **Fried** and **Merle** explain they were sent by **Brrr** and are on a mission to find the Grimmerie, **Mister Boss** takes them behind the stage and informs them of three potential routes to enter Southstairs
+	1. Commit a crime serious enough to be arrested by the Home Guard and lowered into Southstairs
+		- This is the most direct route to the prison district but could take time to be processed and would involve being locked up
+	2. Infiltrate the Emerald Palace and find the hidden staircase in the Wizard's study
+		- This would take the party to the Vaults in the Upper District, but would require significant stealth and could be dangerous if they are found out
+	3. Brave the abandoned entrance to the Coal Creek mines
+		- This is the lowest profile option, but it is the least direct and doesn't guarantee passage into the under-city proper
+- While **Fried** and **Merle** question **Mister Boss**, **Maylo** starts to get bored of the show. Realizing **Scraps** is enjoying herself, **Maylo** decides to go steal some popcorn for her
+- **Maylo** gets caught stealing popcorn and is apprehended by the company of the Clock's bouncers and taken to **Mister Boss** for further instruction. **Scraps** witnesses this unfold and pays the popcorn vendor for the stolen merchandise, then joins the rest of the party behind the stage.
+- **Merle** explains that **Maylo** and **Scraps** are both with them, convincing **Mister Boss** to release **Maylo** and forget the whole debacle
+- Now that the whole party is together again, **Merle** and **Mister Boss** catch **Maylo** and **Scraps** up to speed
+- **Mister Boss** gives the party all the details he has on the Wizards study and even offers his personal assistance. He admits that he is not too familiar with the old entrance to the abandoned Coal Creek mine, but reassures them that, while highly dangerous, it wouldn't require the high level of discretion and stealth that the Palace route would.
+- As **Mister Boss** has to take stage once again, **Merle** guides the party to a library to gather information on their potential options.
+- The party finds historical documentation of Coal Creek, but fails to obtain a complete and updated map of the mineshafts.
+- **Scraps** looks for information on the Emperor himself, only to find puff pieces and blatant propaganda.
+- **Maylo** browses an encyclopedia and comes across her home village, Bengda. The description mentions a significant fire in the village nearly a decade ago, but attributes it to negligence and mismanagement on the village's part. This enrages **Maylo** and she has to sit and meditate to calm herself.
+- **Scraps** notices **Maylo's** dismay and attempts to distract her by suggesting the party find a pub for food and drink.
+- The party stumbles upon Primoz's Pub. They eat and **Merle** and **Fried** end up getting wasted, while **Maylo** has her first beers and experiences her very first buzz. **Scraps** remains totally sober, playing darts or chatting with the rest of the party
+- After the pub, **Fried** takes the party back to the Clock of the Time Dragon to catch their midnight performance, which **Fried** is supposed to be a part of
+- The party enjoys some more drinks and an exotic and burlesque performance.
+- **Maylo** catches the eye of one of the performers, Cynthia, and they end up sharing an intimate moment during the show. After the show **Fried** swoops in as **Maylo's** wingwoman, telling Cynthia that they don't have enough room for **Maylo** in their tent tonight. Cynthia offers to let **Maylo** stay in her tent for the night. The party isn't too sure what all happened that night, but in the morning**Maylo** was in the best mood they had seen from her all journey.
 
 ## Where did the party leave off?
 - The party just woke up after a late night out drinking and watching the Clock of the Time Dragon's midnight adult show.

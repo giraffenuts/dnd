@@ -136,7 +136,7 @@
       "actions": [
         {
           "type": "templaterCreateNote",
-          "templateFile": "z_Templates/TemplateMagicItem.md",
+          "templateFile": "z_Templates/Template - Item.md",
           "fileName": "NewItem",
           "folderPath": "2-Campaign/Items",
           "openNote": true
@@ -266,15 +266,34 @@
       "class": "",
       "cssStyle": "",
       "backgroundImage": "",
-      "tooltip": "Insert another encounter into the table",
+      "tooltip": "Insert a new encounter into the table",
       "id": "insert-encounter",
       "hidden": false,
       "actions": [
         {
           "type": "regexpReplaceInNote",
-          "regexp": "[`]{3}encounter-table\\n([^`]*)[`]{3}",
-          "replacement": "```encounter-table\n$1---\nname: \nparty: Oz\ncreatures:\n  - \n```",
-          "regexpFlags": "gm"
+          "regexp": "(`{3}encounter-table.*?)`{3}",
+          "replacement": "$1---\nname: \nparty: Oz\ncreatures: []\n```",
+          "regexpFlags": "gms"
+        }
+      ]
+    },
+    {
+      "label": "Remove Last Encounter",
+      "icon": "minus",
+      "style": "destructive",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Remove the last encounter from the table",
+      "id": "remove-encounter",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "regexpReplaceInNote",
+          "regexp": "(^.*)---\n(.*\\]\n)",
+          "replacement": "$1",
+          "regexpFlags": "gms"
         }
       ]
     }

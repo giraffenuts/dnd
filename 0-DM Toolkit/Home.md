@@ -2,6 +2,8 @@
 creatureSearch: ""
 characterFilter: ""
 locationFilter: ""
+itemFilter: ""
+creatureFilter: ""
 ---
 > [!cards|dataview]
 > ```dataview
@@ -22,8 +24,9 @@ locationFilter: ""
 > 	"**"+ file.link + "**" AS "Column Name",
 > 	file.mtime AS "Modified"
 > FROM "2-Campaign/Sessions"
+> WHERE file.name != "Sessions"
 > SORT file.mtime desc
-> LIMIT 2
+> LIMIT 3
 > ```
 
 # Buttons
@@ -45,7 +48,6 @@ locationFilter: ""
 > Search: `INPUT[text:characterFilter]`
 > 
 >>[!cards|dvl no-strong] 
->> <br>
 >>
 >>```dataview
 >>LIST WITHOUT ID file.link + "<br>" + file.mtime
@@ -61,7 +63,6 @@ locationFilter: ""
 > Search: `INPUT[text:locationFilter]`
 > 
 >>[!cards|dvl no-strong] 
->> <br>
 >>
 >>```dataview
 >>LIST WITHOUT ID file.link + "<br>" + file.mtime
@@ -71,11 +72,32 @@ locationFilter: ""
 >>LIMIT 6
 >>```
 
+# Items
 
-```dataviewjs
-const bestiary = FantasyStatblocks.getBestiary();
-const creatures = bestiary.values();
-const monstersAsDvArray = dv.array(Array.from(bestiary.values())).filter(m => m.name).where(m => m.name.toLowerCase().contains('mage'))
+>[!column|dataview 3]+ Search Locations
+> Search: `INPUT[text:itemFilter]`
+> 
+>>[!cards|dvl no-strong] 
+>>
+>>```dataview
+>>LIST WITHOUT ID file.link + "<br>" + file.mtime
+>>FROM "2-Campaign/Items"
+>>WHERE contains(lower(file.name), lower(this.itemFilter)) OR contains(lower(file.aliases), lower(this.itemFilter)) AND file.name != "Items"
+>>SORT file.name asc
+>>LIMIT 6
+>>```
 
-dv.table(["Name", "HP", "AC", "CR"], monstersAsDvArray.map((monster) => [dv.fileLink(monster.name), monster.hp, monster.ac, monster.cr]))
-```
+# Bestiary
+<br>
+
+>[!recite|center wfull no-icon]- Creatures
+> Search: `INPUT[text:creatureFilter]`
+> 
+> ```dataviewjs
+> const bestiary = FantasyStatblocks.getBestiary();
+> const creatures = bestiary.values();
+> const monstersAsDvArray = dv.array(Array.from(bestiary.values())).filter(m => m.name).where(m => m.name.toLowerCase().contains(dv.current().creatureFilter)).limit(100)
+> 
+> dv.table(["Name", "HP", "AC", "CR"], monstersAsDvArray.map((monster) => [dv.fileLink(monster.name), monster.hp, monster.ac, monster.cr]))
+> ```
+
