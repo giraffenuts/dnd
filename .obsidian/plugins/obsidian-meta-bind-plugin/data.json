@@ -291,8 +291,8 @@
       "actions": [
         {
           "type": "regexpReplaceInNote",
-          "regexp": "(^.*)---\n(.*\\]\n)",
-          "replacement": "$1",
+          "regexp": "(^.*)---\n(.*\\]\n```)",
+          "replacement": "$1```",
           "regexpFlags": "gms"
         }
       ]

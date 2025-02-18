@@ -31,7 +31,7 @@ creatureFilter: ""
 
 # Buttons
 
->[!column| 2]
+>[!column| 2 no-title]
 >>[!blank] 
 >>###### Characters: `BUTTON[new-npc,new-pc]`
 >>###### Locations: `BUTTON[new-location]`

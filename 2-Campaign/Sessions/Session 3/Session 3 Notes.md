@@ -10,8 +10,8 @@ npcs:
   - "[[2-Campaign/Characters/NPCs/Mister Boss.md|Mister Boss]]"
   - "[[2-Campaign/Characters/NPCs/Nor Tigelaar.md|Nor Tigelaar]]"
   - "[[2-Campaign/Characters/NPCs/Chyde.md|Chyde]]"
-items: 
-view-count: 5
+items: []
+view-count: 1
 ---
 **Date**: `INPUT[datePicker:session-date]` **\|** **Session Number**: `INPUT[number(class(meta-bind-tiny-width)):session-number]`
 # Session Prep

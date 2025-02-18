@@ -197,6 +197,7 @@ party: Oz
 creatures: [2 Death Dog]
 ```
 
+
 `BUTTON[insert-encounter,remove-encounter]`
 
 
@@ -206,69 +207,79 @@ creatures: [2 Death Dog]
 `INPUT[inlineListSuggester(optionQuery(#Category/Item)):items]`
 `VIEW[### {items[0]}][text(renderMarkdown)]`
 - [ ] Found
-###### Importance
-- 
-###### What?
-- 
-###### Where?
-- 
-###### How?
-- 
-###### Who?
-- 
+> [!columns|2 no-title]
+>> [!blank]
+>> ###### Importance
+>> - 
+>> ###### Who?
+>> - 
+>
+>> [!blank]
+>>###### Where?
+>> - 
+>> ###### How?
+>> - 
 
 <!--
 <item-desc>`VIEW[### {items[1]}][text(renderMarkdown)]`
 - [ ] Found
-###### Importance
-- 
-###### What?
-- 
-###### Where?
-- 
-###### How?
-- 
-###### Who?
-- 
+> [!columns|2 no-title]
+>> [!blank]
+>> ###### Importance
+>> - 
+>> ###### Who?
+>> - 
+>
+>> [!blank]
+>>###### Where?
+>> - 
+>> ###### How?
+>> - 
 
 <item-desc>`VIEW[### {items[2]}][text(renderMarkdown)]`
 - [ ] Found
-###### Importance
-- 
-###### What?
-- 
-###### Where?
-- 
-###### How?
-- 
-###### Who?
-- 
+> [!columns|2 no-title]
+>> [!blank]
+>> ###### Importance
+>> - 
+>> ###### Who?
+>> - 
+>
+>> [!blank]
+>>###### Where?
+>> - 
+>> ###### How?
+>> - 
 
 <item-desc>`VIEW[### {items[3]}][text(renderMarkdown)]`
 - [ ] Found
-###### Importance
-- 
-###### What?
-- 
-###### Where?
-- 
-###### How?
-- 
-###### Who?
-- 
+> [!columns|2 no-title]
+>> [!blank]
+>> ###### Importance
+>> - 
+>> ###### Who?
+>> - 
+>
+>> [!blank]
+>>###### Where?
+>> - 
+>> ###### How?
+>> - 
 
 <item-desc>`VIEW[### {items[4]}][text(renderMarkdown)]`
 - [ ] Found
-###### Importance
-- 
-###### What?
-- 
-###### Where?
-- 
-###### How?
-- 
-###### Who?
-- 
+> [!columns|2 no-title]
+>> [!blank]
+>> ###### Importance
+>> - 
+>> ###### Who?
+>> - 
+>
+>> [!blank]
+>>###### Where?
+>> - 
+>> ###### How?
+>> - 
 --->
 
 <br>
