@@ -144,6 +144,139 @@
       ],
       "icon": "shield-plus",
       "tooltip": "Create a new item"
+    },
+    {
+      "label": "Insert new location description",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "insert-location-desc",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "regexpReplaceInNote",
+          "regexp": "<!--[^`\\[]*(`.*[^`]*)<location-desc>",
+          "replacement": "$1<!--\n<location-desc>",
+          "regexpFlags": "gm"
+        }
+      ]
+    },
+    {
+      "label": "Remove last location description",
+      "icon": "x",
+      "style": "destructive",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "remove-location-desc",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "regexpReplaceInNote",
+          "regexp": "(`{1}[V].*[^`]*)\\n<!--",
+          "replacement": "<!--\n<location-desc>$1",
+          "regexpFlags": "gm"
+        }
+      ]
+    },
+    {
+      "label": "Insert new NPC description",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "insert-npc-desc",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "regexpReplaceInNote",
+          "regexp": "<!--[^`\\[]*(`.*[^`]*)<npc-desc>",
+          "replacement": "$1<!--\n<npc-desc>",
+          "regexpFlags": "gm"
+        }
+      ]
+    },
+    {
+      "label": "Remove last NPC description",
+      "icon": "x",
+      "style": "destructive",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "remove-npc-desc",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "regexpReplaceInNote",
+          "regexp": "(`{1}[V].*[^`]*)\\n<!--",
+          "replacement": "<!--\n<npc-desc>$1",
+          "regexpFlags": "gm"
+        }
+      ]
+    },
+    {
+      "label": "Insert new item description",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "insert-item-desc",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "regexpReplaceInNote",
+          "regexp": "<!--[^`\\[]*(`.*[^`]*)<item-desc>",
+          "replacement": "$1<!--\n<item-desc>",
+          "regexpFlags": "gm"
+        }
+      ]
+    },
+    {
+      "label": "Remove last item description",
+      "icon": "x",
+      "style": "destructive",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "remove-item-desc",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "regexpReplaceInNote",
+          "regexp": "(`{1}[V].*[^`]*)\\n<!--",
+          "replacement": "<!--\n<item-desc>$1",
+          "regexpFlags": "gm"
+        }
+      ]
+    },
+    {
+      "label": "Insert New Encounter",
+      "icon": "plus",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Insert another encounter into the table",
+      "id": "insert-encounter",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "regexpReplaceInNote",
+          "regexp": "[`]{3}encounter-table\\n([^`]*)[`]{3}",
+          "replacement": "```encounter-table\n$1---\nname: \nparty: Oz\ncreatures:\n  - \n```",
+          "regexpFlags": "gm"
+        }
+      ]
     }
   ],
   "excludedFolders": [

@@ -1,69 +1,61 @@
 ---
 Tags:
   - Category/Character/NPC
-AssociatedGroup: 
+AssociatedGroup:
+  - Arjiki Clan
+  - Blacklung Brigade
 Gender: Female
 Race: 
 Age: 
 Class: 
 Alignment: 
+Religion: 
 Character-Role: 
-Character-Residence: 
-Character-Origin: 
+Character-Residence: "[[2-Campaign/Locations/Southstairs.md|Southstairs]]"
+Character-Origin: Kiamo Ko
 Vitality: 
 statblock: Commoner
-source-link: "[[1-The Land of Oz/Characters/Nor Tigelaar (Wicked Wiki).md|Nor Tigelaar (Wicked Wiki)]]"
-view-count: 2
-vitality: Healthy
+age: 32
+race: Human
+view-count: 1
+vitality: Injured
+alignment: Chaotic Neutral
+character-role: Guide, Informant, Sidekick
+class: Rogue
 ---
 
 
 
 # `=this.file.name`
 
-## Source
-`INPUT[suggester(optionQuery("1-The Land of Oz/Characters")):source-link]`
+Source: `INPUT[suggester(optionQuery("1-The Land of Oz/Characters")):source-link]`
 
-> [!infobox|right wfit]
+> [!infobox|wfit static embed clear-hr]+
 > # `=this.file.name`
-> ![[ImagePlaceholder.png|cover hsmall]]
+> `INPUT[imageSuggester(optionQuery("z_Assets/img/NPCs")):profileImage]`
 > [[ImagePlaceholder.png|Show To Players]]
 > ###### Basic Information
-> Type |  Stat |
+> Attribute |  Description |
 > ---|---|
-> Origin | `INPUT[suggester(optionQuery(#Category/Location/Settlement)):Character-Origin]` |
-> Residence | `INPUT[suggester(optionQuery(#Category/Location/Settlement)):Character-Residence]` |
-> Group  | `INPUT[inlineListSuggester(optionQuery(#Category/Group)):AssociatedGroup]`|
-> Faith  | `INPUT[inlineListSuggester(optionQuery(#Category/Religion)):Religion]`|
+> Origin | `INPUT[suggester(optionQuery(#Category/Location/Settlement), allowOther):Character-Origin]` |
+> Residence | `INPUT[suggester(optionQuery(#Category/Location/Settlement), allowOther):Character-Residence]` |
+> Group  | `INPUT[inlineListSuggester(optionQuery(#Category/Group), allowOther):AssociatedGroup]`|
+> Faith  | `INPUT[inlineListSuggester(optionQuery(#Category/Religion),option(Agnostic),option(Atheist),option(Other)):Religion]`|
 > Gender | `INPUT[inlineSelect(option(Male), option(Female), option(Nonbinary)):Gender]` |
-> Race | `INPUT[text:race]` |
-> Age | `INPUT[number:age]` |
-> Condition | `INPUT[inlineListSuggester(option(Blinded), option(Charmed), option(Deafened), option(Exhaustion), option(Frightened), option(Grappled), option(Incapacitated), option(Invisible), option(Paralyzed), option(Petrified), option(Poisoned), option(Prone), option(Restrained), option(Stunned), option(Unconscious)):condition]`  |
+> Race | `INPUT[text(class(meta-bind-med-width),placeholder(Race)):race]` |
+> Age | `INPUT[number(class(meta-bind-tiny-width),placeholder(Age)):age]` |
 > Vitality | `INPUT[inlineSelect(option(Healthy), option(Injured), option(Sick), option(Deceased)):vitality]` |
 > ###### Rules Info
-> Type |  Stat |
+> Attribute |  Description |
 > ---|---|
-> Alignment | `=this.alignment` |
-> Class | `=this.class` |
-> Character Role | `=this.character-role` |
-
-## Profile
-
-**\<Add description here\>**
-
-## Background Story
-
-\<Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\>
-<br><br><br>
-## Statblocks
-
-> [!infobox|center wfit]
+> Alignment | `INPUT[suggester(option(Lawful Good), option(Neutral Good), option(Chaotic Good), option(Lawful Neutral), option(True Neutral), option(Chaotic Neutral), option(Lawful Evil), option(Neutral Evil), option(Chaotic Evil)):alignment]` |
+> Class | `INPUT[suggester(option(Artificer), option(Barbarian), option(Bard), option(Cleric), option(Druid), option(Fighter), option(Monk), option(Paladin), option(Ranger), option(Rogue), option(Sorcerer), option(Warlock), option(Wizard), allowOther):class]` |
+> Character Role | `INPUT[text:character-role]` |
+> ## Statblocks
 > ```statblock
 > forceColumns: true
 > columns: 2
-> columnWidth: 425px
+> columnWidth: 250px
 > name: Nor Tigelaar
 > source: 5e SRD
 > size: Medium
@@ -112,19 +104,21 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 >     attack_bonus: 4
 >     damage_dice: 1d8
 >     damage_bonus: 2
-> monster: Scout
-> forceColumns: true
-> columns: 2
-> columnWidth: 425px
-> 
 > ```
-
-<br>
-
-> [!infobox|center wfull]
+> 
 >```encounter-table
->name: Nor Tigelaar
+>name: Individual
 >creatures:
 > - 1: Nor Tigelaar, ally
 >```
+## Profile
 
+**Ilianora** (formerly known as **Princess** **Nor Tigelaar**) is the youngest child of Fiyero and Sarima and the half-sister of Liir. Throughout the novels, she has been a tribal princess of the Arjiki Clan in The Vinkus, a political prisoner of the Wizard, and a member of the company of the Clock of the Time Dragon, under the apprenticeship of Mister Boss.
+
+She had a sharp face. Her white hair was lustrous and thick, no sign of yellowing. Indeed, noted Brrr, Ilianora had good skin tone, only a few wrinkles around the eyes. Her chin hadn’t sunk and her color was high. Ruby plum.
+## Relationships
+`INPUT[suggester(optionQuery("1-The Land of Oz/Characters"),optionQuery("2-Campaign/Characters"),allowOther):relationships]`
+## History
+### Childhood
+>[!quote] Wicked: the Life and Times of the Wicked Witch of the West
+>Nor, long-legged and thumb-sucking at nine years old, still needed a lap to crawl into before going to sleep... Nor had a delicate lisp and she said wunning in the wain for running in the rain. She befriended stones and candles and blades of grass that grew against all logic in the cracks of the coping stones around the windows.

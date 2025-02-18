@@ -1,11 +1,12 @@
 ---
-tags: 
+tags:
   - Category/Character/NPC
 alias:
-  - "Nor"
-  - "Nor Tigelaar"
-  - "Princess Nor Tigelaar"
-  - "Ilianora"
+  - Nor
+  - Nor Tigelaar
+  - Princess Nor Tigelaar
+  - Ilianora
+view-count: 2
 ---
 # Nor Tigelaar
 

@@ -1,5 +1,5 @@
 {
-  "syncFolderName": true,
+  "syncFolderName": false,
   "ctrlKey": true,
   "altKey": false,
   "hideFolderNote": true,
@@ -31,7 +31,7 @@
       "folder",
       "markdown"
     ],
-    "style": "list",
+    "style": "explorer",
     "disableFileTag": false,
     "sortBy": "name",
     "sortByAsc": true,
@@ -46,9 +46,9 @@
   "frontMatterTitle": {
     "enabled": false,
     "explorer": true,
-    "path": true
+    "path": false
   },
-  "settingsTab": "general",
+  "settingsTab": "folder_overview",
   "supportedFileTypes": [
     "md",
     "canvas"

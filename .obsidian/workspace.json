@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "a77985342a52e897",
+        "id": "2f783327a333570a",
         "type": "tabs",
         "children": [
           {
-            "id": "19ef0fd43205730c",
+            "id": "41a0281ed3521748",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -18,33 +17,18 @@
                 "mode": "preview",
                 "source": true
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Home"
             }
           },
           {
-            "id": "ec181a3d86b13aee",
+            "id": "013813c9fa3e085d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-Campaign/Locations/Southstairs (temp).md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Southstairs (temp)"
-            }
-          },
-          {
-            "id": "df89ba3b0bfe6434",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-Campaign/Sessions/Session 3 Notes.md",
-                "mode": "preview",
+                "file": "2-Campaign/Sessions/Session 3/Session 3 Notes.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -52,21 +36,49 @@
             }
           },
           {
-            "id": "5aee372690d64c2e",
+            "id": "01bee5d00bc6fc15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-Campaign/Locations/Southstairs.md",
-                "mode": "source",
+                "file": "2-Campaign/Characters/NPCs/Chyde.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Southstairs"
+              "title": "Chyde"
+            }
+          },
+          {
+            "id": "5c89c75d9deda74e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Campaign/Characters/NPCs/Emperor Shell.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Emperor Shell"
+            }
+          },
+          {
+            "id": "506ecfcfee6a336d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0-Scratch Notes/Untitled.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -86,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Category/Location",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,19 +187,7 @@
             }
           },
           {
-            "id": "4ed5da12a972ebde",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "2-Campaign/Sessions/Session 3 Notes.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Session 3 Notes"
-            }
-          },
-          {
-            "id": "0110d91f34fa41d7",
+            "id": "28990ad8f9425a04",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -206,8 +206,8 @@
             "state": {
               "type": "view-count",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "eye",
+              "title": "View count"
             }
           },
           {
@@ -243,7 +243,8 @@
               "title": "Outgoing links from Session 3 Notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -258,7 +259,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3cc940792077272f",
+            "id": "7c6a1b9aef29feca",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -307,7 +308,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 454.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -333,55 +334,55 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5aee372690d64c2e",
+  "active": "506ecfcfee6a336d",
   "lastOpenFiles": [
-    "2-Campaign/Sessions/Session 3 Notes.md",
-    "2-Campaign/Locations/Southstairs.md",
-    "0-DM Toolkit/Home.md",
-    "2-Campaign/Locations/Southstairs (temp).md",
-    "1-The Land of Oz/Characters/Elphaba Thropp (Wicked Wiki).md",
-    "2-Campaign/Characters/Characters.md",
-    "2-Campaign/Locations/Kiamo Ko.md",
-    "2-Campaign/Locations/Emerald City.md",
-    "2-Campaign/Locations/Bengda.md",
-    "New Text Document.txt",
-    "1-The Land of Oz/Characters/Characters.md",
-    "0-Scratch Notes/Style Tester.md",
-    "2-Campaign/Characters/NPCs/Trism bon Cavalish.md",
-    "z_Templates/Template - NPC.md",
-    "2-Campaign/Characters/NPCs/NPCs.md",
-    "2-Campaign/Characters/NPCs/Nor Tigelaar.md",
     "2-Campaign/Characters/NPCs/Emperor Shell.md",
-    "1-The Land of Oz/Religion/Lurlinism.md",
-    "1-The Land of Oz/Religion/Unionism.md",
-    "1-The Land of Oz/Religion/Tik-Tokism.md",
-    "2-Campaign/Characters/PCs/PCs.md",
-    "2-Campaign/Sessions/Session 1/Session 1 Notes.md",
-    "z_Templates/5_Meta Bind/Button - New Secret.md",
-    "z_Templates/Template - Session Notes.md",
-    "z_Templates/5_Meta Bind/Button - Insert location.md",
-    "0-DM Toolkit/Side Board.md",
+    "2-Campaign/Characters/NPCs/Chyde.md",
+    "0-DM Toolkit/Home.md",
+    "2-Campaign/Sessions/Session 3/Session 3 Notes.md",
+    "0-Scratch Notes/Untitled.md",
+    "2-Campaign/Locations/Emerald Palace.md",
+    "2-Campaign/Characters/Characters.md",
+    "2-Campaign/Locations/Locations.md",
+    "2-Campaign/Locations/Southstairs.md",
+    "2-Campaign/Locations/Kiamo Ko.md",
     "z_Templates/Template - Location.md",
-    "z_Templates/5_Meta Bind",
-    "z_Assets/PDFs/Spell Sheets/Artificer Spell Sheet (flattened).pdf",
-    "z_Assets/PDFs/Spell Sheets/Sorcerer Spell Sheet.pdf",
-    "z_Assets/PDFs/MPMB PDF Templates/MPMB's Character Record Sheet (v13.2.3) [All]/MPMB's Character Sheet (added sources).pdf",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20240917_PHB_Dunamancy_Companion.js",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20240917_PHB.js",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main/pub_20241112_DMG.js",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts/all_WotC_published.min.js",
-    "z_Assets/PDFs/MPMB PDF Templates/Scripts/2024-PHB-main",
+    "z_Templates/Template - Session Notes.md",
+    "0-DM Toolkit/Session Toolkit.md",
+    "2-Campaign/Characters/NPCs/Mister Boss.md",
+    "2-Campaign/Sessions/Session 2/Session 2 Notes.md",
+    "2-Campaign/Locations/Emerald City.md",
+    "2-Campaign/Characters/NPCs/Nor Tigelaar.md",
+    "z_Assets/img/Maps/EmeraldCityMap.jpg",
+    "z_Templates/Template - NPC.md",
+    "z_Assets/PDFs/Spell Sheets/Sorcerer Spell Sheet (flattened).pdf",
+    "z_Assets/PDFs/Spell Sheets/Bard Spell Sheet (flattened).pdf",
+    "1-The Land of Oz/Characters/Nor Tigelaar (Wicked Wiki).md",
+    "2-Campaign/Plot/Timeline of Events/Nor is abducted by the Wizard's Gale Forces.md",
+    "ImagePlaceholder.png.md",
+    "z_Assets/img/NPCs/MisterBossProfilePortrait.png",
+    "z_Templates/TemplateMagicItem.md",
+    "Mister Boss.md",
+    "3-Compendium/books/monster-manual-2025/4-monster-lists.md",
+    "1-The Land of Oz/Religion/Pleasure Faith.md",
+    "1-The Land of Oz/Religion/Tik-Tokism.md",
+    "2-Campaign/Sessions/Session 3",
+    "2-Campaign/Sessions/Session 4",
+    "2-Campaign/Sessions/4",
+    "2-Campaign/Sessions/Session Resources",
+    "2-Campaign/Plot/Timeline of Events",
+    "1-The Land of Oz/Source Material/Maguire, Gregory - The Wicked Years [Complete Collection].pdf",
+    "z_Assets/img/Maps/map_of_oz_by_ron_guyatt-d6vzajn.jpg",
+    "2-Campaign/Maps/map_of_oz_letter.pdf",
+    "z_Assets/img/Maps/OzMapNovels.jpg",
+    "z_Assets/img/Maps/map_of_oz_letter.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_small.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_corrected_small.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_large.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_small.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_corrected_large.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps",
     "0-DM Toolkit/Session Board.canvas",
-    "z_Assets/img/Scratchboard Art/Andrew Davidson/adn0170_dragons.jpg",
-    "z_Assets/img/Scratchboard Art/Andrew Davidson/adn01661.jpg",
-    "z_Assets/img/Scratchboard Art/Andrew Davidson/adn0219.jpg",
-    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-055-2009-earl-1.jpg",
-    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-2-853x1200.jpg",
-    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-015-2011-1.jpg",
-    "z_Assets/img/Scratchboard Art/Kent Barton/Kent-Barton-001-2008-1188x1200.jpg",
-    "z_Assets/img/Scratchboard Art/Bruce Hutchison/Flower-Garden.jpg",
-    "z_Assets/img/Scratchboard Art/Bruce Hutchison/Bruce-Hutchison-034-Train-1-1200x847.jpg",
-    "z_Assets/img/Scratchboard Art/Douglas Smith/Douglas-Smith-267-DS-Lightbulb-1.jpg",
     "Campaign Settings/Oz/Campaign/Sessions/Session 1/Session 1.canvas",
     "Untitled.canvas"
   ]

@@ -155,7 +155,7 @@
       ]
     },
     {
-      "path": "0-Scratch Notes/Untitled.md",
+      "path": "0-Scratch Notes/Meta Bind Dynamic List Elements.md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 3,
       "openLogs": [
@@ -251,8 +251,8 @@
     },
     {
       "path": "2-Campaign/Characters/Characters.md",
-      "uniqueDaysOpened": 5,
-      "totalTimesOpened": 37,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 41,
       "openLogs": [
         {
           "timestampMillis": 1739220144143
@@ -364,6 +364,18 @@
         },
         {
           "timestampMillis": 1739495062634
+        },
+        {
+          "timestampMillis": 1739645930032
+        },
+        {
+          "timestampMillis": 1739803120498
+        },
+        {
+          "timestampMillis": 1739803325572
+        },
+        {
+          "timestampMillis": 1739803721625
         }
       ]
     },
@@ -398,18 +410,45 @@
     },
     {
       "path": "1-The Land of Oz/Characters/Nor Tigelaar (Wicked Wiki).md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1739255246178
+        },
+        {
+          "timestampMillis": 1739728423503
+        },
+        {
+          "timestampMillis": 1739728534497
+        },
+        {
+          "timestampMillis": 1739728539061
+        },
+        {
+          "timestampMillis": 1739729978373
+        },
+        {
+          "timestampMillis": 1739730798532
+        },
+        {
+          "timestampMillis": 1739732052961
+        },
+        {
+          "timestampMillis": 1739732102887
+        },
+        {
+          "timestampMillis": 1739732830996
+        },
+        {
+          "timestampMillis": 1739733135534
         }
       ]
     },
     {
       "path": "1-The Land of Oz/Characters/Trism bon Cavalish (Wicked Wiki).md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1739255259477
@@ -419,6 +458,12 @@
         },
         {
           "timestampMillis": 1739257850459
+        },
+        {
+          "timestampMillis": 1739647466162
+        },
+        {
+          "timestampMillis": 1739648034548
         }
       ]
     },
@@ -433,43 +478,9 @@
       ]
     },
     {
-      "path": "2-Campaign/Locations/Southstairs (temp).md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 9,
-      "openLogs": [
-        {
-          "timestampMillis": 1739255427490
-        },
-        {
-          "timestampMillis": 1739295085702
-        },
-        {
-          "timestampMillis": 1739295108653
-        },
-        {
-          "timestampMillis": 1739299662141
-        },
-        {
-          "timestampMillis": 1739494025073
-        },
-        {
-          "timestampMillis": 1739494087472
-        },
-        {
-          "timestampMillis": 1739495249187
-        },
-        {
-          "timestampMillis": 1739495277936
-        },
-        {
-          "timestampMillis": 1739495282430
-        }
-      ]
-    },
-    {
       "path": "2-Campaign/Locations/Emerald City.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 17,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 20,
       "openLogs": [
         {
           "timestampMillis": 1739256566207
@@ -521,6 +532,15 @@
         },
         {
           "timestampMillis": 1739494076630
+        },
+        {
+          "timestampMillis": 1739740426055
+        },
+        {
+          "timestampMillis": 1739740448193
+        },
+        {
+          "timestampMillis": 1739740457288
         }
       ]
     },
@@ -620,8 +640,8 @@
     },
     {
       "path": "2-Campaign/Characters/NPCs/Emperor Shell.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 18,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 26,
       "openLogs": [
         {
           "timestampMillis": 1739260090052
@@ -676,85 +696,30 @@
         },
         {
           "timestampMillis": 1739404036390
-        }
-      ]
-    },
-    {
-      "path": "2-Campaign/Characters/NPCs/Nor Tigelaar.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 24,
-      "openLogs": [
-        {
-          "timestampMillis": 1739261182397
         },
         {
-          "timestampMillis": 1739261462807
+          "timestampMillis": 1739639919023
         },
         {
-          "timestampMillis": 1739261479919
+          "timestampMillis": 1739765244996
         },
         {
-          "timestampMillis": 1739261496872
+          "timestampMillis": 1739804497012
         },
         {
-          "timestampMillis": 1739261508562
+          "timestampMillis": 1739804523274
         },
         {
-          "timestampMillis": 1739261533049
+          "timestampMillis": 1739804576754
         },
         {
-          "timestampMillis": 1739261680252
+          "timestampMillis": 1739804594745
         },
         {
-          "timestampMillis": 1739263126589
+          "timestampMillis": 1739805534692
         },
         {
-          "timestampMillis": 1739291656002
-        },
-        {
-          "timestampMillis": 1739291659232
-        },
-        {
-          "timestampMillis": 1739291750104
-        },
-        {
-          "timestampMillis": 1739291766839
-        },
-        {
-          "timestampMillis": 1739291816099
-        },
-        {
-          "timestampMillis": 1739292002649
-        },
-        {
-          "timestampMillis": 1739292012953
-        },
-        {
-          "timestampMillis": 1739293125423
-        },
-        {
-          "timestampMillis": 1739293149160
-        },
-        {
-          "timestampMillis": 1739293345418
-        },
-        {
-          "timestampMillis": 1739293525138
-        },
-        {
-          "timestampMillis": 1739293617868
-        },
-        {
-          "timestampMillis": 1739293632060
-        },
-        {
-          "timestampMillis": 1739343269015
-        },
-        {
-          "timestampMillis": 1739343599185
-        },
-        {
-          "timestampMillis": 1739404048650
+          "timestampMillis": 1739805554889
         }
       ]
     },
@@ -864,8 +829,8 @@
     },
     {
       "path": "2-Campaign/Locations/Bengda.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 4,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1739295080024
@@ -878,16 +843,112 @@
         },
         {
           "timestampMillis": 1739494019753
+        },
+        {
+          "timestampMillis": 1739571622987
         }
       ]
     },
     {
       "path": "2-Campaign/Sessions/Session 2/Session 2 Notes.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 32,
       "openLogs": [
         {
           "timestampMillis": 1739304176257
+        },
+        {
+          "timestampMillis": 1739733291905
+        },
+        {
+          "timestampMillis": 1739733391386
+        },
+        {
+          "timestampMillis": 1739733410051
+        },
+        {
+          "timestampMillis": 1739733434692
+        },
+        {
+          "timestampMillis": 1739733444125
+        },
+        {
+          "timestampMillis": 1739733637831
+        },
+        {
+          "timestampMillis": 1739734467585
+        },
+        {
+          "timestampMillis": 1739734765335
+        },
+        {
+          "timestampMillis": 1739734766609
+        },
+        {
+          "timestampMillis": 1739734953862
+        },
+        {
+          "timestampMillis": 1739737304388
+        },
+        {
+          "timestampMillis": 1739737318347
+        },
+        {
+          "timestampMillis": 1739737361226
+        },
+        {
+          "timestampMillis": 1739737363272
+        },
+        {
+          "timestampMillis": 1739737408824
+        },
+        {
+          "timestampMillis": 1739737415143
+        },
+        {
+          "timestampMillis": 1739737916818
+        },
+        {
+          "timestampMillis": 1739737919853
+        },
+        {
+          "timestampMillis": 1739738174391
+        },
+        {
+          "timestampMillis": 1739740291566
+        },
+        {
+          "timestampMillis": 1739740521724
+        },
+        {
+          "timestampMillis": 1739740558516
+        },
+        {
+          "timestampMillis": 1739740740462
+        },
+        {
+          "timestampMillis": 1739740761415
+        },
+        {
+          "timestampMillis": 1739741417473
+        },
+        {
+          "timestampMillis": 1739741626088
+        },
+        {
+          "timestampMillis": 1739741635965
+        },
+        {
+          "timestampMillis": 1739741666056
+        },
+        {
+          "timestampMillis": 1739742193161
+        },
+        {
+          "timestampMillis": 1739742986605
+        },
+        {
+          "timestampMillis": 1739744111412
         }
       ]
     },
@@ -965,152 +1026,37 @@
       ]
     },
     {
-      "path": "2-Campaign/Sessions/Session 3 Notes.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 42,
-      "openLogs": [
-        {
-          "timestampMillis": 1739345670400
-        },
-        {
-          "timestampMillis": 1739345727870
-        },
-        {
-          "timestampMillis": 1739345772027
-        },
-        {
-          "timestampMillis": 1739346339826
-        },
-        {
-          "timestampMillis": 1739346470434
-        },
-        {
-          "timestampMillis": 1739346495490
-        },
-        {
-          "timestampMillis": 1739346502430
-        },
-        {
-          "timestampMillis": 1739346597434
-        },
-        {
-          "timestampMillis": 1739346601173
-        },
-        {
-          "timestampMillis": 1739346626449
-        },
-        {
-          "timestampMillis": 1739346638114
-        },
-        {
-          "timestampMillis": 1739346641261
-        },
-        {
-          "timestampMillis": 1739347327759
-        },
-        {
-          "timestampMillis": 1739347415145
-        },
-        {
-          "timestampMillis": 1739347526939
-        },
-        {
-          "timestampMillis": 1739347838964
-        },
-        {
-          "timestampMillis": 1739347894419
-        },
-        {
-          "timestampMillis": 1739347968584
-        },
-        {
-          "timestampMillis": 1739348015766
-        },
-        {
-          "timestampMillis": 1739348051907
-        },
-        {
-          "timestampMillis": 1739348153765
-        },
-        {
-          "timestampMillis": 1739348200355
-        },
-        {
-          "timestampMillis": 1739348243575
-        },
-        {
-          "timestampMillis": 1739348269476
-        },
-        {
-          "timestampMillis": 1739348299059
-        },
-        {
-          "timestampMillis": 1739348345085
-        },
-        {
-          "timestampMillis": 1739348354692
-        },
-        {
-          "timestampMillis": 1739348727704
-        },
-        {
-          "timestampMillis": 1739348784203
-        },
-        {
-          "timestampMillis": 1739349000478
-        },
-        {
-          "timestampMillis": 1739350874615
-        },
-        {
-          "timestampMillis": 1739350876550
-        },
-        {
-          "timestampMillis": 1739401887120
-        },
-        {
-          "timestampMillis": 1739401889931
-        },
-        {
-          "timestampMillis": 1739485664810
-        },
-        {
-          "timestampMillis": 1739495175397
-        },
-        {
-          "timestampMillis": 1739495175427
-        },
-        {
-          "timestampMillis": 1739495221630
-        },
-        {
-          "timestampMillis": 1739495280413
-        },
-        {
-          "timestampMillis": 1739495289079
-        },
-        {
-          "timestampMillis": 1739498502633
-        },
-        {
-          "timestampMillis": 1739498849578
-        }
-      ]
-    },
-    {
       "path": "1-The Land of Oz/Religion/Tik-Tokism.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1739402092714
+        },
+        {
+          "timestampMillis": 1739646670803
+        },
+        {
+          "timestampMillis": 1739646708871
+        },
+        {
+          "timestampMillis": 1739646728359
+        },
+        {
+          "timestampMillis": 1739646907270
+        },
+        {
+          "timestampMillis": 1739646923125
+        },
+        {
+          "timestampMillis": 1739661460641
         }
       ]
     },
     {
       "path": "1-The Land of Oz/Religion/Lurlinism.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1739402215744
@@ -1123,26 +1069,44 @@
         },
         {
           "timestampMillis": 1739403937361
+        },
+        {
+          "timestampMillis": 1739646706972
+        },
+        {
+          "timestampMillis": 1739646711476
+        },
+        {
+          "timestampMillis": 1739646813987
+        },
+        {
+          "timestampMillis": 1739646877482
         }
       ]
     },
     {
       "path": "1-The Land of Oz/Religion/Unionism.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1739402218581
         },
         {
           "timestampMillis": 1739403935321
+        },
+        {
+          "timestampMillis": 1739646740857
+        },
+        {
+          "timestampMillis": 1739646908243
         }
       ]
     },
     {
       "path": "2-Campaign/Locations/Kiamo Ko.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1739494069178
@@ -1152,13 +1116,25 @@
         },
         {
           "timestampMillis": 1739494090980
+        },
+        {
+          "timestampMillis": 1739803425138
+        },
+        {
+          "timestampMillis": 1739803433295
+        },
+        {
+          "timestampMillis": 1739803450954
+        },
+        {
+          "timestampMillis": 1739803498289
         }
       ]
     },
     {
       "path": "2-Campaign/Locations/Southstairs.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 64,
       "openLogs": [
         {
           "timestampMillis": 1739495433863
@@ -1174,6 +1150,1144 @@
         },
         {
           "timestampMillis": 1739498851158
+        },
+        {
+          "timestampMillis": 1739503784453
+        },
+        {
+          "timestampMillis": 1739504450639
+        },
+        {
+          "timestampMillis": 1739505647484
+        },
+        {
+          "timestampMillis": 1739507280933
+        },
+        {
+          "timestampMillis": 1739507313561
+        },
+        {
+          "timestampMillis": 1739507319047
+        },
+        {
+          "timestampMillis": 1739507371265
+        },
+        {
+          "timestampMillis": 1739507380843
+        },
+        {
+          "timestampMillis": 1739507873829
+        },
+        {
+          "timestampMillis": 1739507878557
+        },
+        {
+          "timestampMillis": 1739507882235
+        },
+        {
+          "timestampMillis": 1739507977295
+        },
+        {
+          "timestampMillis": 1739508176052
+        },
+        {
+          "timestampMillis": 1739508806809
+        },
+        {
+          "timestampMillis": 1739508809115
+        },
+        {
+          "timestampMillis": 1739510333414
+        },
+        {
+          "timestampMillis": 1739510389088
+        },
+        {
+          "timestampMillis": 1739570122782
+        },
+        {
+          "timestampMillis": 1739571099222
+        },
+        {
+          "timestampMillis": 1739571115927
+        },
+        {
+          "timestampMillis": 1739571173226
+        },
+        {
+          "timestampMillis": 1739571202234
+        },
+        {
+          "timestampMillis": 1739571208426
+        },
+        {
+          "timestampMillis": 1739571213217
+        },
+        {
+          "timestampMillis": 1739571243904
+        },
+        {
+          "timestampMillis": 1739571348591
+        },
+        {
+          "timestampMillis": 1739571516080
+        },
+        {
+          "timestampMillis": 1739571554146
+        },
+        {
+          "timestampMillis": 1739571580992
+        },
+        {
+          "timestampMillis": 1739571618598
+        },
+        {
+          "timestampMillis": 1739571819785
+        },
+        {
+          "timestampMillis": 1739572090275
+        },
+        {
+          "timestampMillis": 1739572159891
+        },
+        {
+          "timestampMillis": 1739572169240
+        },
+        {
+          "timestampMillis": 1739572482370
+        },
+        {
+          "timestampMillis": 1739572490976
+        },
+        {
+          "timestampMillis": 1739573504745
+        },
+        {
+          "timestampMillis": 1739575846821
+        },
+        {
+          "timestampMillis": 1739734932640
+        },
+        {
+          "timestampMillis": 1739737304935
+        },
+        {
+          "timestampMillis": 1739737362645
+        },
+        {
+          "timestampMillis": 1739737364054
+        },
+        {
+          "timestampMillis": 1739737411402
+        },
+        {
+          "timestampMillis": 1739737913911
+        },
+        {
+          "timestampMillis": 1739737919172
+        },
+        {
+          "timestampMillis": 1739737921313
+        },
+        {
+          "timestampMillis": 1739738149854
+        },
+        {
+          "timestampMillis": 1739738325144
+        },
+        {
+          "timestampMillis": 1739738327877
+        },
+        {
+          "timestampMillis": 1739740259769
+        },
+        {
+          "timestampMillis": 1739740283490
+        },
+        {
+          "timestampMillis": 1739740309960
+        },
+        {
+          "timestampMillis": 1739740416927
+        },
+        {
+          "timestampMillis": 1739740441511
+        },
+        {
+          "timestampMillis": 1739740451971
+        },
+        {
+          "timestampMillis": 1739740763658
+        },
+        {
+          "timestampMillis": 1739803426803
+        },
+        {
+          "timestampMillis": 1739803440250
+        },
+        {
+          "timestampMillis": 1739803499691
+        }
+      ]
+    },
+    {
+      "path": "1-The Land of Oz/Characters/Mister Boss (Wicked Wiki).md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 8,
+      "openLogs": [
+        {
+          "timestampMillis": 1739637905706
+        },
+        {
+          "timestampMillis": 1739637948662
+        },
+        {
+          "timestampMillis": 1739638080088
+        },
+        {
+          "timestampMillis": 1739638100799
+        },
+        {
+          "timestampMillis": 1739639131550
+        },
+        {
+          "timestampMillis": 1739639135498
+        },
+        {
+          "timestampMillis": 1739639165559
+        },
+        {
+          "timestampMillis": 1739639774410
+        }
+      ]
+    },
+    {
+      "path": "Mister Boss.md",
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 34,
+      "openLogs": [
+        {
+          "timestampMillis": 1739637986839
+        },
+        {
+          "timestampMillis": 1739637987675
+        },
+        {
+          "timestampMillis": 1739638043697
+        },
+        {
+          "timestampMillis": 1739638059162
+        },
+        {
+          "timestampMillis": 1739638081928
+        },
+        {
+          "timestampMillis": 1739638140258
+        },
+        {
+          "timestampMillis": 1739638145385
+        },
+        {
+          "timestampMillis": 1739638256787
+        },
+        {
+          "timestampMillis": 1739638266002
+        },
+        {
+          "timestampMillis": 1739638268349
+        },
+        {
+          "timestampMillis": 1739638284546
+        },
+        {
+          "timestampMillis": 1739638492744
+        },
+        {
+          "timestampMillis": 1739638542487
+        },
+        {
+          "timestampMillis": 1739639133296
+        },
+        {
+          "timestampMillis": 1739639147337
+        },
+        {
+          "timestampMillis": 1739639173044
+        },
+        {
+          "timestampMillis": 1739645923577
+        },
+        {
+          "timestampMillis": 1739645949901
+        },
+        {
+          "timestampMillis": 1739645962195
+        },
+        {
+          "timestampMillis": 1739645974282
+        },
+        {
+          "timestampMillis": 1739646004735
+        },
+        {
+          "timestampMillis": 1739646042098
+        },
+        {
+          "timestampMillis": 1739646531371
+        },
+        {
+          "timestampMillis": 1739646729185
+        },
+        {
+          "timestampMillis": 1739646771154
+        },
+        {
+          "timestampMillis": 1739646808871
+        },
+        {
+          "timestampMillis": 1739646812517
+        },
+        {
+          "timestampMillis": 1739646869774
+        },
+        {
+          "timestampMillis": 1739646894346
+        },
+        {
+          "timestampMillis": 1739646906165
+        },
+        {
+          "timestampMillis": 1739646937723
+        },
+        {
+          "timestampMillis": 1739656975843
+        },
+        {
+          "timestampMillis": 1739661427569
+        },
+        {
+          "timestampMillis": 1739661745210
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Maps/The Land of Oz.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1739645755716
+        },
+        {
+          "timestampMillis": 1739645757484
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Maps/map_of_oz_letter.pdf",
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1739645755622
+        },
+        {
+          "timestampMillis": 1739645756460
+        },
+        {
+          "timestampMillis": 1739645867020
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Characters/NPCs/Mister Boss.md",
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 56,
+      "openLogs": [
+        {
+          "timestampMillis": 1739645971400
+        },
+        {
+          "timestampMillis": 1739645975547
+        },
+        {
+          "timestampMillis": 1739646001767
+        },
+        {
+          "timestampMillis": 1739646012203
+        },
+        {
+          "timestampMillis": 1739646068212
+        },
+        {
+          "timestampMillis": 1739646122391
+        },
+        {
+          "timestampMillis": 1739647456716
+        },
+        {
+          "timestampMillis": 1739649206403
+        },
+        {
+          "timestampMillis": 1739649480460
+        },
+        {
+          "timestampMillis": 1739656974073
+        },
+        {
+          "timestampMillis": 1739657161188
+        },
+        {
+          "timestampMillis": 1739661338314
+        },
+        {
+          "timestampMillis": 1739661431110
+        },
+        {
+          "timestampMillis": 1739661487259
+        },
+        {
+          "timestampMillis": 1739661585562
+        },
+        {
+          "timestampMillis": 1739661648984
+        },
+        {
+          "timestampMillis": 1739661674832
+        },
+        {
+          "timestampMillis": 1739661751617
+        },
+        {
+          "timestampMillis": 1739661960522
+        },
+        {
+          "timestampMillis": 1739662002323
+        },
+        {
+          "timestampMillis": 1739662028504
+        },
+        {
+          "timestampMillis": 1739662802452
+        },
+        {
+          "timestampMillis": 1739663471636
+        },
+        {
+          "timestampMillis": 1739663477333
+        },
+        {
+          "timestampMillis": 1739663509562
+        },
+        {
+          "timestampMillis": 1739663520005
+        },
+        {
+          "timestampMillis": 1739665882744
+        },
+        {
+          "timestampMillis": 1739665894039
+        },
+        {
+          "timestampMillis": 1739715141503
+        },
+        {
+          "timestampMillis": 1739717829253
+        },
+        {
+          "timestampMillis": 1739717831037
+        },
+        {
+          "timestampMillis": 1739721703958
+        },
+        {
+          "timestampMillis": 1739722345684
+        },
+        {
+          "timestampMillis": 1739722725576
+        },
+        {
+          "timestampMillis": 1739722746195
+        },
+        {
+          "timestampMillis": 1739724553840
+        },
+        {
+          "timestampMillis": 1739726708895
+        },
+        {
+          "timestampMillis": 1739726743955
+        },
+        {
+          "timestampMillis": 1739727831322
+        },
+        {
+          "timestampMillis": 1739728054736
+        },
+        {
+          "timestampMillis": 1739728096995
+        },
+        {
+          "timestampMillis": 1739728203036
+        },
+        {
+          "timestampMillis": 1739728230311
+        },
+        {
+          "timestampMillis": 1739728232636
+        },
+        {
+          "timestampMillis": 1739728275683
+        },
+        {
+          "timestampMillis": 1739732832160
+        },
+        {
+          "timestampMillis": 1739737316195
+        },
+        {
+          "timestampMillis": 1739740415142
+        },
+        {
+          "timestampMillis": 1739746179446
+        },
+        {
+          "timestampMillis": 1739746179569
+        },
+        {
+          "timestampMillis": 1739746181394
+        },
+        {
+          "timestampMillis": 1739746191933
+        },
+        {
+          "timestampMillis": 1739746199486
+        },
+        {
+          "timestampMillis": 1739746261350
+        },
+        {
+          "timestampMillis": 1739757243456
+        },
+        {
+          "timestampMillis": 1739765103539
+        }
+      ]
+    },
+    {
+      "path": "1-The Land of Oz/Source Material/Maguire, Gregory - The Wicked Years [Complete Collection].pdf",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1739646120958
+        }
+      ]
+    },
+    {
+      "path": "1-The Land of Oz/Religion/Pleasure Faith.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 4,
+      "openLogs": [
+        {
+          "timestampMillis": 1739646779313
+        },
+        {
+          "timestampMillis": 1739646811338
+        },
+        {
+          "timestampMillis": 1739646895433
+        },
+        {
+          "timestampMillis": 1739661479959
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Plot/Timeline of Events/Liir deserts the Home Guard.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 11,
+      "openLogs": [
+        {
+          "timestampMillis": 1739648405400
+        },
+        {
+          "timestampMillis": 1739648439593
+        },
+        {
+          "timestampMillis": 1739648447373
+        },
+        {
+          "timestampMillis": 1739648578412
+        },
+        {
+          "timestampMillis": 1739648613448
+        },
+        {
+          "timestampMillis": 1739648634775
+        },
+        {
+          "timestampMillis": 1739648864471
+        },
+        {
+          "timestampMillis": 1739649051983
+        },
+        {
+          "timestampMillis": 1739649072123
+        },
+        {
+          "timestampMillis": 1739649217967
+        },
+        {
+          "timestampMillis": 1739649821526
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Plot/Timeline of Events/Nor is abducted by the Wizard's Gale Forces.md",
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 18,
+      "openLogs": [
+        {
+          "timestampMillis": 1739648553144
+        },
+        {
+          "timestampMillis": 1739648584414
+        },
+        {
+          "timestampMillis": 1739649008754
+        },
+        {
+          "timestampMillis": 1739649061394
+        },
+        {
+          "timestampMillis": 1739649336653
+        },
+        {
+          "timestampMillis": 1739649482059
+        },
+        {
+          "timestampMillis": 1739649488945
+        },
+        {
+          "timestampMillis": 1739661336783
+        },
+        {
+          "timestampMillis": 1739661338954
+        },
+        {
+          "timestampMillis": 1739661365556
+        },
+        {
+          "timestampMillis": 1739661959933
+        },
+        {
+          "timestampMillis": 1739662800057
+        },
+        {
+          "timestampMillis": 1739665881361
+        },
+        {
+          "timestampMillis": 1739665893727
+        },
+        {
+          "timestampMillis": 1739666390537
+        },
+        {
+          "timestampMillis": 1739666396824
+        },
+        {
+          "timestampMillis": 1739728526517
+        },
+        {
+          "timestampMillis": 1739728541625
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Items/Items.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1739650603333
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Locations/Locations.md",
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 9,
+      "openLogs": [
+        {
+          "timestampMillis": 1739650613668
+        },
+        {
+          "timestampMillis": 1739650623372
+        },
+        {
+          "timestampMillis": 1739650656081
+        },
+        {
+          "timestampMillis": 1739803107790
+        },
+        {
+          "timestampMillis": 1739803127180
+        },
+        {
+          "timestampMillis": 1739803338338
+        },
+        {
+          "timestampMillis": 1739803353626
+        },
+        {
+          "timestampMillis": 1739803425928
+        },
+        {
+          "timestampMillis": 1739803504933
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Plot/Timeline of Events/Timeline of Events.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1739651308461
+        },
+        {
+          "timestampMillis": 1739651315577
+        },
+        {
+          "timestampMillis": 1739661356060
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Sessions/Session 3/Session 3 Notes.md",
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 102,
+      "openLogs": [
+        {
+          "timestampMillis": 1739661325479
+        },
+        {
+          "timestampMillis": 1739661952973
+        },
+        {
+          "timestampMillis": 1739665883236
+        },
+        {
+          "timestampMillis": 1739666392805
+        },
+        {
+          "timestampMillis": 1739666397265
+        },
+        {
+          "timestampMillis": 1739666402780
+        },
+        {
+          "timestampMillis": 1739715107569
+        },
+        {
+          "timestampMillis": 1739715142790
+        },
+        {
+          "timestampMillis": 1739717828879
+        },
+        {
+          "timestampMillis": 1739717951950
+        },
+        {
+          "timestampMillis": 1739722344623
+        },
+        {
+          "timestampMillis": 1739722741502
+        },
+        {
+          "timestampMillis": 1739722743514
+        },
+        {
+          "timestampMillis": 1739722748708
+        },
+        {
+          "timestampMillis": 1739724560232
+        },
+        {
+          "timestampMillis": 1739726714666
+        },
+        {
+          "timestampMillis": 1739726747954
+        },
+        {
+          "timestampMillis": 1739727834099
+        },
+        {
+          "timestampMillis": 1739727939275
+        },
+        {
+          "timestampMillis": 1739727967580
+        },
+        {
+          "timestampMillis": 1739728022603
+        },
+        {
+          "timestampMillis": 1739728024759
+        },
+        {
+          "timestampMillis": 1739728146377
+        },
+        {
+          "timestampMillis": 1739728231356
+        },
+        {
+          "timestampMillis": 1739728535837
+        },
+        {
+          "timestampMillis": 1739728537516
+        },
+        {
+          "timestampMillis": 1739728540661
+        },
+        {
+          "timestampMillis": 1739729930189
+        },
+        {
+          "timestampMillis": 1739729983807
+        },
+        {
+          "timestampMillis": 1739731117087
+        },
+        {
+          "timestampMillis": 1739731131928
+        },
+        {
+          "timestampMillis": 1739732083334
+        },
+        {
+          "timestampMillis": 1739733230336
+        },
+        {
+          "timestampMillis": 1739733366432
+        },
+        {
+          "timestampMillis": 1739733398329
+        },
+        {
+          "timestampMillis": 1739733416801
+        },
+        {
+          "timestampMillis": 1739733438878
+        },
+        {
+          "timestampMillis": 1739733449829
+        },
+        {
+          "timestampMillis": 1739733646113
+        },
+        {
+          "timestampMillis": 1739734471653
+        },
+        {
+          "timestampMillis": 1739734773532
+        },
+        {
+          "timestampMillis": 1739734955846
+        },
+        {
+          "timestampMillis": 1739735001968
+        },
+        {
+          "timestampMillis": 1739735007276
+        },
+        {
+          "timestampMillis": 1739737310048
+        },
+        {
+          "timestampMillis": 1739737315657
+        },
+        {
+          "timestampMillis": 1739737317835
+        },
+        {
+          "timestampMillis": 1739737318764
+        },
+        {
+          "timestampMillis": 1739737361932
+        },
+        {
+          "timestampMillis": 1739737365808
+        },
+        {
+          "timestampMillis": 1739737414543
+        },
+        {
+          "timestampMillis": 1739737415795
+        },
+        {
+          "timestampMillis": 1739737922734
+        },
+        {
+          "timestampMillis": 1739738175460
+        },
+        {
+          "timestampMillis": 1739738317566
+        },
+        {
+          "timestampMillis": 1739738326860
+        },
+        {
+          "timestampMillis": 1739740205566
+        },
+        {
+          "timestampMillis": 1739740236819
+        },
+        {
+          "timestampMillis": 1739740260209
+        },
+        {
+          "timestampMillis": 1739740291972
+        },
+        {
+          "timestampMillis": 1739740421470
+        },
+        {
+          "timestampMillis": 1739740520646
+        },
+        {
+          "timestampMillis": 1739740531107
+        },
+        {
+          "timestampMillis": 1739740562984
+        },
+        {
+          "timestampMillis": 1739740759721
+        },
+        {
+          "timestampMillis": 1739740762461
+        },
+        {
+          "timestampMillis": 1739740767961
+        },
+        {
+          "timestampMillis": 1739740836191
+        },
+        {
+          "timestampMillis": 1739740840187
+        },
+        {
+          "timestampMillis": 1739741417952
+        },
+        {
+          "timestampMillis": 1739741522963
+        },
+        {
+          "timestampMillis": 1739741636748
+        },
+        {
+          "timestampMillis": 1739741667665
+        },
+        {
+          "timestampMillis": 1739742202230
+        },
+        {
+          "timestampMillis": 1739743005702
+        },
+        {
+          "timestampMillis": 1739744110921
+        },
+        {
+          "timestampMillis": 1739744661223
+        },
+        {
+          "timestampMillis": 1739744666146
+        },
+        {
+          "timestampMillis": 1739744827169
+        },
+        {
+          "timestampMillis": 1739746178059
+        },
+        {
+          "timestampMillis": 1739746180516
+        },
+        {
+          "timestampMillis": 1739746191379
+        },
+        {
+          "timestampMillis": 1739746199050
+        },
+        {
+          "timestampMillis": 1739746259222
+        },
+        {
+          "timestampMillis": 1739746881761
+        },
+        {
+          "timestampMillis": 1739749124779
+        },
+        {
+          "timestampMillis": 1739752834070
+        },
+        {
+          "timestampMillis": 1739757243100
+        },
+        {
+          "timestampMillis": 1739763086096
+        },
+        {
+          "timestampMillis": 1739764962983
+        },
+        {
+          "timestampMillis": 1739764974860
+        },
+        {
+          "timestampMillis": 1739765104016
+        },
+        {
+          "timestampMillis": 1739765131802
+        },
+        {
+          "timestampMillis": 1739765150782
+        },
+        {
+          "timestampMillis": 1739765205495
+        },
+        {
+          "timestampMillis": 1739766454737
+        },
+        {
+          "timestampMillis": 1739766944708
+        },
+        {
+          "timestampMillis": 1739766958885
+        },
+        {
+          "timestampMillis": 1739801650650
+        },
+        {
+          "timestampMillis": 1739801653576
+        },
+        {
+          "timestampMillis": 1739804643712
+        },
+        {
+          "timestampMillis": 1739805548152
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Characters/NPCs/Nor Tigelaar.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 20,
+      "openLogs": [
+        {
+          "timestampMillis": 1739728154690
+        },
+        {
+          "timestampMillis": 1739728185774
+        },
+        {
+          "timestampMillis": 1739728208616
+        },
+        {
+          "timestampMillis": 1739728233706
+        },
+        {
+          "timestampMillis": 1739728277012
+        },
+        {
+          "timestampMillis": 1739728429539
+        },
+        {
+          "timestampMillis": 1739728542113
+        },
+        {
+          "timestampMillis": 1739728580455
+        },
+        {
+          "timestampMillis": 1739729931811
+        },
+        {
+          "timestampMillis": 1739729983020
+        },
+        {
+          "timestampMillis": 1739730797969
+        },
+        {
+          "timestampMillis": 1739730799739
+        },
+        {
+          "timestampMillis": 1739731130106
+        },
+        {
+          "timestampMillis": 1739732050417
+        },
+        {
+          "timestampMillis": 1739732084307
+        },
+        {
+          "timestampMillis": 1739732721035
+        },
+        {
+          "timestampMillis": 1739737310530
+        },
+        {
+          "timestampMillis": 1739737317463
+        },
+        {
+          "timestampMillis": 1739737414189
+        },
+        {
+          "timestampMillis": 1739740416355
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Characters/NPCs/Chyde.md",
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 8,
+      "openLogs": [
+        {
+          "timestampMillis": 1739733140086
+        },
+        {
+          "timestampMillis": 1739733146131
+        },
+        {
+          "timestampMillis": 1739765267501
+        },
+        {
+          "timestampMillis": 1739804515086
+        },
+        {
+          "timestampMillis": 1739804566660
+        },
+        {
+          "timestampMillis": 1739804590647
+        },
+        {
+          "timestampMillis": 1739804637013
+        },
+        {
+          "timestampMillis": 1739805551743
+        }
+      ]
+    },
+    {
+      "path": "2-Campaign/Locations/Emerald Palace.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1739803736625
+        },
+        {
+          "timestampMillis": 1739803750230
+        },
+        {
+          "timestampMillis": 1739804508978
         }
       ]
     }

@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "population": "text",
+    "races": "multitext",
+    "religion": "multitext",
+    "AssociatedGroup": "multitext"
+  }
+}

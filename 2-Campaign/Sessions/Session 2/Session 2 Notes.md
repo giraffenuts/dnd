@@ -1,3 +1,6 @@
+---
+view-count: 2
+---
 **Date**: February 04, 2025
 # Session Prep
 ## Characters  

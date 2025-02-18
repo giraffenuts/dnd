@@ -7,12 +7,14 @@ Race:
 Age: 
 Class: 
 Alignment: 
-Religion:
+Religion: 
 Character-Role: 
 Character-Residence: 
 Character-Origin: 
 Vitality: 
 statblock: Commoner
+age: 
+race: ""
 ---
 
 <% await tp.file.move("/2-Campaign/Characters/NPCs/" + tp.file.title) %>
@@ -31,49 +33,43 @@ _%>
 
 # `=this.file.name`
 
-## Source
-`INPUT[suggester(optionQuery("1-The Land of Oz/Characters")):source-link]`
+Source: `INPUT[suggester(optionQuery("1-The Land of Oz/Characters")):source-link]`
 
-## Profile
-
-**\<Add description here\>**
-
-> [!infobox|right wfit]
+> [!infobox|wfit static embed clear-hr]+
 > # `=this.file.name`
-> ![[ImagePlaceholder.png|cover hsmall]]
+> `INPUT[imageSuggester(optionQuery("z_Assets/img/NPCs")):profileImage]`
 > [[ImagePlaceholder.png|Show To Players]]
 > ###### Basic Information
-> Type |  Stat |
+> Attribute |  Description |
 > ---|---|
-> Origin | `INPUT[suggester(optionQuery(#Category/Location/Settlement)):Character-Origin]` |
-> Residence | `INPUT[suggester(optionQuery(#Category/Location/Settlement)):Character-Residence]` |
-> Group  | `INPUT[inlineListSuggester(optionQuery(#Category/Group)):AssociatedGroup]`|
-> Faith  | `INPUT[inlineListSuggester(optionQuery(#Category/Religion)):Religion]`|
+> Origin | `INPUT[suggester(optionQuery(#Category/Location/Settlement), allowOther):Character-Origin]` |
+> Residence | `INPUT[suggester(optionQuery(#Category/Location/Settlement), allowOther):Character-Residence]` |
+> Group  | `INPUT[inlineListSuggester(optionQuery(#Category/Group), allowOther):AssociatedGroup]`|
+> Faith  | `INPUT[inlineListSuggester(optionQuery(#Category/Religion),option(Agnostic),option(Atheist),option(Other)):Religion]`|
 > Gender | `INPUT[inlineSelect(option(Male), option(Female), option(Nonbinary)):Gender]` |
-> Race | `INPUT[text:race]` |
-> Age | `INPUT[number:age]` |
-> Condition | `INPUT[inlineListSuggester(option(Blinded), option(Charmed), option(Deafened), option(Exhaustion), option(Frightened), option(Grappled), option(Incapacitated), option(Invisible), option(Paralyzed), option(Petrified), option(Poisoned), option(Prone), option(Restrained), option(Stunned), option(Unconscious)):condition]`  |
+> Race | `INPUT[text(class(meta-bind-med-width),placeholder(Race)):race]` |
+> Age | `INPUT[number(class(meta-bind-tiny-width),placeholder(Age)):age]` |
 > Vitality | `INPUT[inlineSelect(option(Healthy), option(Injured), option(Sick), option(Deceased)):vitality]` |
 > ###### Rules Info
-> Type |  Stat |
+> Attribute |  Description |
 > ---|---|
-> Alignment | `=this.alignment` |
-> Class | `=this.class` |
-> Character Role | `=this.character-role` |
-
-> [!infobox|left wfit]
+> Alignment | `INPUT[suggester(option(Lawful Good), option(Neutral Good), option(Chaotic Good), option(Lawful Neutral), option(True Neutral), option(Chaotic Neutral), option(Lawful Evil), option(Neutral Evil), option(Chaotic Evil)):alignment]` |
+> Class | `INPUT[suggester(option(Artificer), option(Barbarian), option(Bard), option(Cleric), option(Druid), option(Fighter), option(Monk), option(Paladin), option(Ranger), option(Rogue), option(Sorcerer), option(Warlock), option(Wizard), allowOther):class]` |
+> Character Role | `INPUT[text:character-role]` |
+> ## Statblocks
 > ```statblock
 > name: NPC
 > monster: Commoner
 > columns: 1
-> columnWidth: 500px
+> columnWidth: 400px
 > ```
-<br><br><br><br>
-
-> [!infobox|center wfull]
+> 
 >```encounter-table
 >name: Individual
 >creatures:
 > - 1: Commoner
 >```
+## Profile
+
+**\<Add description here\>**
 

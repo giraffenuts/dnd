@@ -16,7 +16,7 @@ source-link: "[[1-The Land of Oz/Characters/Shell Thropp (Wicked Wiki).md|Shell 
 race: Human
 age: 55
 vitality: Healthy
-view-count: 2
+view-count: 5
 Religion:
   - "[[1-The Land of Oz/Religion/Unionism.md|Unionism]]"
 ---
@@ -32,18 +32,17 @@ Religion:
 
 > [!infobox|right wfit]
 > # `=this.file.name`
-> ![[ImagePlaceholder.png|cover hsmall]]
-> [[ImagePlaceholder.png|Show To Players]]
+> `INPUT[imageSuggester(optionQuery("z_Assets/img/NPCs")):profileImage]`
 > ###### Basic Information
 > Type |  Stat |
 > ---|---|
 > Origin | `INPUT[suggester(optionQuery(#Category/Location/Settlement)):Character-Origin]` |
 > Residence | `INPUT[suggester(optionQuery(#Category/Location/Settlement)):Character-Residence]` |
-> Group  | `INPUT[inlineListSuggester(optionQuery(#Category/Group)):AssociatedGroup]`|
+> Group  | `INPUT[inlineListSuggester(optionQuery(#Category/Group), allowOther):AssociatedGroup]`|
 > Faith  | `INPUT[inlineListSuggester(optionQuery(#Category/Religion)):Religion]`|
 > Gender | `INPUT[inlineSelect(option(Male), option(Female), option(Nonbinary)):Gender]` |
-> Race | `INPUT[text:race]` |
-> Age | `INPUT[number:age]` |
+> Race | `INPUT[text(class(meta-bind-med-width),placeholder(Race)):race]` |
+> Age | `INPUT[number(class(meta-bind-tiny-width),placeholder(Age)):age]` |
 > Condition | `INPUT[inlineListSuggester(option(Blinded), option(Charmed), option(Deafened), option(Exhaustion), option(Frightened), option(Grappled), option(Incapacitated), option(Invisible), option(Paralyzed), option(Petrified), option(Poisoned), option(Prone), option(Restrained), option(Stunned), option(Unconscious)):condition]`  |
 > Vitality | `INPUT[inlineSelect(option(Healthy), option(Injured), option(Sick), option(Deceased)):vitality]` |
 > ###### Rules Info
