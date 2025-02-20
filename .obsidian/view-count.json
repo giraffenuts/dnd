@@ -2290,7 +2290,7 @@
     {
       "path": "2-Campaign/Sessions/Session 4/Session 4 Notes.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 85,
+      "totalTimesOpened": 87,
       "openLogs": [
         {
           "timestampMillis": 1739904323155
@@ -2546,6 +2546,12 @@
         },
         {
           "timestampMillis": 1740034829554
+        },
+        {
+          "timestampMillis": 1740064671756
+        },
+        {
+          "timestampMillis": 1740064673786
         }
       ]
     },
@@ -2698,7 +2704,7 @@
     {
       "path": "2-Campaign/Characters/Characters.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 21,
+      "totalTimesOpened": 24,
       "openLogs": [
         {
           "timestampMillis": 1739989667408
@@ -2762,6 +2768,15 @@
         },
         {
           "timestampMillis": 1740034513225
+        },
+        {
+          "timestampMillis": 1740064768377
+        },
+        {
+          "timestampMillis": 1740064769337
+        },
+        {
+          "timestampMillis": 1740064774429
         }
       ]
     }
