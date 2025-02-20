@@ -2290,7 +2290,7 @@
     {
       "path": "2-Campaign/Sessions/Session 4/Session 4 Notes.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 85,
+      "totalTimesOpened": 87,
       "openLogs": [
         {
           "timestampMillis": 1739904323155
@@ -2546,6 +2546,12 @@
         },
         {
           "timestampMillis": 1740034829554
+        },
+        {
+          "timestampMillis": 1740070206791
+        },
+        {
+          "timestampMillis": 1740070209966
         }
       ]
     },
