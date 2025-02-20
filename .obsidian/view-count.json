@@ -2704,7 +2704,7 @@
     {
       "path": "2-Campaign/Characters/Characters.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 21,
+      "totalTimesOpened": 23,
       "openLogs": [
         {
           "timestampMillis": 1739989667408
@@ -2768,6 +2768,12 @@
         },
         {
           "timestampMillis": 1740034513225
+        },
+        {
+          "timestampMillis": 1740070389677
+        },
+        {
+          "timestampMillis": 1740070391930
         }
       ]
     }
