@@ -40,14 +40,8 @@ SORT file.name asc
 ## Popular
 >[!column]- All
 >>[!blank]
->>```dataview 
-TABLE WITHOUT ID 
-file.link AS "Characters",
-view-count AS "Days Viewed"
-FROM "2-Campaign/Characters" OR "1-The Land of Oz/Characters"
-WHERE file.name != "Characters" AND file.name != "NPCs" AND file.name != "PCs"
-SORT view-count DESC
-LIMIT 10
+>>```dataviewjs 
+const plugin = this.app.plugins.plugins["view-count"]; const cache = plugin.viewCountCache; dv.table(["Characters", "Days Viewed"], dv.pages('"2-Campaign/Characters" OR "1-The Land of Oz/Characters"').where(p => p.file.name != "Characters").where(p => p.file.name != "NPCs").where(p => p.file.name != "PCs").sort(p => cache.getViewCount(p.file), "desc").map(p => [p.file.link, cache.getViewCount(p.file)]) .slice(0,10) );
 >>```
 >
 >>[!blank]
@@ -57,14 +51,8 @@ const plugin = this.app.plugins.plugins["view-count"]; const cache = plugin.view
 
 >[!column]+ Campaign
 >>[!blank]
->>```dataview 
-TABLE WITHOUT ID 
-file.link AS "Characters",
-view-count AS "Days Viewed"
-FROM "2-Campaign/Characters"
-WHERE file.name != "Characters" AND file.name != "NPCs" AND file.name != "PCs"
-SORT view-count DESC
-LIMIT 10
+>>```dataviewjs 
+const plugin = this.app.plugins.plugins["view-count"]; const cache = plugin.viewCountCache; dv.table(["Characters", "Days Viewed"], dv.pages('"2-Campaign/Characters"').where(p => p.file.name != "Characters").where(p => p.file.name != "NPCs").where(p => p.file.name != "PCs").sort(p => cache.getViewCount(p.file), "desc").map(p => [p.file.link, cache.getViewCount(p.file)]) .slice(0,10) );
 >>```
 >
 >>[!blank]
@@ -74,14 +62,8 @@ const plugin = this.app.plugins.plugins["view-count"]; const cache = plugin.view
 
 >[!column]- Wiki
 >>[!blank]
->>```dataview 
-TABLE WITHOUT ID 
-file.link AS "Characters",
-view-count AS "Days Viewed"
-FROM "1-The Land of Oz/Characters"
-WHERE file.name != "Characters"
-SORT view-count DESC
-LIMIT 10
+>>```dataviewjs 
+const plugin = this.app.plugins.plugins["view-count"]; const cache = plugin.viewCountCache; dv.table(["Characters", "Days Viewed"], dv.pages('"1-The Land of Oz/Characters"').where(p => p.file.name != "Characters").sort(p => cache.getViewCount(p.file), "desc").map(p => [p.file.link, cache.getViewCount(p.file)]) .slice(0,10) );
 >>```
 >
 >>[!blank]
