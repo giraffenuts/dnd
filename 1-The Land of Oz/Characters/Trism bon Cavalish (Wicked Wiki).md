@@ -7,7 +7,6 @@ aliases:
   - Menacier bon Cavalish
   - Chief Dragon Master bon Cavalish
   - Dragonmaster bon Cavalish
-view-count: 2
 ---
 # Trism bon Cavalish
 **Trism bon Calavish** is a character primarily featured in _Son of a Witch_ and _Out of Oz_, though the character would later return in _The Witch of Maracoor._

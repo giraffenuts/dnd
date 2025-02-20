@@ -13,7 +13,6 @@ region: "[[Emerald City]]"
 population: ""
 races: 
 religion: 
-view-count: 1
 ---
 
 

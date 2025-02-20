@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
   - Category/Character/NPC
 alias:
   - Shell
@@ -14,7 +14,6 @@ alias:
   - Emperor Apostle of Oz
   - Emperor of Oz
   - His Sacredness
-view-count: 2
 ---
 # Sheltergod Thropp, the Emperor Apostle
 

@@ -1,5 +1,4 @@
 ---
-view-count: 1
 tags:
   - Category/Religion
 ---

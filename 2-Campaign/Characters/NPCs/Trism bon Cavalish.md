@@ -11,7 +11,6 @@ Character-Role:
 Character-Residence: "[[2-Campaign/Locations/Emerald City.md|Emerald City]]"
 Character-Origin: 
 Vitality: 
-view-count: 3
 source-link: "[[1-The Land of Oz/Characters/Trism bon Cavalish (Wicked Wiki).md|Trism bon Cavalish (Wicked Wiki)]]"
 condition: []
 age: 26

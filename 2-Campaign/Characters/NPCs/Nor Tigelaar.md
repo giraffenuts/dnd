@@ -17,7 +17,6 @@ Vitality:
 statblock: Commoner
 age: 32
 race: Human
-view-count: 1
 vitality: Injured
 alignment: Chaotic Neutral
 character-role: Guide, Informant, Sidekick

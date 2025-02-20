@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1d058b15956f1f55",
+        "id": "88f722ce9cc3d069",
         "type": "tabs",
         "children": [
           {
-            "id": "c82ac76f67ca45ca",
+            "id": "5dae7436e1055fae",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +22,63 @@
             }
           },
           {
-            "id": "11800a9bbc87077e",
+            "id": "f63b408a100e76b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Scratch Notes/Untitled.md",
+                "file": "0-DM Toolkit/Session Toolkit.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Session Toolkit"
             }
           },
           {
-            "id": "91d9b0c746d16f0a",
+            "id": "0e91e7e763228c50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Campaign/Characters/Characters.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Characters"
+            }
+          },
+          {
+            "id": "28b3a9c1e1b158f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-Campaign/Sessions/Session 4/Session 4 Notes.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Session 4 Notes"
+            }
+          },
+          {
+            "id": "299da8588830aae9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z_Templates/Template - NPC.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Template - NPC"
+            }
+          },
+          {
+            "id": "81c3e173a4980654",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,20 +89,6 @@
               },
               "icon": "lucide-file",
               "title": "Session 3 Notes"
-            }
-          },
-          {
-            "id": "c88c58ee70c0425f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-Campaign/Sessions/Session 4/Session 4 Notes.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Session 4 Notes"
             }
           }
         ],
@@ -132,22 +160,6 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "dc20e4936ab80ab0",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://5e.tools/bestiary.html#the%20mad%20mage%20of%20mount%20baratok_cos",
-                "title": "The Mad Mage of Mount Baratok - 5etools",
-                "mode": "webview"
-              },
-              "pinned": true,
-              "icon": "globe-2",
-              "title": "The Mad Mage of Mount Baratok - 5etools"
-            }
           }
         ],
         "currentTab": 1
@@ -173,26 +185,14 @@
             }
           },
           {
-            "id": "4ed5da12a972ebde",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "2-Campaign/Sessions/Session 3 Notes.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Session 3 Notes"
-            }
-          },
-          {
-            "id": "0110d91f34fa41d7",
+            "id": "28990ad8f9425a04",
             "type": "leaf",
             "state": {
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
+                "showSearch": true,
+                "searchQuery": "view"
               },
               "icon": "lucide-archive",
               "title": "All properties"
@@ -204,8 +204,8 @@
             "state": {
               "type": "view-count",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "eye",
+              "title": "View count"
             }
           },
           {
@@ -214,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-Campaign/Sessions/Session 3 Notes.md",
+                "file": "2-Campaign/Sessions/Session 4/Session 4 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +224,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Session 3 Notes"
+              "title": "Backlinks for Session 4 Notes"
             }
           },
           {
@@ -245,7 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 329.5
   },
   "right": {
     "id": "607c0a287ca85007",
@@ -256,7 +256,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3cc940792077272f",
+            "id": "7c6a1b9aef29feca",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -305,7 +305,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 454.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -331,54 +331,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c88c58ee70c0425f",
+  "active": "28b3a9c1e1b158f0",
   "lastOpenFiles": [
-    "2-Campaign/Sessions/Session 3/Session 3 Notes.md",
+    "z_Templates/5_Meta Bind/Template Button - Insert NPC Description.md",
     "2-Campaign/Sessions/Session 4/Session 4 Notes.md",
+    "2-Campaign/Characters/Characters.md",
     "0-Scratch Notes/Untitled.md",
+    "0-DM Toolkit/Session Toolkit.md",
     "0-DM Toolkit/Home.md",
-    "2-Campaign/Sessions/Sessions.md",
+    "z_Templates/Template - NPC.md",
+    "2-Campaign/Sessions/Session 3/Session 3 Notes.md",
     "z_Templates/Template - Item.md",
+    "z_Templates/3_Dataview Templates/3_Dataview Templates.md",
+    "z_Templates/5_Meta Bind/Template Button - Insert location.md",
+    "z_Templates/TemplatePlayer.md",
+    "Mister Boss.md",
+    "2-Campaign/Characters/NPCs/Mister Boss.md",
+    "2-Campaign/Sessions/Sessions.md",
+    "2-Campaign/Plot/Timeline of Events/Nor is abducted by the Wizard's Gale Forces.md",
+    "Category Character NPC.md",
+    "z_Templates/TemplateSettlement.md",
     "z_Templates/Template - Group.md",
-    "2-Campaign/Sessions/Session 4",
+    "z_Templates/TemplateQuest.md",
+    "z_Templates/TemplateJournal.md",
+    "2-Campaign/Sessions/Session 2/Session 2 Notes.md",
+    "2-Campaign/Sessions/Session 0/References.md",
+    "2-Campaign/Sessions/Session 0/Land of Oz.md",
+    "2-Campaign/Items/Items.md",
     "2-Campaign/Items/Locksmith's Wand.md",
-    "z_Assets/img/NPCs/MisterBossProfilePortrait.png",
-    "z_Assets/img/NPCs",
-    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_small.jpg",
-    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_large.jpg",
-    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_corrected_small.jpg",
-    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_corrected_large.jpg",
-    "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_small.jpg",
-    "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_large.jpg",
-    "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_corrected_small.jpg",
-    "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_corrected_large.jpg",
-    "z_Assets/img/Maps/complete_set_oz_maps/rock_fort_before_small.jpg",
-    "z_Assets/img/Maps/complete_set_oz_maps",
-    "z_Assets/img/Maps",
+    "2-Campaign/Sessions/Session 4",
+    "z_Assets/img/Maps/EmeraldCityMap.jpg",
     "z_Assets/PDFs/Spell Sheets/Sorcerer Spell Sheet (flattened).pdf",
     "z_Assets/PDFs/Spell Sheets/Bard Spell Sheet (flattened).pdf",
-    "0-Scratch Notes/Meta Bind Dynamic List Elements.md",
-    "2-Campaign/Locations/Southstairs.md",
-    "2-Campaign/Characters/PCs/PCs.md",
-    "2-Campaign/Characters/PCs/Merle Persimmon.md",
-    "2-Campaign/Sessions/Session 3 Notes.md",
-    "2-Campaign/Locations/Southstairs (temp).md",
-    "1-The Land of Oz/Characters/Elphaba Thropp (Wicked Wiki).md",
-    "2-Campaign/Characters/Characters.md",
-    "2-Campaign/Locations/Kiamo Ko.md",
-    "2-Campaign/Locations/Emerald City.md",
-    "2-Campaign/Locations/Bengda.md",
-    "New Text Document.txt",
-    "1-The Land of Oz/Characters/Characters.md",
-    "0-Scratch Notes/Style Tester.md",
-    "2-Campaign/Characters/NPCs/Trism bon Cavalish.md",
-    "z_Templates/Template - NPC.md",
-    "2-Campaign/Characters/NPCs/NPCs.md",
-    "2-Campaign/Characters/NPCs/Nor Tigelaar.md",
-    "2-Campaign/Characters/NPCs/Emperor Shell.md",
-    "z_Templates/5_Meta Bind",
-    "z_Assets/PDFs/Spell Sheets/Artificer Spell Sheet (flattened).pdf",
-    "z_Assets/PDFs/Spell Sheets/Sorcerer Spell Sheet.pdf",
+    "z_Assets/img/NPCs/MisterBossProfilePortrait.png",
+    "2-Campaign/Sessions/Session 3",
+    "2-Campaign/Sessions/4",
+    "2-Campaign/Sessions/Session Resources",
+    "2-Campaign/Plot/Timeline of Events",
+    "1-The Land of Oz/Source Material/Maguire, Gregory - The Wicked Years [Complete Collection].pdf",
+    "z_Assets/img/Maps/map_of_oz_by_ron_guyatt-d6vzajn.jpg",
+    "2-Campaign/Maps/map_of_oz_letter.pdf",
+    "z_Assets/img/Maps/OzMapNovels.jpg",
+    "z_Assets/img/Maps/map_of_oz_letter.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_small.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_corrected_small.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_large.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/son_map_whole_small.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps/wicked_map_whole_corrected_large.jpg",
+    "z_Assets/img/Maps/complete_set_oz_maps",
     "0-DM Toolkit/Session Board.canvas",
     "Campaign Settings/Oz/Campaign/Sessions/Session 1/Session 1.canvas",
     "Untitled.canvas"

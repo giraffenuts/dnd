@@ -1,4 +1,12 @@
 {
   "ITS@@select": "pathfinder-remaster",
-  "ITS@@breadcrumbs-block": false
+  "ITS@@breadcrumbs-block": false,
+  "ITS@@file-explorer-flat": true,
+  "ITS@@file-explorer-boldless": false,
+  "ITS@@file-explorer-boldless-hover": false,
+  "ITS@@ITS-Sizes": "sizing-readable",
+  "ITS@@tab-widths": "tab-auto",
+  "ITS@@titlebar-bubbles": false,
+  "ITS@@titlebar-colors": false,
+  "ITS@@tag-text": false
 }

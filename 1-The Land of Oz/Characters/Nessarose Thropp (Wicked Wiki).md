@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
   - Category/Character/NPC
 alias:
   - Nessarose
@@ -7,7 +7,6 @@ alias:
   - Nessarose Thropp
   - Eminence of Munhkinland
   - Wicked Witch of the East
-view-count: 2
 ---
 # Nessarose Thropp
 ![|350](http://vignette4.wikia.nocookie.net/wickedplay/images/3/3f/Image-3.jpg/revision/latest?cb=20150529233706#right)

@@ -24,27 +24,7 @@
       "mode": "any"
     }
   ],
-  "macros": [
-    {
-      "macro": [
-        {
-          "action": 0,
-          "commandId": "webviewer:open"
-        },
-        {
-          "action": 0,
-          "commandId": "webviewer:focus-address-bar"
-        },
-        {
-          "action": 0,
-          "commandId": "insert-template"
-        }
-      ],
-      "name": "Wicked Wiki Search",
-      "icon": "lucide-search",
-      "startup": false
-    }
-  ],
+  "macros": [],
   "explorer": [],
   "hide": {
     "statusbar": [],

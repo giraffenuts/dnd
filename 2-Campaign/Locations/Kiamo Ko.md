@@ -13,7 +13,6 @@ region: ""
 population: ""
 races: []
 religion: []
-view-count: 2
 notable-NPCs:
   - "[[1-The Land of Oz/Characters/Elphaba Thropp (Wicked Wiki).md|Elphaba Thropp (Wicked Wiki)]]"
   - "[[1-The Land of Oz/Characters/Liir Thropp (Wicked Wiki).md|Liir Thropp (Wicked Wiki)]]"

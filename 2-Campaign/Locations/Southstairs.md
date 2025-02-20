@@ -21,7 +21,6 @@ religion:
   - "[[1-The Land of Oz/Religion/Unionism.md|Unionism]]"
   - "[[1-The Land of Oz/Religion/Pleasure Faith.md|Pleasure Faith]]"
   - "[[1-The Land of Oz/Religion/Lurlinism.md|Lurlinism]]"
-view-count: 4
 notable-NPCs:
   - "[[2-Campaign/Characters/NPCs/Nor Tigelaar.md|Nor Tigelaar]]"
 affluence: Low

@@ -20,7 +20,6 @@ religion:
   - Pleasure Faith
   - Tik-Tokism
 exampleProperty: Medium
-view-count: 3
 notable-NPCs:
   - "[[2-Campaign/Characters/NPCs/Shell Heart.md|Shell Heart]]"
   - "[[2-Campaign/Characters/NPCs/Nor Tigelaar.md|Nor Tigelaar]]"

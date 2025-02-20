@@ -1,6 +1,5 @@
 ---
 characterFilter: ""
-view-count: 2
 ---
 # Characters
 ## All

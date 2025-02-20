@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
   - Category/Character/NPC
 alias:
   - Glinda
@@ -11,7 +11,6 @@ alias:
   - Glinda the Good
   - Good Witch of the North
   - Lady Chuffrey
-view-count: 2
 ---
 # Glinda Upland, the Good Witch of the North
 

@@ -1,7 +1,6 @@
 ---
 tags:
   - Category/Religion
-view-count: 2
 ---
 
 >[!quote] An Unknown Unionist

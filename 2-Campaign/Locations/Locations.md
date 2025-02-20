@@ -1,5 +1,4 @@
 ---
-view-count: 2
 tags:
   - homepage
 locationFilter: ""

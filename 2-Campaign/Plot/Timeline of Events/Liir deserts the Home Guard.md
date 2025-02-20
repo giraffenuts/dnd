@@ -5,7 +5,6 @@ timelines:
   - liir
   - general
   - pre-campaign
-view-count: 1
 ---
 
 After deserting the Home Guard, Liir (age 25) becomes a wanted fugitive. Although he is a wanted criminal in hiding, Liir can’t help but investigate one night when he witnesses a dragon flying through the night sky. Taking Elphaba’s broom, Liir follows the dragon’s path, but he is ambushed by another dragon he hadn’t seen. 

@@ -2,7 +2,6 @@
 tags:
   - homepage
 obsidianUIMode: preview
-view-count: 1
 ---
 ```folder-overview
 id: 63857dd1-d662-4875-8d5d-db77c13fe013

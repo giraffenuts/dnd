@@ -6,7 +6,6 @@ alias:
   - Nor Tigelaar
   - Princess Nor Tigelaar
   - Ilianora
-view-count: 2
 ---
 # Nor Tigelaar
 

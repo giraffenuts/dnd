@@ -1,7 +1,7 @@
 {
   "countMethod": "unique-days-opened",
   "skipNewNotes": true,
-  "syncToFrontmatter": true,
+  "syncToFrontmatter": false,
   "propertyName": "view-count",
   "pluginVersion": "2.5.0",
   "logLevel": "off",
@@ -11,7 +11,9 @@
     "3-Compendium",
     "0-Scratch Notes",
     "0-DM Toolkit",
-    "1-The Land of Oz/Characters/Characters.md"
+    "1-The Land of Oz/Characters/Characters.md",
+    "0-DM Toolkit/Home.md",
+    ""
   ],
   "templaterDelay": 1000,
   "currentView": "trends",

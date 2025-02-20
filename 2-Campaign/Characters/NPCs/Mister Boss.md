@@ -17,11 +17,11 @@ Vitality:
 statblock: Commoner
 age: 53
 race: Dwarf
-view-count: 2
 alignment: Chaotic Neutral
 vitality: Healthy
 character-role: Party Guide
 profileImage: z_Assets/img/NPCs/MisterBossProfilePortrait.png
+source-link: "[[1-The Land of Oz/Characters/Mister Boss (Wicked Wiki).md|Mister Boss (Wicked Wiki)]]"
 ---
 
 

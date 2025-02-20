@@ -8,7 +8,6 @@ rarity: uncommon
 value: 20 gp
 weight: 1 lb.
 source: Oz
-view-count: 1
 ---
 
 

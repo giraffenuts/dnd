@@ -1,10 +1,9 @@
 ---
-tags: 
+tags:
   - Category/Character/NPC
 alias:
   - Liir
   - Liir Thropp
-view-count: 2
 ---
 # Liir Thropp
 ![|300](https://static.wikia.nocookie.net/wicked/images/c/c3/LiirSonOfAWitch.jpeg/revision/latest?cb=20230426003848#right)

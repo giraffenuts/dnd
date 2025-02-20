@@ -1,11 +1,16 @@
 ---
-view-count: 1
 tags:
   - Category/Journal/SessionNotes
 session-date: February-23-2025
 session-number: 4
 items:
   - "[[2-Campaign/Items/Locksmith's Wand.md|Locksmith's Wand]]"
+locations:
+  - "[[2-Campaign/Locations/Emerald Palace.md|Emerald Palace]]"
+  - "[[2-Campaign/Locations/Southstairs.md|Southstairs]]"
+npcs:
+  - "[[2-Campaign/Characters/NPCs/Mister Boss.md|Mister Boss]]"
+  - "[[2-Campaign/Characters/NPCs/Nor Tigelaar.md|Nor Tigelaar]]"
 ---
 **Date**: `INPUT[datePicker:session-date]` **\|** **Session Number**: `INPUT[number(class(meta-bind-tiny-width),placeholder(#)):session-number]`
 # Session Prep
@@ -29,58 +34,7 @@ Description of your strong start.
 
 `INPUT[inlineListSuggester(optionQuery(#Category/Location)):locations]`
 
-<!--
-<location-desc>`VIEW[### {locations[0]}][text(renderMarkdown)]`
 
-###### Profile
-
-###### Description
-
-###### Role this session
-
-###### Additional notes
-
-<location-desc>`VIEW[### {locations[1]}][text(renderMarkdown)]` 
-
-###### Profile
-
-###### Description
-
-###### Role this session 
-
-###### Additional notes
-
-<location-desc>`VIEW[### {locations[2]}][text(renderMarkdown)]`
-
-###### Profile
-
-###### Description
-
-###### Role this session 
-
-###### Additional notes
-
-<location-desc>`VIEW[### {locations[3]}][text(renderMarkdown)]`
-
-###### Profile
-
-###### Description
-
-###### Role this session
-
-###### Additional notes 
-
-<location-desc>`VIEW[### {locations[4]}][text(renderMarkdown)]`
-
-###### Profile
-
-###### Description
-
-###### Role this session
-
-###### Additional notes
-
---->
 
 <br>
 
@@ -92,8 +46,8 @@ Description of your strong start.
   
 `INPUT[inlineListSuggester(optionQuery(#Category/Character)):npcs]`
 
-<!--
-<item-desc>`VIEW[### {npcs[0]}][text(renderMarkdown)]`
+
+### [[Nor Tigelaar]] 
 
 ###### Profile
 
@@ -102,53 +56,43 @@ Description of your strong start.
 ###### Role this session
 
 ###### Additional notes
+<!-- last-npc-id -->
+```meta-bind-button
+label: Insert NPC description
+icon: plus
+style: primary
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: ""
+hidden: false
+actions:
+  - type: regexpReplaceInNote
+    regexp: "<!-- last-npc-id -->\n"
+    replacement: "\n"
+    regexpFlags: g
+  - type: replaceSelf
+    replacement: "z_Templates/5_Meta Bind/Template Button - Insert NPC Description.md"
+    templater: true
+```
 
-<npc-desc>`VIEW[### {npcs[1]}][text(renderMarkdown)]` 
-
-###### Profile
-
-###### Description
-
-###### Role this session
-
-###### Additional notes
-
-<npc-desc>`VIEW[### {npcs[2]}][text(renderMarkdown)]`
-
-###### Profile
-
-###### Description
-
-###### Role this session
-
-###### Additional notes
-
-<npc-desc>`VIEW[### {npcs[3]}][text(renderMarkdown)]`
-
-###### Profile
-
-###### Description
-
-###### Role this session
-
-###### Additional notes
-
-<npc-desc>`VIEW[### {npcs[4]}][text(renderMarkdown)]`
-
-###### Profile
-
-###### Description
-
-###### Role this session 
-
-###### Additional notes
---->
-
-<br>
-
-`BUTTON[insert-npc-desc,remove-npc-desc]`
-
-<br>
+```meta-bind-button
+label: Remove last NPC description
+icon: minus
+style: destructive
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: ""
+hidden: false
+actions:
+  - type: regexpReplaceInNote
+    regexp: "((?<!# Additional notes).*)(\n#{3} .*)(?=<!-- last-npc-id -->\n)"
+    replacement: "$1"
+    regexpFlags: gs
+```
 
 ## Secrets and Clues  
 

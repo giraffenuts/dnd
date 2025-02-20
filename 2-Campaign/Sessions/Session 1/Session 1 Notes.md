@@ -1,5 +1,5 @@
 ---
-view-count: 2
+{}
 ---
 **Date**: February 1, 2025
 # Session Prep

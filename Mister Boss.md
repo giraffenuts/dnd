@@ -1,5 +1,5 @@
 ---
-view-count: 2
+{}
 ---
 >[!quote] Mister Boss
 > The devil is a very big angel, but a very little man.

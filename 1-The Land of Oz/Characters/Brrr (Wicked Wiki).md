@@ -4,7 +4,6 @@ tags:
 alias:
   - The Cowardly Lion
   - Brrr
-view-count: 4
 ---
 
 # Brrr, the Cowardly Lion
